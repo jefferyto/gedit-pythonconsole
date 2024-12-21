@@ -51,12 +51,10 @@ class PythonConsole(Gtk.ScrolledWindow):
 
         self._settings = Gio.Settings.new(self.CONSOLE_KEY_BASE)
         self._settings.connect("changed", self.on_color_settings_changed)
+        self._settings.connect("changed", self.on_settings_changed)
 
         self._interface_settings = Gio.Settings.new(self.SETTINGS_INTERFACE_DIR)
         self._interface_settings.connect("changed", self.on_settings_changed)
-
-        self._profile_settings = self.get_profile_settings()
-        self._profile_settings.connect("changed", self.on_settings_changed)
 
         self.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)
         self.set_shadow_type(Gtk.ShadowType.NONE)
@@ -99,10 +97,6 @@ class PythonConsole(Gtk.ScrolledWindow):
         self.view.connect("key-press-event", self.__key_press_event_cb)
         buf.connect("mark-set", self.__mark_set_cb)
 
-    def get_profile_settings(self):
-        #FIXME return either the gnome-terminal settings or the gedit one
-        return Gio.Settings.new(self.CONSOLE_KEY_BASE)
-
     def do_grab_focus(self):
         self.view.grab_focus()
 
@@ -111,10 +105,10 @@ class PythonConsole(Gtk.ScrolledWindow):
         font_desc = None
         system_font = self._interface_settings.get_string("monospace-font-name")
 
-        if self._profile_settings.get_boolean("use-system-font"):
+        if self._settings.get_boolean("use-system-font"):
             font_name = system_font
         else:
-            font_name = self._profile_settings.get_string("font")
+            font_name = self._settings.get_string("font")
 
         try:
             font_desc = Pango.FontDescription(font_name)
