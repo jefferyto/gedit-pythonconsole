@@ -25,11 +25,10 @@
 
 import gi
 gi.require_version('Gedit', '3.0')
-gi.require_version('Peas', '1.0')
 gi.require_version('PeasGtk', '1.0')
 gi.require_version('Gtk', '3.0')
 
-from gi.repository import GObject, Gtk, Gedit, Peas, PeasGtk, Tepl
+from gi.repository import GObject, Gtk, Gedit, PeasGtk, Tepl
 from .console import PythonConsole
 from .config import PythonConsoleConfigWidget
 
