@@ -46,6 +46,7 @@
         <property name="receives_default">True</property>
         <property name="hexpand">True</property>
         <property name="rgba">#31314e4e6c6c</property>
+        <signal name="color-set" handler="on_colorbutton_command_color_set" swapped="no"/>
       </object>
       <packing>
         <property name="left_attach">1</property>
@@ -60,6 +61,7 @@
         <property name="receives_default">True</property>
         <property name="hexpand">True</property>
         <property name="rgba">#999900000000</property>
+        <signal name="color-set" handler="on_colorbutton_error_color_set" swapped="no"/>
       </object>
       <packing>
         <property name="left_attach">1</property>
