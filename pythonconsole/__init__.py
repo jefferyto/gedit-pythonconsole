@@ -24,53 +24,41 @@
 #     Copyright (C), 2005 Raphaël Slinckx
 
 import gi
-gi.require_version('Gedit', '3.0')
 gi.require_version('PeasGtk', '1.0')
 gi.require_version('Gtk', '3.0')
 
-from gi.repository import GObject, Gtk, Gedit, PeasGtk, Tepl
+from gi.repository import GObject, Gtk, PeasGtk
 from .console import PythonConsole
 from .config import PythonConsoleConfigWidget
+from .plugin import _
+from . import editor
 
-try:
-    import gettext
-    gettext.bindtextdomain('gedit')
-    gettext.textdomain('gedit')
-    _ = gettext.gettext
-except:
-    _ = lambda s: s
-
-class PythonConsolePlugin(GObject.Object, Gedit.WindowActivatable, PeasGtk.Configurable):
+class PythonConsolePlugin(GObject.Object, editor.Editor.WindowActivatable, PeasGtk.Configurable):
     __gtype_name__ = "PythonConsolePlugin"
 
-    window = GObject.Property(type=Gedit.Window)
+    window = GObject.Property(type=editor.Editor.Window)
 
     def __init__(self):
         GObject.Object.__init__(self)
 
     def do_activate(self):
-        self._console = PythonConsole(namespace = {'__builtins__' : __builtins__,
-                                                   'gedit' : Gedit,
-                                                   'window' : self.window})
+        ns = {'__builtins__' : __builtins__, 'window' : self.window}
+        ns[editor.name.lower()] = editor.Editor
+        self._console = PythonConsole(namespace = ns)
         self._console.eval('print("You can access the main window through ' \
                            '\'window\' :\\n%s" % window)', False)
-        bottom = self.window.get_bottom_panel()
         self._console.show_all()
-        self.panel_item = Tepl.PanelItem.new(self._console, "GeditPythonConsolePanel",
-            _('Python Console'), None, 0)
-        bottom.add(self.panel_item)
+        editor.add_console(self, _('Python Console'))
 
     def do_deactivate(self):
         self._console.stop()
-        bottom = self.window.get_bottom_panel()
-        bottom.remove(self.panel_item)
-        self.panel_item = None
+        editor.remove_console(self)
 
     def do_update_state(self):
         pass
 
     def do_create_configure_widget(self):
-        config_widget = PythonConsoleConfigWidget(self.plugin_info.get_data_dir())
+        config_widget = PythonConsoleConfigWidget()
 
         return config_widget.configure_widget()
 

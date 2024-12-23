@@ -25,23 +25,25 @@
 
 import os
 from gi.repository import Gio, Gtk, Gdk
+from .plugin import data_dir
+from .settings import get_settings
 
 __all__ = ('PythonConsoleConfigWidget')
 
 class PythonConsoleConfigWidget(object):
 
-    CONSOLE_KEY_BASE = 'org.gnome.gedit.plugins.pythonconsole'
     CONSOLE_KEY_COMMAND_COLOR = 'command-color'
     CONSOLE_KEY_ERROR_COLOR = 'error-color'
 
-    def __init__(self, datadir):
+    def __init__(self):
         object.__init__(self)
 
-        self._ui_path = os.path.join(datadir, 'ui', 'config.ui')
-        self._settings = Gio.Settings.new(self.CONSOLE_KEY_BASE)
+        self._ui_path = os.path.join(data_dir, 'config.ui')
+        self._settings = get_settings()
         self._ui = Gtk.Builder()
 
     def configure_widget(self):
+        self._ui.set_translation_domain('gedit-pythonconsole')
         self._ui.add_from_file(self._ui_path)
 
         self.set_colorbutton_color(self._ui.get_object('colorbutton-command'),

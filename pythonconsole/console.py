@@ -29,6 +29,8 @@ import re
 import traceback
 
 from gi.repository import GLib, Gio, Gtk, Gdk, Pango
+from .editor import INTERFACE_KEY_BASE
+from .settings import get_settings
 
 __all__ = ('PythonConsole', 'OutFile')
 
@@ -40,20 +42,17 @@ class PythonConsole(Gtk.ScrolledWindow):
 
     DEFAULT_FONT = "Monospace 10"
 
-    CONSOLE_KEY_BASE = 'org.gnome.gedit.plugins.pythonconsole'
-    SETTINGS_INTERFACE_DIR = "org.gnome.desktop.interface"
-
     CONSOLE_KEY_COMMAND_COLOR = 'command-color'
     CONSOLE_KEY_ERROR_COLOR = 'error-color'
 
     def __init__(self, namespace = {}):
         Gtk.ScrolledWindow.__init__(self)
 
-        self._settings = Gio.Settings.new(self.CONSOLE_KEY_BASE)
+        self._settings = get_settings()
         self._settings.connect("changed", self.on_color_settings_changed)
         self._settings.connect("changed", self.on_settings_changed)
 
-        self._interface_settings = Gio.Settings.new(self.SETTINGS_INTERFACE_DIR)
+        self._interface_settings = Gio.Settings.new(INTERFACE_KEY_BASE)
         self._interface_settings.connect("changed", self.on_settings_changed)
 
         self.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)
