@@ -9,2890 +9,66 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit/issues/\n"
-"POT-Creation-Date: 2024-08-31 12:38+0000\n"
-"PO-Revision-Date: 2024-08-31 19:55+0300\n"
+"Report-Msgid-Bugs-To: https://github.com/jefferyto/gedit-pythonconsole/"
+"issues\n"
+"POT-Creation-Date: 2024-12-25 01:44+0800\n"
+"PO-Revision-Date: 2024-12-25 02:54+0800\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 23.04.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.5\n"
 "X-Project-Style: gnome\n"
 
-#: data/org.gnome.gedit.desktop.in:3 data/org.gnome.gedit.metainfo.xml.in:7
-msgid "gedit"
-msgstr "gedit"
-
-#: data/org.gnome.gedit.desktop.in:4
-msgid "Edit text files"
-msgstr "Редактор текстових файлів"
-
-#. Translators: Do NOT translate or localize the semicolons. The list MUST also
-#. end with a semicolon. It contains search terms to find this application.
-#: data/org.gnome.gedit.desktop.in:15
-msgid "Text;Editor;Plaintext;Write;gedit;"
-msgstr ""
-"Текст;Редактор;Запис;Написання;ґедіт;Text;Editor;Plaintext;Write;gedit;"
-
-#: data/org.gnome.gedit.desktop.in:19
-msgid "New Window"
-msgstr "Створити вікно"
-
-#: data/org.gnome.gedit.desktop.in:23
-msgid "New Document"
-msgstr "Створити документ"
-
-#: data/org.gnome.gedit.gschema.xml.in:42
-msgid "Use Default Font"
-msgstr "Використовувати початковий шрифт"
-
-#: data/org.gnome.gedit.gschema.xml.in:43
-msgid ""
-"Whether to use the system’s default fixed width font for editing text "
-"instead of a font specific to gedit. If this option is turned off, then the "
-"font named in the “Editor Font” option will be used instead of the system "
-"font."
-msgstr ""
-"Чи використовувати системний шрифт для області редагування. Якщо цей "
-"параметр вимкнено, то для області редагування буде використовуватися шрифт, "
-"визначений в параметрі «Шрифт редактора»."
-
-#. Translators: This is a GSettings default value. Do NOT change or localize the quotation marks!
-#: data/org.gnome.gedit.gschema.xml.in:47
-msgid "'Monospace 12'"
-msgstr "'Monospace 12'"
-
-#: data/org.gnome.gedit.gschema.xml.in:48
-msgid "Editor Font"
-msgstr "Шрифт редактора"
-
-#: data/org.gnome.gedit.gschema.xml.in:49
-msgid ""
-"A custom font that will be used for the editing area. This will only take "
-"effect if the “Use Default Font” option is turned off."
-msgstr ""
-"Нетиповий шрифт, що буде використано в області редагування. Матиме ефект "
-"лише тоді, коли параметр «Використовувати початковий шрифт» вимкнений."
-
-#: data/org.gnome.gedit.gschema.xml.in:53
-msgid "Style Scheme for Light Theme Variant"
-msgstr "Схема стилів для варіанта світлої теми"
-
-#: data/org.gnome.gedit.gschema.xml.in:54
-msgid ""
-"The ID of a libgedit-gtksourceview style scheme used to color the main text "
-"area when the application has a light theme applied."
-msgstr ""
-"Ідентифікатор схеми стилів libgedit-gtksourceview, що використовується для "
-"кольору основної текстової області, якщо до вікна програми застосовано "
-"світлу тему."
-
-#: data/org.gnome.gedit.gschema.xml.in:58
-msgid "Style Scheme for Dark Theme Variant"
-msgstr "Схема стилів для варіанта темної теми"
-
-#: data/org.gnome.gedit.gschema.xml.in:59
-msgid ""
-"The ID of a libgedit-gtksourceview style scheme used to color the main text "
-"area when the application has a dark theme applied."
-msgstr ""
-"Ідентифікатор схеми стилів libgedit-gtksourceview, що використовується для "
-"кольору основної текстової області, якщо до вікна програми застосовано темну "
-"тему."
-
-#: data/org.gnome.gedit.gschema.xml.in:63
-msgid "Create Backup Copies"
-msgstr "Створювати резервні копії"
-
-#: data/org.gnome.gedit.gschema.xml.in:64
-msgid "Whether gedit should create backup copies for the files it saves."
-msgstr "Чи слід створювати резервні копії для файлів, які збережено."
-
-#: data/org.gnome.gedit.gschema.xml.in:68
-msgid "Autosave"
-msgstr "Автозбереження"
-
-#: data/org.gnome.gedit.gschema.xml.in:69
-msgid ""
-"Whether gedit should automatically save modified files after a time "
-"interval. You can set the time interval with the “Autosave Interval” option."
-msgstr ""
-"Чи потрібно автоматично зберігати змінені файли з певною періодичністю. "
-"Інтервал між збереженнями визначається параметром «Інтервал автозбереження»."
-
-#: data/org.gnome.gedit.gschema.xml.in:74
-msgid "Autosave Interval"
-msgstr "Інтервал автозбереження"
-
-#: data/org.gnome.gedit.gschema.xml.in:75
-msgid ""
-"Number of minutes after which gedit will automatically save modified files. "
-"This will only take effect if the “Autosave” option is turned on."
-msgstr ""
-"Інтервал у хвилинах, після якого всі не збережені файли будуть збережені "
-"автоматично. Матиме ефект лише тоді, коли параметр «автозбереження» "
-"увімкнений."
-
-#: data/org.gnome.gedit.gschema.xml.in:79
-msgid "Maximum Number of Undo Actions"
-msgstr "Максимальна кількість скасувань дій"
-
-#: data/org.gnome.gedit.gschema.xml.in:80
-msgid ""
-"Maximum number of actions that gedit will be able to undo or redo. Use “-1” "
-"for unlimited number of actions."
-msgstr ""
-"Максимальна кількість дій, які можна скасувати чи повторити. Значення «-1» "
-"означає необмежену кількість дій."
-
-#: data/org.gnome.gedit.gschema.xml.in:89
-msgid "Line Wrapping Mode"
-msgstr "Режим переносу рядків"
-
-#: data/org.gnome.gedit.gschema.xml.in:90
-msgid ""
-"Specifies how to wrap long lines in the editing area. Use “none” for no "
-"wrapping, “word” for wrapping at word boundaries, and “char” for wrapping at "
-"individual character boundaries. Note that the values are case-sensitive, so "
-"make sure they appear exactly as mentioned here."
-msgstr ""
-"Визначає, як переносити довгі рядки в області редагування. Використовуйте "
-"«none» для вимкнення переносу, «word» для переносу на межі слів і «char» для "
-"символьного переносу. Зауважте, що значення чутливі до регістру і мають "
-"з'являтися точно у вказаному вигляді."
-
-#: data/org.gnome.gedit.gschema.xml.in:98
-msgid "Last split mode choice for line wrapping mode"
-msgstr "Останній вибір режиму розділення для перенесення рядків"
-
-#: data/org.gnome.gedit.gschema.xml.in:99
-msgid ""
-"Specifies the last split mode used with line wrapping mode, so that when "
-"wrapping mode is off we still remember the split mode choice. Use “word” for "
-"wrapping at word boundaries, and “char” for wrapping at individual character "
-"boundaries."
-msgstr ""
-"Вказує останній режим розділення використаний з режимом перенесення рядків, "
-"тож коли режим перенесення вимкнено, ми пам'ятаємо вибір режиму розділення. "
-"Використовуйте «word» на межі слів і «char» для перенесення на окремих межах "
-"символів."
-
-#: data/org.gnome.gedit.gschema.xml.in:104
-msgid "Tab Size"
-msgstr "Розмір табуляції"
-
-#: data/org.gnome.gedit.gschema.xml.in:105
-msgid ""
-"Specifies the number of spaces that should be displayed instead of Tab "
-"characters."
-msgstr ""
-"Визначає кількість пропусків, які потрібно показати замість символу "
-"табуляції."
-
-#: data/org.gnome.gedit.gschema.xml.in:109
-msgid "Insert spaces"
-msgstr "Вставляти пропуски"
-
-#: data/org.gnome.gedit.gschema.xml.in:110
-msgid "Whether gedit should insert spaces instead of tabs."
-msgstr "Чи вставляти пропуски замість знаків табуляції."
-
-#: data/org.gnome.gedit.gschema.xml.in:114
-msgid "Automatic indent"
-msgstr "Автовідступ"
-
-#: data/org.gnome.gedit.gschema.xml.in:115
-msgid "Whether gedit should enable automatic indentation."
-msgstr "Чи потрібно автоматично розставляти відступ."
-
-#: data/org.gnome.gedit.gschema.xml.in:119
-msgid "Display Line Numbers"
-msgstr "Показувати номери рядків"
-
-#: data/org.gnome.gedit.gschema.xml.in:120
-msgid "Whether gedit should display line numbers in the editing area."
-msgstr "Чи мають показуватись номери рядків у ділянці редагування."
-
-#: data/org.gnome.gedit.gschema.xml.in:124
-msgid "Highlight Current Line"
-msgstr "Виділяти кольором поточний рядок"
-
-#: data/org.gnome.gedit.gschema.xml.in:125
-msgid "Whether gedit should highlight the current line."
-msgstr "Чи виділяти кольором поточний рядок."
-
-#: data/org.gnome.gedit.gschema.xml.in:129
-msgid "Highlight Matching Brackets"
-msgstr "Виділяти кольором відповідні дужки"
-
-#: data/org.gnome.gedit.gschema.xml.in:130
-msgid "Whether gedit should highlight matching brackets."
-msgstr "Чи виділяти кольором поточний рядок."
-
-#: data/org.gnome.gedit.gschema.xml.in:134
-msgid "Display Right Margin"
-msgstr "Показувати праву поле"
-
-#: data/org.gnome.gedit.gschema.xml.in:135
-msgid "Whether gedit should display the right margin in the editing area."
-msgstr "Чи слід показувати праву межу у ділянці редагування."
-
-#: data/org.gnome.gedit.gschema.xml.in:139
-msgid "Right Margin Position"
-msgstr "Позиція правого поля"
-
-#: data/org.gnome.gedit.gschema.xml.in:140
-msgid "Specifies the position of the right margin."
-msgstr "Вказує позицію правого поля."
-
-#: data/org.gnome.gedit.gschema.xml.in:144
-msgid "Document background pattern type"
-msgstr "Тип шаблону тла документа"
-
-#: data/org.gnome.gedit.gschema.xml.in:145
-msgid "Whether the document will get a background pattern painted."
-msgstr "Чи буде використано візерунок тла для показу документа."
-
-#: data/org.gnome.gedit.gschema.xml.in:155
-msgid "Smart Home End"
-msgstr "Розумні клавіші Home End"
-
-#: data/org.gnome.gedit.gschema.xml.in:156
-msgid ""
-"Specifies how the cursor moves when the HOME and END keys are pressed. Use "
-"“disabled” to always move at the start/end of the line, “after” to move to "
-"the start/end of the line the first time the keys are pressed and to the "
-"start/end of the text ignoring whitespaces the second time the keys are "
-"pressed, “before” to move to the start/end of the text before moving to the "
-"start/end of the line and “always” to always move to the start/end of the "
-"text instead of the start/end of the line."
-msgstr ""
-"Вказує спосіб переміщення курсору при натисканні клавіш HOME та END. Вкажіть "
-"«disabled» для простого переміщення до початку та кінця рядка, «after» для "
-"переміщення до початку/кінця рядка при першому натисканні та при другому "
-"натисканні до початку/кінця тексту, ігноруючи пробільні символи. Якщо "
-"вказано «before» — переміщення до початку/кінця тексту, при повторному "
-"натисканні — переміщення до початку/кінця рядка. Якщо вказано «always» — "
-"курсор завжди переміщується до початку/кінця тексту, на початку/кінця рядка."
-
-#: data/org.gnome.gedit.gschema.xml.in:160
-msgid "Restore Previous Cursor Position"
-msgstr "Відновлювати попередню позицію курсора"
-
-#: data/org.gnome.gedit.gschema.xml.in:161
-msgid ""
-"Whether gedit should restore the previous cursor position when a file is "
-"loaded."
-msgstr ""
-"Чи слід відновлювати попередню позицію курсора після завантаження файлу."
-
-#: data/org.gnome.gedit.gschema.xml.in:165
-msgid "Enable Syntax Highlighting"
-msgstr "Увімкнути виділення синтаксису"
-
-#: data/org.gnome.gedit.gschema.xml.in:166
-msgid "Whether gedit should enable syntax highlighting."
-msgstr "Чи вмикати виділення синтаксису."
-
-#: data/org.gnome.gedit.gschema.xml.in:170
-msgid "Enable Search Highlighting"
-msgstr "Увімкнути виділення кольором при пошуку"
-
-#: data/org.gnome.gedit.gschema.xml.in:171
-msgid ""
-"Whether gedit should highlight all the occurrences of the searched text."
-msgstr "Чи виділяти кольором всі знайдені збіги при пошуку."
-
-#: data/org.gnome.gedit.gschema.xml.in:175
-msgid "Ensure Trailing Newline"
-msgstr "Забезпечити зайві нові лінії"
-
-#: data/org.gnome.gedit.gschema.xml.in:176
-msgid ""
-"Whether gedit will ensure that documents always end with a trailing newline."
-msgstr ""
-"Чи gedit буде забезпечувати, щоб документи завжди закінчувались на "
-"додатковий новий рядок."
-
-#: data/org.gnome.gedit.gschema.xml.in:182
-msgid "Notebook Show Tabs Mode"
-msgstr "Режим показу вкладок для ноутбука"
-
-#: data/org.gnome.gedit.gschema.xml.in:183
-msgid ""
-"Specifies when to show the notebook tabs. Use “never” to never show the "
-"tabs, “always” to always show the tabs, and “auto” to show the tabs only "
-"when there is more than one tab. Note that the values are case-sensitive, so "
-"make sure they appear exactly as mentioned here."
-msgstr ""
-"Визначає, як показувати вкладки на ноутбуці. Використовуйте «never» для "
-"того, щоб не показувати вкладки, «always» — для показу вкладок, «auto» — "
-"показувати тільки, коли є понад одна вкладка. Зауважте, значення є чутливими "
-"до регістру, тож переконайтесь, що вони з'являються точно у вказаному "
-"вигляді."
-
-#: data/org.gnome.gedit.gschema.xml.in:187
-msgid "Status Bar is Visible"
-msgstr "Панель стану видима"
-
-#: data/org.gnome.gedit.gschema.xml.in:188
-msgid ""
-"Whether the status bar at the bottom of editing windows should be visible."
-msgstr "Чи показувати панель стану у вікнах редагування."
-
-#: data/org.gnome.gedit.gschema.xml.in:192
-msgid "Side panel is Visible"
-msgstr "Бічна панель — видима"
-
-#: data/org.gnome.gedit.gschema.xml.in:193
-msgid ""
-"Whether the side panel at the left of editing windows should be visible."
-msgstr "Чи показувати бічну панель зліва від вікон редагування."
-
-#: data/org.gnome.gedit.gschema.xml.in:200
-msgid "Which theme variant to use"
-msgstr "Яким варіантом теми слід скористатися"
-
-#: data/org.gnome.gedit.gschema.xml.in:206
-msgid "Print Syntax Highlighting"
-msgstr "Надрукувати виділення синтаксису"
-
-#: data/org.gnome.gedit.gschema.xml.in:207
-msgid ""
-"Whether gedit should print syntax highlighting when printing documents."
-msgstr ""
-"Чи застосовувати виділення кольором синтаксису при друкуванні документів."
-
-#: data/org.gnome.gedit.gschema.xml.in:211
-msgid "Print Header"
-msgstr "Друкувати заголовки сторінок"
-
-#: data/org.gnome.gedit.gschema.xml.in:212
-msgid ""
-"Whether gedit should include a document header when printing documents."
-msgstr "Чи слід друкувати заголовок документа."
-
-#: data/org.gnome.gedit.gschema.xml.in:221
-msgid "Printing Line Wrapping Mode"
-msgstr "Режим переносу рядків під час друкування"
-
-#: data/org.gnome.gedit.gschema.xml.in:222
-msgid ""
-"Specifies how to wrap long lines for printing. Use “none” for no wrapping, "
-"“word” for wrapping at word boundaries, and “char” for wrapping at "
-"individual character boundaries. Note that the values are case-sensitive, so "
-"make sure they appear exactly as mentioned here."
-msgstr ""
-"Визначає, як переносити довгі рядки під час друкування. Використовуйте "
-"«none» для вимкнення переносу, «word» для переносу на межі слів і «char» для "
-"символьного переносу. Зауважте, що значення чутливі до регістру і мають "
-"з'являтися точно у вказаному вигляді."
-
-#: data/org.gnome.gedit.gschema.xml.in:226
-msgid "Print Line Numbers"
-msgstr "Друкувати номери рядків"
-
-#: data/org.gnome.gedit.gschema.xml.in:227
-msgid ""
-"If this value is 0, then no line numbers will be inserted when printing a "
-"document. Otherwise, gedit will print line numbers every such number of "
-"lines."
-msgstr ""
-"Якщо значення встановлено в 0, номери рядків не буде вставлено, коли "
-"друкуватиметься документ. Інакше, номер друкуватимуться біля кожного рядка."
-
-#. Translators: This is a GSettings default value. Do NOT change or localize the quotation marks!
-#: data/org.gnome.gedit.gschema.xml.in:231
-msgid "'Monospace 9'"
-msgstr "'Monospace 9'"
-
-#: data/org.gnome.gedit.gschema.xml.in:232
-msgid "Body Font for Printing"
-msgstr "Основний шрифт для друкування"
-
-#: data/org.gnome.gedit.gschema.xml.in:233
-msgid ""
-"Specifies the font to use for a document’s body when printing documents."
-msgstr "Визначає шрифт, що використовується для друкування тексту документів."
-
-#. Translators: This is a GSettings default value. Do NOT change or localize the quotation marks!
-#: data/org.gnome.gedit.gschema.xml.in:237
-msgid "'Sans 11'"
-msgstr "'Sans 11'"
-
-#: data/org.gnome.gedit.gschema.xml.in:238
-msgid "Header Font for Printing"
-msgstr "Шрифт заголовка для друкування"
-
-#: data/org.gnome.gedit.gschema.xml.in:239
-msgid ""
-"Specifies the font to use for page headers when printing a document. This "
-"will only take effect if the “Print Header” option is turned on."
-msgstr ""
-"Визначає шрифт, що використовується для друкування заголовків сторінок. "
-"Матиме ефект лише тоді, коли параметр «Друкувати заголовок» увімкнено."
-
-#. Translators: This is a GSettings default value. Do NOT change or localize the quotation marks!
-#: data/org.gnome.gedit.gschema.xml.in:243
-msgid "'Sans 8'"
-msgstr "'Sans 8'"
-
-#: data/org.gnome.gedit.gschema.xml.in:244
-msgid "Line Number Font for Printing"
-msgstr "Шрифт номерів рядків для друкування"
-
-#: data/org.gnome.gedit.gschema.xml.in:245
-msgid ""
-"Specifies the font to use for line numbers when printing. This will only "
-"take effect if the “Print Line Numbers” option is non-zero."
-msgstr ""
-"Визначає шрифт, що використовується для друкування номерів рядків. Матиме "
-"ефект лише тоді, коли параметр «Друкувати номерів рядків» увімкнено."
-
-#: data/org.gnome.gedit.gschema.xml.in:249
-msgid "Margin Left"
-msgstr "Ліва межа"
-
-#: data/org.gnome.gedit.gschema.xml.in:250
-msgid "The left margin, in millimeters."
-msgstr "Ліва межа в міліметрах."
-
-#: data/org.gnome.gedit.gschema.xml.in:254
-msgid "Margin Top"
-msgstr "Верхня межа"
-
-#: data/org.gnome.gedit.gschema.xml.in:255
-msgid "The top margin, in millimeters."
-msgstr "Верхня межа у міліметрах."
-
-#: data/org.gnome.gedit.gschema.xml.in:259
-msgid "Margin Right"
-msgstr "Права межа"
-
-#: data/org.gnome.gedit.gschema.xml.in:260
-msgid "The right margin, in millimeters."
-msgstr "Права межа в міліметрах."
-
-#: data/org.gnome.gedit.gschema.xml.in:264
-msgid "Margin Bottom"
-msgstr "Нижня межа"
-
-#: data/org.gnome.gedit.gschema.xml.in:265
-msgid "The bottom margin, in millimeters."
-msgstr "Нижня межа у міліметрах."
-
-#: data/org.gnome.gedit.gschema.xml.in:271
-msgid "Candidate Encodings"
-msgstr "Запропоновані кодування"
-
-#: data/org.gnome.gedit.gschema.xml.in:272
-msgid ""
-"List of candidate encodings shown in the Character Encoding menu in the open/"
-"save file chooser. “CURRENT” represents the current locale encoding. Only "
-"recognized encodings are used. The default value is the empty list, in which "
-"case gedit will choose good defaults depending on the country and language."
-msgstr ""
-"Перелік пропонованих кодувань показаних у меню «Кодування символів» під час "
-"відкривання/зберігання файлів. «CURRENT» представляє поточне кодування "
-"локалі. Використовуються тільки розпізнані кодування. Типове значення — "
-"порожні список, в разі якого програма вибере найкраще кодування відповідно "
-"до країни і локалі."
-
-#: data/org.gnome.gedit.gschema.xml.in:321
-msgid "Active plugins"
-msgstr "Активні модулі"
-
-#: data/org.gnome.gedit.gschema.xml.in:322
-msgid "List of active plugins."
-msgstr "Список активних модулів."
-
-#: data/org.gnome.gedit.metainfo.xml.in:8
-msgid "Text editor"
-msgstr "Текстовий редактор"
-
-#: data/org.gnome.gedit.metainfo.xml.in:10
-msgid ""
-"gedit is an easy-to-use and general-purpose text editor. Its development "
-"started in 1998, at the beginnings of the GNOME project, with a good "
-"integration with that desktop environment."
-msgstr ""
-"gedit — проста у користуванні програма загального призначення для "
-"редагування тексту. Її розробку було розпочато у 1998 році, на початку "
-"проєкту GNOME, із доброю інтеграцією із цим стільничним середовищем."
-
-#: data/org.gnome.gedit.metainfo.xml.in:15
-msgid ""
-"You can use it to write simple notes and documents, or you can enable more "
-"advanced features that are useful for software development."
-msgstr ""
-"Його можна використовувати для написання звичайних нотаток та документів, "
-"або ви можете увімкнути додаткові можливості, які є корисними для розробки "
-"програмного забезпечення."
-
-#: gedit/gedit-app.c:93
-msgid "Show the application’s version"
-msgstr "Показати версію програми"
-
-#: gedit/gedit-app.c:99
-msgid "Display list of possible values for the encoding option"
-msgstr "Показати перелік можливих значень параметрів кодування"
-
-#: gedit/gedit-app.c:106
-msgid ""
-"Set the character encoding to be used to open the files listed on the "
-"command line"
-msgstr ""
-"Кодування символів для відкривання файлів перелічених у командному рядку"
-
-#: gedit/gedit-app.c:107
-msgid "ENCODING"
-msgstr "КОДУВАННЯ"
-
-#: gedit/gedit-app.c:113
-msgid "Create a new top-level window in an existing instance of gedit"
-msgstr "Створити нове головне вікно в поточному екземплярі gedit"
-
-#: gedit/gedit-app.c:120
-msgid "Create a new document in an existing instance of gedit"
-msgstr "Створити новий документ в поточному екземплярі gedit"
-
-#: gedit/gedit-app.c:127
-msgid "Open files and block process until files are closed"
-msgstr "Відкрити файли та блокувати процес доки файли не будуть закриті"
-
-#: gedit/gedit-app.c:134
-msgid "Run gedit in standalone mode"
-msgstr "Запустити gedit у автономному режимі"
-
-#: gedit/gedit-app.c:141
-msgid "[FILE…] [+LINE[:COLUMN]]"
-msgstr "[ФАЙЛ…] [+РЯДОК[:СТОВПЧИК]]"
-
-#: gedit/gedit-app.c:224
-msgid "There was an error displaying the help."
-msgstr "Помилка при показі довідки."
-
-#: gedit/gedit-app.c:685
-#, c-format
-msgid "Untitled Document %d"
-msgstr "Неназваний документ %d"
-
-#: gedit/gedit-app.c:879
-#, c-format
-msgid "%s: invalid encoding."
-msgstr "%s: неправильне кодування."
-
-#: gedit/gedit-bottom-panel.c:74
-msgid "Hide panel"
-msgstr "Сховати панель"
-
-#: gedit/gedit-close-confirmation-dialog.c:271
-msgid "Close _without Saving"
-msgstr "_Закрити без збереження"
-
-#: gedit/gedit-close-confirmation-dialog.c:277 gedit/gedit-commands-file.c:485
-#: gedit/gedit-commands-file.c:561 gedit/gedit-commands-file.c:785
-#: gedit/gedit-commands-file.c:1510 gedit/gedit-encodings-dialog.c:192
-#: gedit/gedit-file-chooser-open-dialog.c:78 gedit/gedit-io-error-info-bar.c:95
-#: gedit/gedit-io-error-info-bar.c:294
-#: plugins/filebrowser/gedit-file-browser-utils.c:211
-#: plugins/snippets/snippets/manager.py:789
-#: plugins/snippets/snippets/manager.py:874
-#: plugins/snippets/snippets/manager.py:912
-#: plugins/sort/resources/ui/gedit-sort-plugin.ui:143
-#: plugins/time/resources/ui/gedit-time-dialog.ui:150
-msgid "_Cancel"
-msgstr "_Скасувати"
-
-#: gedit/gedit-close-confirmation-dialog.c:295
-#: gedit/resources/gtk/menus-traditional.ui:33 gedit/resources/gtk/menus.ui:37
-msgid "_Save As…"
-msgstr "_Зберегти як…"
-
-#: gedit/gedit-close-confirmation-dialog.c:295 gedit/gedit-commands-file.c:784
-#: gedit/gedit-header-bar.c:187 gedit/resources/gtk/menus-common.ui:101
-#: plugins/snippets/snippets/manager.py:875
-#: plugins/snippets/snippets/manager.py:913
-msgid "_Save"
-msgstr "З_берегти"
-
-#: gedit/gedit-close-confirmation-dialog.c:312
-#, c-format
-msgid ""
-"If you don’t save, changes from the last %ld second will be permanently lost."
-msgid_plural ""
-"If you don’t save, changes from the last %ld seconds will be permanently "
-"lost."
-msgstr[0] ""
-"Якщо ви не збережете, зміни за останню %ld секунду будуть остаточно втрачені."
-msgstr[1] ""
-"Якщо ви не збережете, зміни за останні %ld секунди будуть остаточно втрачені."
-msgstr[2] ""
-"Якщо ви не збережете, зміни за останні %ld секунд будуть остаточно втрачені."
-
-#: gedit/gedit-close-confirmation-dialog.c:321
-msgid ""
-"If you don’t save, changes from the last minute will be permanently lost."
-msgstr ""
-"Якщо ви не збережете, зміни за останню хвилину будуть остаточно втрачені."
-
-#: gedit/gedit-close-confirmation-dialog.c:327
-#, c-format
-msgid ""
-"If you don’t save, changes from the last minute and %ld second will be "
-"permanently lost."
-msgid_plural ""
-"If you don’t save, changes from the last minute and %ld seconds will be "
-"permanently lost."
-msgstr[0] ""
-"Якщо ви не збережете, зміни за останню хвилину та %ld секунду будуть "
-"остаточно втрачені."
-msgstr[1] ""
-"Якщо ви не збережете, зміни за останню хвилину та %ld секунди будуть "
-"остаточно втрачені."
-msgstr[2] ""
-"Якщо ви не збережете, зміни за останню хвилину та %ld секунд будуть "
-"остаточно втрачені."
-
-#: gedit/gedit-close-confirmation-dialog.c:337
-#, c-format
-msgid ""
-"If you don’t save, changes from the last %ld minute will be permanently lost."
-msgid_plural ""
-"If you don’t save, changes from the last %ld minutes will be permanently "
-"lost."
-msgstr[0] ""
-"Якщо ви не збережете, зміни за останню %ld хвилину будуть остаточно втрачені."
-msgstr[1] ""
-"Якщо ви не збережете, зміни за останні %ld хвилини будуть остаточно втрачені."
-msgstr[2] ""
-"Якщо ви не збережете, зміни за останні %ld хвилин будуть остаточно втрачені."
-
-#: gedit/gedit-close-confirmation-dialog.c:352
-msgid ""
-"If you don’t save, changes from the last hour will be permanently lost."
-msgstr ""
-"Якщо ви не збережете, зміни за останню годину будуть остаточно втрачені."
-
-#: gedit/gedit-close-confirmation-dialog.c:358
-#, c-format
-msgid ""
-"If you don’t save, changes from the last hour and %d minute will be "
-"permanently lost."
-msgid_plural ""
-"If you don’t save, changes from the last hour and %d minutes will be "
-"permanently lost."
-msgstr[0] ""
-"Якщо ви не збережете, зміни за останню годину та %d хвилину будуть остаточно "
-"втрачені."
-msgstr[1] ""
-"Якщо ви не збережете, зміни за останню годину та %d хвилини будуть остаточно "
-"втрачені."
-msgstr[2] ""
-"Якщо ви не збережете, зміни за останню годину та %d хвилин будуть остаточно "
-"втрачені."
-
-#: gedit/gedit-close-confirmation-dialog.c:373
-#, c-format
-msgid ""
-"If you don’t save, changes from the last %d hour will be permanently lost."
-msgid_plural ""
-"If you don’t save, changes from the last %d hours will be permanently lost."
-msgstr[0] ""
-"Якщо ви не збережете, зміни за останню %d годину будуть остаточно втрачені."
-msgstr[1] ""
-"Якщо ви не збережете, зміни за останні %d години будуть остаточно втрачені."
-msgstr[2] ""
-"Якщо ви не збережете, зміни за останні %d години будуть остаточно втрачені."
-
-#: gedit/gedit-close-confirmation-dialog.c:399
-#, c-format
-msgid "Save changes to document “%s” before closing?"
-msgstr "Зберегти зміни в документі «%s» перед закриванням?"
-
-#: gedit/gedit-close-confirmation-dialog.c:467
-#, c-format
-msgid ""
-"There is %d document with unsaved changes. Save changes before closing?"
-msgid_plural ""
-"There are %d documents with unsaved changes. Save changes before closing?"
-msgstr[0] ""
-"%d документ має незбережені зміни. Зберегти зміни перед закриванням?"
-msgstr[1] ""
-"%d документи мають незбережені зміни. Зберегти зміни перед закриванням?"
-msgstr[2] ""
-"%d документів мають незбережені зміни. Зберегти зміни перед закриванням?"
-
-#: gedit/gedit-close-confirmation-dialog.c:490
-msgid "S_elect the documents you want to save:"
-msgstr "_Виберіть документи, які необхідно зберегти:"
-
-#. Secondary label
-#: gedit/gedit-close-confirmation-dialog.c:506
-msgid "If you don’t save, all your changes will be permanently lost."
-msgstr "Якщо ви не збережете, всі зміни будуть остаточно втрачені."
-
-#: gedit/gedit-commands-file.c:251
-#, c-format
-msgid "Loading file “%s”…"
-msgstr "Завантажується файл «%s»…"
-
-#: gedit/gedit-commands-file.c:259
-#, c-format
-msgid "Loading %d file…"
-msgid_plural "Loading %d files…"
-msgstr[0] "Завантажується %d файл…"
-msgstr[1] "Завантажуються %d файли…"
-msgstr[2] "Завантажуються %d файлів…"
-
-#: gedit/gedit-commands-file.c:476
-#, c-format
-msgid "The file “%s” is read-only."
-msgstr "Файл «%s» лише для читання."
-
-#: gedit/gedit-commands-file.c:481
-msgid "Do you want to try to replace it with the one you are saving?"
-msgstr "Спробувати замінити його файлом, що ви записуєте?"
-
-#: gedit/gedit-commands-file.c:486
-#: gedit/resources/ui/gedit-replace-dialog.ui:55
-msgid "_Replace"
-msgstr "За_мінити"
-
-#: gedit/gedit-commands-file.c:526
-msgid "Save the file using compression?"
-msgstr "Зберегти файл зі стисненням?"
-
-#: gedit/gedit-commands-file.c:530
-msgid "Save the file as plain text?"
-msgstr "Зберегти файл у форматі простого тесту?"
-
-#: gedit/gedit-commands-file.c:543
-#, c-format
-msgid ""
-"The file “%s” was previously saved as plain text and will now be saved using "
-"compression."
-msgstr ""
-"Файл «%s» було раніше збережено у форматі простого тексту і тепер буде "
-"збережено з використанням стиснення."
-
-#: gedit/gedit-commands-file.c:547
-msgid "_Save Using Compression"
-msgstr "З_берегти зі стисненням"
-
-#: gedit/gedit-commands-file.c:552
-#, c-format
-msgid ""
-"The file “%s” was previously saved using compression and will now be saved "
-"as plain text."
-msgstr ""
-"Файл «%s» раніше був збережений з використанням стиснення і тепер "
-"зберігається у форматі простого тексту."
-
-#: gedit/gedit-commands-file.c:555
-msgid "_Save As Plain Text"
-msgstr "З_берегти як звичайний"
-
-#: gedit/gedit-commands-file.c:671 gedit/gedit-commands-file.c:960
-#, c-format
-msgid "Saving file “%s”…"
-msgstr "Зберігається файл «%s»…"
-
-#. Translators: "Save As" is the title of the file chooser window.
-#: gedit/gedit-commands-file.c:782
-msgctxt "window title"
-msgid "Save As"
-msgstr "Зберегти як"
-
-#: gedit/gedit-commands-file.c:1371
-#, c-format
-msgid "Reverting the document “%s”…"
-msgstr "Відновлення документу «%s»…"
-
-#: gedit/gedit-commands-file.c:1418
-#, c-format
-msgid "Revert unsaved changes to document “%s”?"
-msgstr "Відновити незбережені зміни в документі «%s»?"
-
-#: gedit/gedit-commands-file.c:1427
-#, c-format
-msgid ""
-"Changes made to the document in the last %ld second will be permanently lost."
-msgid_plural ""
-"Changes made to the document in the last %ld seconds will be permanently "
-"lost."
-msgstr[0] ""
-"Зміни, внесені в документ за останню %ld секунду, будуть остаточно втрачені."
-msgstr[1] ""
-"Зміни, внесені в документ за останні %ld секунди, будуть остаточно втрачені."
-msgstr[2] ""
-"Зміни, внесені в документ за останні %ld секунд, будуть остаточно втрачені."
-
-#: gedit/gedit-commands-file.c:1436
-msgid ""
-"Changes made to the document in the last minute will be permanently lost."
-msgstr ""
-"Зміни, внесені в документ за останню хвилину, будуть остаточно втрачені."
-
-#: gedit/gedit-commands-file.c:1442
-#, c-format
-msgid ""
-"Changes made to the document in the last minute and %ld second will be "
-"permanently lost."
-msgid_plural ""
-"Changes made to the document in the last minute and %ld seconds will be "
-"permanently lost."
-msgstr[0] ""
-"Зміни, внесені в документ за останню хвилину та %ld секунду, будуть "
-"остаточно втрачені."
-msgstr[1] ""
-"Зміни, внесені в документ за останню хвилину та %ld секунди, будуть "
-"остаточно втрачені."
-msgstr[2] ""
-"Зміни, внесені в документ за останню хвилину та %ld секунд, будуть остаточно "
-"втрачені."
-
-#: gedit/gedit-commands-file.c:1452
-#, c-format
-msgid ""
-"Changes made to the document in the last %ld minute will be permanently lost."
-msgid_plural ""
-"Changes made to the document in the last %ld minutes will be permanently "
-"lost."
-msgstr[0] ""
-"Зміни, внесені в документ за останню %ld хвилину, будуть остаточно втрачені."
-msgstr[1] ""
-"Зміни, внесені в документ за останні %ld хвилини, будуть остаточно втрачені."
-msgstr[2] ""
-"Зміни, внесені в документ за останні %ld хвилини, будуть остаточно втрачені."
-
-#: gedit/gedit-commands-file.c:1467
-msgid ""
-"Changes made to the document in the last hour will be permanently lost."
-msgstr ""
-"Зміни, внесені в документ за останню годину, будуть остаточно втрачені."
-
-#: gedit/gedit-commands-file.c:1473
-#, c-format
-msgid ""
-"Changes made to the document in the last hour and %d minute will be "
-"permanently lost."
-msgid_plural ""
-"Changes made to the document in the last hour and %d minutes will be "
-"permanently lost."
-msgstr[0] ""
-"Зміни, внесені в документ за останню годину та %d хвилину, будуть остаточно "
-"втрачені."
-msgstr[1] ""
-"Зміни, внесені в документ за останню годину та %d хвилини, будуть остаточно "
-"втрачені."
-msgstr[2] ""
-"Зміни, внесені в документ за останню годину та %d хвилин, будуть остаточно "
-"втрачені."
-
-#: gedit/gedit-commands-file.c:1488
-#, c-format
-msgid ""
-"Changes made to the document in the last %d hour will be permanently lost."
-msgid_plural ""
-"Changes made to the document in the last %d hours will be permanently lost."
-msgstr[0] ""
-"Зміни, внесені в документ за останню %d годину, будуть остаточно втрачені."
-msgstr[1] ""
-"Зміни, внесені в документ за останні %d години, будуть остаточно втрачені."
-msgstr[2] ""
-"Зміни, внесені в документ за останні %d годин, будуть остаточно втрачені."
-
-#: gedit/gedit-commands-file.c:1511
-msgid "_Revert"
-msgstr "Від_новити"
-
-#. Main authors: the top 5 (to not have a too long list), by
-#. * relative contribution (number of commits at the time of
-#. * writing).
-#.
-#: gedit/gedit-commands-help.c:44
-msgid "Main authors:"
-msgstr "Основні автори:"
-
-#: gedit/gedit-commands-help.c:51
-msgid "Many thanks also to:"
-msgstr "Також красно дякуємо таким особам:"
-
-#: gedit/gedit-commands-help.c:61
-msgid "and many other contributors."
-msgstr "та багатьом іншим учасникам розробки."
-
-#: gedit/gedit-commands-help.c:76
-msgid "gedit is an easy-to-use and general-purpose text editor"
-msgstr ""
-"gedit — простий у користуванні текстовий редактор загального призначення"
-
-#: gedit/gedit-commands-help.c:81
-msgid "translator-credits"
-msgstr ""
-"Юрій Сирота <ysyrota@softservecom.com>\n"
-"Максим Дзюманенко <dziumanenko@gmail.com>\n"
-"Wanderlust <wanderlust@ukr.net>\n"
-"Daniel Korostil <ted.korostiled@gmail.com>\n"
-"Юрій Яновський<lytvyn349@ukr.net>"
-
-#: gedit/gedit-commands-search.c:106
-#, c-format
-msgid "Found and replaced %d occurrence"
-msgid_plural "Found and replaced %d occurrences"
-msgstr[0] "Знайдено та замінено %d випадок"
-msgstr[1] "Знайдено та замінено %d випадки"
-msgstr[2] "Знайдено та замінено %d випадків"
-
-#: gedit/gedit-commands-search.c:114
-msgid "Found and replaced one occurrence"
-msgstr "Знайдено та замінено один випадок"
-
-#. Translators: %s is replaced by the text entered
-#. * by the user in the search box.
-#.
-#: gedit/gedit-commands-search.c:141
-#, c-format
-msgid "“%s” not found"
-msgstr "Фрази «%s» не існує"
-
-#: gedit/gedit-documents-panel.c:397
-#, c-format
-msgid "Tab Group %i"
-msgstr "Група вкладок %i"
-
-#: gedit/gedit-documents-panel.c:481 gedit/gedit-window-titles.c:117
-msgid "Read-Only"
-msgstr "Лише читання"
-
-#: gedit/gedit-encoding-items.c:92
-#, c-format
-msgid "Current Locale (%s)"
-msgstr "Поточна локалізація (%s)"
-
-#: gedit/gedit-encodings-combo-box.c:291
-msgid "Automatically Detected"
-msgstr "Автовизначення"
-
-#: gedit/gedit-encodings-combo-box.c:320
-msgid "Add or Remove…"
-msgstr "Додати або вилучити…"
-
-#: gedit/gedit-encodings-dialog.c:93
-#, c-format
-msgid "%s (Current Locale)"
-msgstr "%s (поточна локаль)"
-
-#: gedit/gedit-encodings-dialog.c:188
-msgid "Do you really want to reset the character encodings’ preferences?"
-msgstr "Скинути параметри кодування символів?"
-
-#. Reset button
-#: gedit/gedit-encodings-dialog.c:193 gedit/gedit-encodings-dialog.c:818
-msgid "_Reset"
-msgstr "_Скинути"
-
-#: gedit/gedit-encodings-dialog.c:729
-msgid "Add"
-msgstr "Додати"
-
-#: gedit/gedit-encodings-dialog.c:772
-msgid "Remove"
-msgstr "Вилучити"
-
-#: gedit/gedit-encodings-dialog.c:783
-msgid "Move to a higher priority"
-msgstr "Пересунути на вищий пріоритет"
-
-#: gedit/gedit-encodings-dialog.c:794
-msgid "Move to a lower priority"
-msgstr "Пересунути на нижчий пріоритет"
-
-#: gedit/gedit-file-chooser.c:41
-msgid "All Files"
-msgstr "Всі файли"
-
-#: gedit/gedit-file-chooser.c:42
-msgid "All Text Files"
-msgstr "Всі текстові файли"
-
-#: gedit/gedit-file-chooser-dialog-gtk.c:262
-#: gedit/gedit-file-chooser-open-dialog.c:43
-msgid "C_haracter Encoding:"
-msgstr "_Кодування символів:"
-
-#: gedit/gedit-file-chooser-dialog-gtk.c:321
-msgid "L_ine Ending:"
-msgstr "Ко_дування рядка:"
-
-#. Translators: "Open Files" is the title of the file chooser window.
-#: gedit/gedit-file-chooser-open-dialog.c:75
-#: gedit/gedit-file-chooser-open-native.c:54
-msgctxt "window title"
-msgid "Open Files"
-msgstr "Відкриття файлів"
-
-#: gedit/gedit-file-chooser-open-dialog.c:79 gedit/gedit-header-bar.c:54
-#: gedit/resources/gtk/menus-common.ui:74
-#: gedit/resources/gtk/menus-common.ui:80
-#: plugins/filebrowser/resources/ui/gedit-file-browser-menus.ui:7
-#: plugins/snippets/snippets/manager.py:790
-msgid "_Open"
-msgstr "_Відкрити"
-
-#: gedit/gedit-header-bar.c:55
-msgid "Open a file"
-msgstr "Відкрити файл"
-
-#: gedit/gedit-header-bar.c:93
-msgid "Open a recently used file"
-msgstr "Відкрити файл, що нещодавно редагувався"
-
-#: gedit/gedit-header-bar.c:139
-msgid "Create a new document"
-msgstr "Створити новий документ"
-
-#: gedit/gedit-header-bar.c:152
-msgid "Leave Fullscreen"
-msgstr "Залишити повноекранний режим"
-
-#: gedit/gedit-header-bar.c:188
-msgid "Save the current file"
-msgstr "Зберегти поточний файл"
-
-#: gedit/gedit-io-error-info-bar.c:91 gedit/gedit-io-error-info-bar.c:283
-msgid "_Retry"
-msgstr "_Повтор"
-
-#: gedit/gedit-io-error-info-bar.c:115
-msgid "File not found."
-msgstr "Файл не знайдено."
-
-#. How to reproduce this case: from the command line,
-#. * try to open a URI such as: foo://example.net/file
-#.
-#. Translators: %s is a URI scheme (like for example http:, ftp:, etc.)
-#: gedit/gedit-io-error-info-bar.c:134
-#, c-format
-msgid "“%s:” locations are not supported."
-msgstr "Не передбачено підтримки адрес «%s:»."
-
-#: gedit/gedit-io-error-info-bar.c:143
-msgid "The location of the file cannot be accessed."
-msgstr "Неможливо доступитись до адреси цього файла."
-
-#: gedit/gedit-io-error-info-bar.c:147
-#, c-format
-msgid "“%s” is not a valid location."
-msgstr "«%s» не є правильною адресою."
-
-#: gedit/gedit-io-error-info-bar.c:148
-msgid "Please check that you typed the location correctly and try again."
-msgstr "Переконайтеся, що ви ввели правильну адресу та спробуйте знову."
-
-#: gedit/gedit-io-error-info-bar.c:181
-#, c-format
-msgid "Hostname “%s” not known."
-msgstr "Невідома назва вузла «%s»."
-
-#: gedit/gedit-io-error-info-bar.c:182
-msgid "The problem could come from the proxy settings."
-msgstr "Проблема може полягати у налаштуваннях проксі-сервера."
-
-#: gedit/gedit-io-error-info-bar.c:216
-msgid "File not found. Perhaps it has recently been deleted."
-msgstr "Файл не знайдено. Можливо, його нещодавно вилучено."
-
-#: gedit/gedit-io-error-info-bar.c:226
-#, c-format
-msgid "Could not revert the file “%s”."
-msgstr "Неможливо відновити файл «%s»."
-
-#: gedit/gedit-io-error-info-bar.c:251
-msgid "Ch_aracter Encoding:"
-msgstr "_Кодування символів:"
-
-#: gedit/gedit-io-error-info-bar.c:289
-msgid "_Edit Anyway"
-msgstr "_Редагувати попри це"
-
-#: gedit/gedit-io-error-info-bar.c:327
-msgid ""
-"The number of followed links is limited and the actual file could not be "
-"found within this limit."
-msgstr ""
-"Вичерпано допустиме число переходів за посиланнями, а файл так і не було "
-"знайдено."
-
-#: gedit/gedit-io-error-info-bar.c:332
-msgid "You do not have the permissions necessary to open the file."
-msgstr "Недостатньо прав для відкривання файлу."
-
-#: gedit/gedit-io-error-info-bar.c:338
-msgid "Unable to detect the character encoding."
-msgstr "Неможливо виявити кодування символів."
-
-#: gedit/gedit-io-error-info-bar.c:339 gedit/gedit-io-error-info-bar.c:362
-msgid "Please check that you are not trying to open a binary file."
-msgstr "Напевно, ви намагаєтесь відкрити файл з двійковими даними."
-
-#: gedit/gedit-io-error-info-bar.c:340
-msgid "Select a character encoding from the menu and try again."
-msgstr "Виберіть кодування символів з меню та спробуйте це раз."
-
-#: gedit/gedit-io-error-info-bar.c:346
-#, c-format
-msgid "There was a problem opening the file “%s”."
-msgstr "Помилка відкриття файла «%s»."
-
-#: gedit/gedit-io-error-info-bar.c:347
-msgid ""
-"The file you opened has some invalid characters. If you continue editing "
-"this file you could corrupt this document."
-msgstr ""
-"Файл, який ви відкрили має деякі неприпустимі символи, якщо ви продовжите "
-"редагування цього файла, можете зіпсувати цей документ."
-
-#: gedit/gedit-io-error-info-bar.c:350
-msgid "You can also choose another character encoding and try again."
-msgstr "Виберіть кодування символів з меню та спробуйте це раз."
-
-#: gedit/gedit-io-error-info-bar.c:359
-#, c-format
-msgid "Could not open the file “%s” using the “%s” character encoding."
-msgstr "Неможливо відкрити файл «%s» з кодуванням символів «%s»."
-
-#: gedit/gedit-io-error-info-bar.c:363 gedit/gedit-io-error-info-bar.c:418
-msgid "Select a different character encoding from the menu and try again."
-msgstr "Виберіть інше кодування символів з меню та спробуйте ще раз."
-
-#: gedit/gedit-io-error-info-bar.c:375
-#, c-format
-msgid "Could not open the file “%s”."
-msgstr "Неможливо відкрити файл «%s»."
-
-#: gedit/gedit-io-error-info-bar.c:413
-#, c-format
-msgid "Could not save the file “%s” using the “%s” character encoding."
-msgstr "Неможливо зберегти файл «%s» з кодуванням символів «%s»."
-
-#: gedit/gedit-io-error-info-bar.c:416
-msgid ""
-"The document contains one or more characters that cannot be encoded using "
-"the specified character encoding."
-msgstr ""
-"Документ містить один або більше символів, які не мають представлення у "
-"вказаному кодуванні символів."
-
-#. Translators: %s is a URI scheme (like for example http:, ftp:, etc.)
-#: gedit/gedit-io-error-info-bar.c:470
-#, c-format
-msgid ""
-"Cannot handle “%s:” locations in write mode. Please check that you typed the "
-"location correctly and try again."
-msgstr ""
-"Неможливо обробити адреси «%s:» в режимі записування. Переконайтесь, що "
-"адресу введено правильно та спробуйте знову."
-
-#: gedit/gedit-io-error-info-bar.c:477
-msgid ""
-"Cannot handle this location in write mode. Please check that you typed the "
-"location correctly and try again."
-msgstr ""
-"Неможливо обробити адресу %s в режимі записування. Переконайтесь, що адресу "
-"введено правильно та спробуйте знову."
-
-#: gedit/gedit-io-error-info-bar.c:486
-#, c-format
-msgid ""
-"“%s” is not a valid location. Please check that you typed the location "
-"correctly and try again."
-msgstr ""
-"%s не є правильною адресою. Переконайтесь, що адресу введено правильно та "
-"спробуйте знову."
-
-#: gedit/gedit-io-error-info-bar.c:493
-msgid ""
-"You do not have the permissions necessary to save the file. Please check "
-"that you typed the location correctly and try again."
-msgstr ""
-"Немає прав для запису файлу. Переконайтесь, що адресу введено правильно та "
-"спробуйте ще раз."
-
-#: gedit/gedit-io-error-info-bar.c:499
-msgid ""
-"There is not enough disk space to save the file. Please free some disk space "
-"and try again."
-msgstr ""
-"Недостатньо дискового простору для збереження файлу. Звільніть, місце на "
-"диску та спробуйте знову."
-
-#: gedit/gedit-io-error-info-bar.c:504
-msgid ""
-"You are trying to save the file on a read-only disk. Please check that you "
-"typed the location correctly and try again."
-msgstr ""
-"Ви намагаєтесь зберегти файл на диск доступний лише для читання. "
-"Переконайтесь, що адресу введено правильно і спробуйте знову."
-
-#: gedit/gedit-io-error-info-bar.c:510
-msgid "A file with the same name already exists. Please use a different name."
-msgstr "Файл з такою назвою вже існує. Вкажіть іншу назву."
-
-#: gedit/gedit-io-error-info-bar.c:515
-msgid ""
-"The disk where you are trying to save the file has a limitation on length of "
-"the file names. Please use a shorter name."
-msgstr ""
-"Диск, на якому ви намагаєтеся зберегти файл має обмеження на розмір файла. "
-"Використовуйте коротшу назву."
-
-#: gedit/gedit-io-error-info-bar.c:530
-#, c-format
-msgid "Could not save the file “%s”."
-msgstr "Неможливо зберегти файл «%s»."
-
-#: gedit/gedit-print-job.c:223
-msgid "Preparing…"
-msgstr "Приготування…"
-
-#: gedit/gedit-print-job.c:535
-#, c-format
-msgid "File: %s"
-msgstr "Файл: %s"
-
-#. Translators: %N is the current page number, %Q is the total
-#. * number of pages (ex. Page 2 of 10)
-#.
-#: gedit/gedit-print-job.c:544
-msgid "Page %N of %Q"
-msgstr "Сторінка %N з %Q"
-
-#: gedit/gedit-print-job.c:622
-#, c-format
-msgid "Rendering page %d of %d…"
-msgstr "Опрацьовування %d сторінки з %d…"
-
-#: gedit/gedit-print-job.c:726
-msgid "Text Editor"
-msgstr "Текстовий редактор"
-
-#: gedit/gedit-print-preview.c:651
-#, c-format
-msgid "Page %d of %d"
-msgstr "Сторінка %d з %d"
-
-#: gedit/gedit-replace-dialog.c:690 plugins/externaltools/tools/tools.ui:49
-#: plugins/externaltools/tools/tools.ui:83
-#: plugins/externaltools/tools/tools.ui:121
-msgid "Nothing"
-msgstr "Нічого"
-
-#: gedit/gedit-replace-dialog.c:779
-#: gedit/resources/ui/gedit-replace-dialog.ui:7
-msgid "Find and Replace"
-msgstr "Знайти та замінити"
-
-#. Translators: the first %s is a file name (e.g. test.txt) the second one
-#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
-#: gedit/gedit-tab.c:803
-#, c-format
-msgid "Reverting %s from %s"
-msgstr "Відновлюється «%s» з «%s»"
-
-#: gedit/gedit-tab.c:810
-#, c-format
-msgid "Reverting %s"
-msgstr "Відновлюється «%s»"
-
-#. Translators: the first %s is a file name (e.g. test.txt) the second one
-#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
-#: gedit/gedit-tab.c:823
-#, c-format
-msgid "Loading %s from %s"
-msgstr "Завантажується «%s» з «%s»"
-
-#: gedit/gedit-tab.c:830
-#, c-format
-msgid "Loading %s"
-msgstr "Завантажується «%s»"
-
-#. Translators: the first %s is a file name (e.g. test.txt) the second one
-#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
-#: gedit/gedit-tab.c:908
-#, c-format
-msgid "Saving %s to %s"
-msgstr "Зберігається «%s» у «%s»"
-
-#: gedit/gedit-tab.c:913
-#, c-format
-msgid "Saving %s"
-msgstr "Зберігається «%s»"
-
-#: gedit/gedit-tab.c:1433
-#, c-format
-msgid "Error opening file %s"
-msgstr "Помилка відкривання файлу «%s»"
-
-#: gedit/gedit-tab.c:1437
-#, c-format
-msgid "Error reverting file %s"
-msgstr "Помилка відновлення файлу «%s»"
-
-#: gedit/gedit-tab.c:1441
-#, c-format
-msgid "Error saving file %s"
-msgstr "Помилка збереження файлу «%s»"
-
-#: gedit/gedit-tab.c:1472
-msgid "Name:"
-msgstr "Назва:"
-
-#: gedit/gedit-tab.c:1473
-msgid "MIME Type:"
-msgstr "MIME тип:"
-
-#: gedit/gedit-tab.c:1474
-msgid "Encoding:"
-msgstr "Кодування:"
-
-#: gedit/gedit-tab-label.c:302
-msgid "Close Document"
-msgstr "Закрити документ"
-
-#. Translators: '/ on <remote-share>'
-#: gedit/gedit-utils.c:361
-#, c-format
-msgid "/ on %s"
-msgstr "/ на %s"
-
-#: gedit/gedit-utils.c:506
-msgid "Unix/Linux"
-msgstr "Unix/Linux"
-
-#: gedit/gedit-utils.c:508
-msgid "Mac OS Classic"
-msgstr "Mac OS Classic"
-
-#: gedit/gedit-utils.c:510
-msgid "Windows"
-msgstr "ОС Windows"
-
-#. Translators: the first %d is the position of the current search
-#. * occurrence, and the second %d is the total number of search
-#. * occurrences.
-#.
-#: gedit/gedit-view-frame.c:658
-#, c-format
-msgid "%d of %d"
-msgstr "%d з %d"
-
-#. create "Wrap Around" menu item.
-#: gedit/gedit-view-frame.c:750
-msgid "_Wrap Around"
-msgstr "_Досягнувши кінця, починати спочатку"
-
-#. create "Match as Regular Expression" menu item.
-#: gedit/gedit-view-frame.c:760
-msgid "Match as _Regular Expression"
-msgstr "Збіг як _формальний вираз"
-
-#. create "Match Entire Word Only" menu item.
-#: gedit/gedit-view-frame.c:774
-msgid "Match _Entire Word Only"
-msgstr "Збігається _ціле слово"
-
-#. create "Match Case" menu item.
-#: gedit/gedit-view-frame.c:788
-msgid "_Match Case"
-msgstr "Збігається _регістр"
-
-#: gedit/gedit-view-frame.c:1013
-msgid "String you want to search for"
-msgstr "Рядок, яку треба знайти"
-
-#: gedit/gedit-view-frame.c:1025
-msgid "Line you want to move the cursor to"
-msgstr "Рядок, куди треба перемістити курсор"
-
-#: gedit/gedit-window.c:986
-#, c-format
-msgid "Tab Width: %u"
-msgstr "Ширина табуляції: %u"
-
-#: gedit/gedit-window.c:1004 plugins/externaltools/tools/manager.py:115
-#: plugins/externaltools/tools/manager.py:324
-#: plugins/externaltools/tools/manager.py:440
-#: plugins/externaltools/tools/manager.py:776
-msgid "Plain Text"
-msgstr "Звичайний текст"
-
-#: gedit/gedit-window.c:1223
-msgid "There are unsaved documents"
-msgstr "Є незбережені документи"
-
-#: gedit/gedit-window.c:2023
-msgid "Documents"
-msgstr "Документи"
-
-#: gedit/resources/gtk/help-overlay.ui:14
-msgctxt "shortcut window"
-msgid "Documents"
-msgstr "Документи"
-
-#: gedit/resources/gtk/help-overlay.ui:19
-msgctxt "shortcut window"
-msgid "Create a new document in a tab"
-msgstr "Створити новий документ у вкладці"
-
-#: gedit/resources/gtk/help-overlay.ui:26
-msgctxt "shortcut window"
-msgid "Open a document"
-msgstr "Відкрити документ"
-
-#: gedit/resources/gtk/help-overlay.ui:33
-msgctxt "shortcut window"
-msgid "Save the document"
-msgstr "Зберегти документ"
-
-#: gedit/resources/gtk/help-overlay.ui:40
-msgctxt "shortcut window"
-msgid "Save the document with a new filename"
-msgstr "Зберегти документ з іншою назвою"
-
-#: gedit/resources/gtk/help-overlay.ui:47
-msgctxt "shortcut window"
-msgid "Save all the documents"
-msgstr "Зберегти всі документи"
-
-#: gedit/resources/gtk/help-overlay.ui:54
-msgctxt "shortcut window"
-msgid "Close the document"
-msgstr "Закрити документ"
-
-#: gedit/resources/gtk/help-overlay.ui:61
-msgctxt "shortcut window"
-msgid "Close all the documents"
-msgstr "Закрити всі документи"
-
-#: gedit/resources/gtk/help-overlay.ui:68
-msgctxt "shortcut window"
-msgid "Reopen the most recently closed document"
-msgstr "Відкрити останній закритий документ"
-
-#: gedit/resources/gtk/help-overlay.ui:75
-msgctxt "shortcut window"
-msgid "Switch to the next document"
-msgstr "Перейти до наступного документа"
-
-#: gedit/resources/gtk/help-overlay.ui:82
-msgctxt "shortcut window"
-msgid "Switch to the previous document"
-msgstr "Перейти до попереднього документа"
-
-#: gedit/resources/gtk/help-overlay.ui:89
-msgctxt "shortcut window"
-msgid "Switch to the first — ninth document"
-msgstr "Перейти до першого-дев'ятого документа"
-
-#: gedit/resources/gtk/help-overlay.ui:97
-msgctxt "shortcut window"
-msgid "Windows and Panels"
-msgstr "Вікна і панелі"
-
-#: gedit/resources/gtk/help-overlay.ui:102
-msgctxt "shortcut window"
-msgid "Create a new document in a window"
-msgstr "Створити новий документ у вікні"
-
-#: gedit/resources/gtk/help-overlay.ui:109
-msgctxt "shortcut window"
-msgid "Create a new tab group"
-msgstr "Створити нову групу вкладок"
-
-#: gedit/resources/gtk/help-overlay.ui:116
-msgctxt "shortcut window"
-msgid "Show side panel"
-msgstr "Показати бокову панель"
-
-#: gedit/resources/gtk/help-overlay.ui:123
-msgctxt "shortcut window"
-msgid "Show bottom panel"
-msgstr "Показати нижню панель"
-
-#: gedit/resources/gtk/help-overlay.ui:130
-msgctxt "shortcut window"
-msgid "Fullscreen on / off"
-msgstr "Перемкнути на ввесь екран"
-
-#: gedit/resources/gtk/help-overlay.ui:137
-msgctxt "shortcut window"
-msgid "Quit the application"
-msgstr "Вийти з програми"
-
-#: gedit/resources/gtk/help-overlay.ui:145
-#: gedit/resources/gtk/help-overlay.ui:171
-msgctxt "shortcut window"
-msgid "Find and Replace"
-msgstr "Знайти та замінити"
-
-#: gedit/resources/gtk/help-overlay.ui:150
-msgctxt "shortcut window"
-msgid "Find"
-msgstr "Знайти"
-
-#: gedit/resources/gtk/help-overlay.ui:157
-msgctxt "shortcut window"
-msgid "Find the next match"
-msgstr "Знайти наступний збіг"
-
-#: gedit/resources/gtk/help-overlay.ui:164
-msgctxt "shortcut window"
-msgid "Find the previous match"
-msgstr "Знайти попередній збіг"
-
-#: gedit/resources/gtk/help-overlay.ui:178
-msgctxt "shortcut window"
-msgid "Clear highlight"
-msgstr "Забрати підсвічення"
-
-#: gedit/resources/gtk/help-overlay.ui:186
-msgctxt "shortcut window"
-msgid "Undo and Redo"
-msgstr "Керування змінами"
-
-#: gedit/resources/gtk/help-overlay.ui:191
-msgctxt "shortcut window"
-msgid "Undo previous command"
-msgstr "Повернути попередню дію"
-
-#: gedit/resources/gtk/help-overlay.ui:198
-msgctxt "shortcut window"
-msgid "Redo previous command"
-msgstr "Повторити попередню дію"
-
-#: gedit/resources/gtk/help-overlay.ui:206
-msgctxt "shortcut window"
-msgid "Selection"
-msgstr "Вибирання тексту"
-
-#: gedit/resources/gtk/help-overlay.ui:211
-msgctxt "shortcut window"
-msgid "Select all text"
-msgstr "Вибрати весь текст"
-
-#: gedit/resources/gtk/help-overlay.ui:218
-msgctxt "shortcut window"
-msgid "Unselect all text"
-msgstr "Скасувати вибір усього тексту"
-
-#: gedit/resources/gtk/help-overlay.ui:226
-msgctxt "shortcut window"
-msgid "Copy and Paste"
-msgstr "Перенесення тексту"
-
-#: gedit/resources/gtk/help-overlay.ui:231
-msgctxt "shortcut window"
-msgid "Copy selected text to clipboard"
-msgstr "Скопіювати вибраний текст у буфер"
-
-#: gedit/resources/gtk/help-overlay.ui:238
-msgctxt "shortcut window"
-msgid "Cut selected text to clipboard"
-msgstr "Вирізати вибраний текст у буфер"
-
-#: gedit/resources/gtk/help-overlay.ui:245
-msgctxt "shortcut window"
-msgid "Paste text from clipboard"
-msgstr "Вставити текст з буфера"
-
-#: gedit/resources/gtk/help-overlay.ui:253
-msgctxt "shortcut window"
-msgid "Navigation"
-msgstr "Навігація"
-
-#: gedit/resources/gtk/help-overlay.ui:258
-msgctxt "shortcut window"
-msgid "Go to line"
-msgstr "Перейти на певний рядок"
-
-#: gedit/resources/gtk/help-overlay.ui:265
-msgctxt "shortcut window"
-msgid "Move to the beginning of the current line"
-msgstr "Перейти до початку поточного рядка"
-
-#: gedit/resources/gtk/help-overlay.ui:272
-msgctxt "shortcut window"
-msgid "Move to the end of the current line"
-msgstr "Перейти в кінець поточного рядка"
-
-#: gedit/resources/gtk/help-overlay.ui:279
-msgctxt "shortcut window"
-msgid "Move to the beginning of the document"
-msgstr "Перейти до початку документа"
-
-#: gedit/resources/gtk/help-overlay.ui:286
-msgctxt "shortcut window"
-msgid "Move to the end of the document"
-msgstr "Перейти на кінець документа"
-
-#: gedit/resources/gtk/help-overlay.ui:293
-msgctxt "shortcut window"
-msgid "Move viewport up within the file"
-msgstr "Пересунути вище поле огляду у файлі"
-
-#: gedit/resources/gtk/help-overlay.ui:300
-msgctxt "shortcut window"
-msgid "Move viewport down within the file"
-msgstr "Пересунути нижче поле огляду у файлі"
-
-#: gedit/resources/gtk/help-overlay.ui:307
-msgctxt "shortcut window"
-msgid "Move viewport to end of file"
-msgstr "Пересунути поле огляду до кінця файла"
-
-#: gedit/resources/gtk/help-overlay.ui:314
-msgctxt "shortcut window"
-msgid "Move viewport to beginning of file"
-msgstr "Пересунути поле огляду до початку файла"
-
-#: gedit/resources/gtk/help-overlay.ui:321
-msgctxt "shortcut window"
-msgid "Move to matching bracket"
-msgstr "Перейти до парної дужки"
-
-#: gedit/resources/gtk/help-overlay.ui:328
-msgctxt "shortcut window"
-msgid "Go to previous tab group"
-msgstr "Перейти до попередньої групи вкладок"
-
-#: gedit/resources/gtk/help-overlay.ui:335
-msgctxt "shortcut window"
-msgid "Go to next tab group"
-msgstr "Перейти до наступної групи вкладок"
-
-#: gedit/resources/gtk/help-overlay.ui:343
-msgctxt "shortcut window"
-msgid "Editing"
-msgstr "Редагування"
-
-#: gedit/resources/gtk/help-overlay.ui:348
-msgctxt "shortcut window"
-msgid "Toggle insert / overwrite"
-msgstr "Перемкнути на режим редагування"
-
-#: gedit/resources/gtk/help-overlay.ui:355
-msgctxt "shortcut window"
-msgid "Toggle cursor visibility"
-msgstr "Перемкнути видимість курсора"
-
-#: gedit/resources/gtk/help-overlay.ui:362
-msgctxt "shortcut window"
-msgid "Delete current line"
-msgstr "Вилучити поточний рядок"
-
-#: gedit/resources/gtk/help-overlay.ui:369
-msgctxt "shortcut window"
-msgid "Move current line up"
-msgstr "Перенести поточний рядок вище"
-
-#: gedit/resources/gtk/help-overlay.ui:376
-msgctxt "shortcut window"
-msgid "Move current line down"
-msgstr "Перенести поточний рядок нижче"
-
-#: gedit/resources/gtk/help-overlay.ui:383
-msgctxt "shortcut window"
-msgid "Move current word left"
-msgstr "Перенести поточне слово ліворуч"
-
-#: gedit/resources/gtk/help-overlay.ui:390
-msgctxt "shortcut window"
-msgid "Move current word right"
-msgstr "Перенести поточне слово праворуч"
-
-#: gedit/resources/gtk/help-overlay.ui:397
-msgctxt "shortcut window"
-msgid "Convert to uppercase"
-msgstr "Зробити великими буквами"
-
-#: gedit/resources/gtk/help-overlay.ui:404
-msgctxt "shortcut window"
-msgid "Convert to lowercase"
-msgstr "Зробити маленькими буквами"
-
-#: gedit/resources/gtk/help-overlay.ui:411
-msgctxt "shortcut window"
-msgid "Invert case"
-msgstr "Зробити навиворіт"
-
-#: gedit/resources/gtk/help-overlay.ui:418
-msgctxt "shortcut window"
-msgid "Increment number at cursor"
-msgstr "Збільшити числа на курсорі"
-
-#: gedit/resources/gtk/help-overlay.ui:425
-msgctxt "shortcut window"
-msgid "Decrement number at cursor"
-msgstr "Зменшити число на курсорі"
-
-#: gedit/resources/gtk/help-overlay.ui:433
-msgctxt "shortcut window"
-msgid "Tools"
-msgstr "Засоби"
-
-#: gedit/resources/gtk/help-overlay.ui:438
-msgctxt "shortcut window"
-msgid "Check spelling"
-msgstr "Перевірити орфографію"
-
-#: gedit/resources/gtk/help-overlay.ui:445
-msgctxt "shortcut window"
-msgid "Print the document"
-msgstr "Надрукувати документ"
-
-#: gedit/resources/gtk/help-overlay.ui:452
-msgctxt "shortcut window"
-msgid "Show completion window"
-msgstr "Показати вікно заповнення"
-
-#: gedit/resources/gtk/help-overlay.ui:460
-msgctxt "shortcut window"
-msgid "General"
-msgstr "Загальні"
-
-#: gedit/resources/gtk/help-overlay.ui:465
-msgctxt "shortcut window"
-msgid "Show help"
-msgstr "Показати довідку"
-
-#: gedit/resources/gtk/help-overlay.ui:472
-msgctxt "shortcut window"
-msgid "Keyboard shortcuts"
-msgstr "Клавіатурні скорочення"
-
-#: gedit/resources/gtk/help-overlay.ui:479
-msgctxt "shortcut window"
-msgid "Open menu"
-msgstr "Відкрити меню"
-
-#: gedit/resources/gtk/help-overlay.ui:486
-msgctxt "shortcut window"
-msgid "Show preferences"
-msgstr "Показати налаштування"
-
-#: gedit/resources/gtk/menus-common.ui:7
-msgid "Move _Left"
-msgstr "Пересунути _ліворуч"
-
-#: gedit/resources/gtk/menus-common.ui:11
-msgid "Move _Right"
-msgstr "Пересунути _праворуч"
-
-#: gedit/resources/gtk/menus-common.ui:17
-msgid "Move to New _Window"
-msgstr "Перенести у нове _вікно"
-
-#: gedit/resources/gtk/menus-common.ui:21
-msgid "Move to New Tab _Group"
-msgstr "Перенести до нової _групи вкладок"
-
-#: gedit/resources/gtk/menus-common.ui:27
-#: gedit/resources/gtk/menus-common.ui:137
-#: gedit/resources/gtk/menus-traditional.ui:134
-#: gedit/resources/ui/gedit-replace-dialog.ui:23
-#: plugins/spell/resources/ui/gedit-spell-setup-dialog.ui:25
-#: plugins/time/resources/ui/gedit-time-setup-dialog.ui:21
-msgid "_Close"
-msgstr "_Закрити"
-
-#: gedit/resources/gtk/menus-common.ui:52
-msgid "Use Spaces"
-msgstr "Вставляти пробіли"
-
-#: gedit/resources/gtk/menus-common.ui:62
-msgid "_File"
-msgstr "_Файл"
-
-#. _New is the menu item under the File menu on OS X which creates a new empty document.
-#: gedit/resources/gtk/menus-common.ui:66
-msgid "_New"
-msgstr "_Створити"
-
-#: gedit/resources/gtk/menus-common.ui:85
-msgid "Open _Recent"
-msgstr "Відкрити _нещодавнє"
-
-#: gedit/resources/gtk/menus-common.ui:88
-msgid "Reopen Closed _Tab"
-msgstr "Перевідкрити закриту _вкладку"
-
-#: gedit/resources/gtk/menus-common.ui:106
-msgid "Save _As…"
-msgstr "Зберегти _як…"
-
-#: gedit/resources/gtk/menus-common.ui:114 gedit/resources/gtk/menus.ui:27
-msgid "_New Window"
-msgstr "_Створити вікно"
-
-#: gedit/resources/gtk/menus-common.ui:122
-#: gedit/resources/gtk/menus-traditional.ui:9 gedit/resources/gtk/menus.ui:9
-msgid "_Reload"
-msgstr "Пере_завантажити"
-
-#: gedit/resources/gtk/menus-common.ui:129
-#: gedit/resources/gtk/menus-traditional.ui:14 gedit/resources/gtk/menus.ui:14
-msgid "_Print…"
-msgstr "Над_рукувати…"
-
-#: gedit/resources/gtk/menus-common.ui:142
-#: gedit/resources/gtk/menus-traditional.ui:138
-msgid "_Quit"
-msgstr "Ви_йти"
-
-#: gedit/resources/gtk/menus-common.ui:150
-msgid "_Edit"
-msgstr "З_міни"
-
-#: gedit/resources/gtk/menus-common.ui:154
-msgid "_Undo"
-msgstr "_Повернути"
-
-#: gedit/resources/gtk/menus-common.ui:159
-msgid "_Redo"
-msgstr "По_вторити"
-
-#: gedit/resources/gtk/menus-common.ui:166
-msgid "C_ut"
-msgstr "Ви_різати"
-
-#: gedit/resources/gtk/menus-common.ui:171
-msgid "_Copy"
-msgstr "_Копіювати"
-
-#: gedit/resources/gtk/menus-common.ui:176
-msgid "_Paste"
-msgstr "В_ставити"
-
-#: gedit/resources/gtk/menus-common.ui:181
-#: plugins/filebrowser/gedit-file-browser-plugin.c:894
-#: plugins/filebrowser/gedit-file-browser-plugin.c:929
-#: plugins/filebrowser/resources/ui/gedit-file-browser-menus.ui:37
-msgid "_Delete"
-msgstr "В_илучити"
-
-#: gedit/resources/gtk/menus-common.ui:189
-msgid "Overwrite _Mode"
-msgstr "_Режим перезаписування"
-
-#: gedit/resources/gtk/menus-common.ui:197
-msgid "Select _All"
-msgstr "Вибрати _усе"
-
-#: gedit/resources/gtk/menus-common.ui:204
-#: gedit/resources/gtk/menus-traditional.ui:108
-#: gedit/resources/gtk/menus.ui:112
-msgid "_Preferences"
-msgstr "_Параметри"
-
-#: gedit/resources/gtk/menus-common.ui:211
-#: gedit/resources/gtk/menus-traditional.ui:68 gedit/resources/gtk/menus.ui:72
-msgid "_View"
-msgstr "П_ерегляд"
-
-#: gedit/resources/gtk/menus-common.ui:215
-#: gedit/resources/gtk/menus-traditional.ui:72 gedit/resources/gtk/menus.ui:76
-msgid "Side _Panel"
-msgstr "Бічна _панель"
-
-#: gedit/resources/gtk/menus-common.ui:220
-#: gedit/resources/gtk/menus-traditional.ui:76 gedit/resources/gtk/menus.ui:80
-msgid "_Bottom Panel"
-msgstr "_Нижня панель"
-
-#: gedit/resources/gtk/menus-common.ui:229
-#: gedit/resources/gtk/menus-traditional.ui:19 gedit/resources/gtk/menus.ui:19
-msgid "_Fullscreen"
-msgstr "_На ввесь екран"
-
-#: gedit/resources/gtk/menus-common.ui:237
-#: gedit/resources/gtk/menus-traditional.ui:87 gedit/resources/gtk/menus.ui:91
-msgid "_Highlight Mode…"
-msgstr "Під_креслення синтаксису…"
-
-#: gedit/resources/gtk/menus-common.ui:243
-msgid "_Search"
-msgstr "П_ошук"
-
-#: gedit/resources/gtk/menus-common.ui:247
-#: gedit/resources/gtk/menus-traditional.ui:50 gedit/resources/gtk/menus.ui:54
-msgid "_Find…"
-msgstr "З_найти…"
-
-#: gedit/resources/gtk/menus-common.ui:252
-msgid "Find Ne_xt"
-msgstr "Зна_йти далі"
-
-#: gedit/resources/gtk/menus-common.ui:257
-msgid "Find Pre_vious"
-msgstr "Знайти _попередній"
-
-#: gedit/resources/gtk/menus-common.ui:265
-msgid "Find and _Replace…"
-msgstr "Зна_йти та замінити…"
-
-#: gedit/resources/gtk/menus-common.ui:273
-#: gedit/resources/gtk/menus-traditional.ui:58 gedit/resources/gtk/menus.ui:62
-msgid "_Clear Highlight"
-msgstr "О_чистити підкреслення кольором"
-
-#: gedit/resources/gtk/menus-common.ui:281
-msgid "Go to _Line…"
-msgstr "Перейти до _рядка…"
-
-#: gedit/resources/gtk/menus-common.ui:288
-#: gedit/resources/gtk/menus-traditional.ui:93 gedit/resources/gtk/menus.ui:97
-msgid "_Tools"
-msgstr "_Засоби"
-
-#: gedit/resources/gtk/menus-common.ui:303
-msgid "_Documents"
-msgstr "Д_окументи"
-
-#: gedit/resources/gtk/menus-common.ui:307
-msgid "_Save All"
-msgstr "З_берегти все"
-
-#: gedit/resources/gtk/menus-common.ui:312
-#: gedit/resources/gtk/menus-traditional.ui:130
-msgid "_Close All"
-msgstr "З_акрити все"
-
-#: gedit/resources/gtk/menus-common.ui:320
-msgid "_New Tab Group"
-msgstr "_Створити групу вкладок"
-
-#: gedit/resources/gtk/menus-common.ui:325
-msgid "P_revious Tab Group"
-msgstr "_Попередня група вкладок"
-
-#: gedit/resources/gtk/menus-common.ui:330
-msgid "Nex_t Tab Group"
-msgstr "_Наступна група вкладок"
-
-#: gedit/resources/gtk/menus-common.ui:338
-msgid "_Previous Document"
-msgstr "_Попередній документ"
-
-#: gedit/resources/gtk/menus-common.ui:343
-msgid "N_ext Document"
-msgstr "Н_аступний документ"
-
-#: gedit/resources/gtk/menus-common.ui:351
-msgid "_Move To New Window"
-msgstr "_Перенести на нове вікно"
-
-#: gedit/resources/gtk/menus-common.ui:357
-#: gedit/resources/gtk/menus-common.ui:361
-#: gedit/resources/gtk/menus-traditional.ui:119
-#: gedit/resources/gtk/menus.ui:123 plugins/spell/gedit-spell-plugin.c:260
-#: plugins/time/resources/ui/gedit-time-dialog.ui:133
-msgid "_Help"
-msgstr "_Довідка"
-
-#: gedit/resources/gtk/menus-common.ui:368
-#: gedit/resources/gtk/menus-traditional.ui:123
-#: gedit/resources/gtk/menus.ui:127
-msgid "_About gedit"
-msgstr "_Про gedit"
-
-#: gedit/resources/gtk/menus-traditional.ui:37 gedit/resources/gtk/menus.ui:41
-msgid "Save _All"
-msgstr "Зберегти _все"
-
-#: gedit/resources/gtk/menus-traditional.ui:54 gedit/resources/gtk/menus.ui:58
-msgid "_Find and Replace…"
-msgstr "Зна_йти та замінити…"
-
-#: gedit/resources/gtk/menus-traditional.ui:62 gedit/resources/gtk/menus.ui:66
-msgid "_Go to Line…"
-msgstr "_Перейти до рядка…"
-
-#: gedit/resources/gtk/menus-traditional.ui:115
-#: gedit/resources/gtk/menus.ui:119
-msgid "_Keyboard Shortcuts"
-msgstr "_Клавіатурні скорочення"
-
-#: gedit/resources/ui/gedit-encodings-dialog.ui:41
-msgid "Character Encodings"
-msgstr "Кодування символів"
-
-#: gedit/resources/ui/gedit-encodings-dialog.ui:44
-msgid "_Cancel Changes"
-msgstr "_Скасувати зміни"
-
-#: gedit/resources/ui/gedit-encodings-dialog.ui:51
-msgid "_Save Settings"
-msgstr "_Зберегти параметри"
-
-#: gedit/resources/ui/gedit-encodings-dialog.ui:82
-msgid "_Other Available Encodings"
-msgstr "_Інші доступні кодування"
-
-#: gedit/resources/ui/gedit-encodings-dialog.ui:100
-msgid "_Favorites"
-msgstr "_Улюблене"
-
-#: gedit/resources/ui/gedit-encodings-dialog.ui:139
-#: gedit/resources/ui/gedit-encodings-dialog.ui:217
-msgid "Ca_tegory"
-msgstr "_Категорія"
-
-#: gedit/resources/ui/gedit-encodings-dialog.ui:151
-#: gedit/resources/ui/gedit-encodings-dialog.ui:228
-msgid "_Encoding"
-msgstr "_Кодування"
-
-#: gedit/resources/ui/gedit-preferences-dialog.ui:8
-#: gedit/resources/ui/gedit-preferences-dialog.ui:15
-msgid "Preferences"
-msgstr "Параметри"
-
-#: gedit/resources/ui/gedit-preferences-dialog.ui:52
-#: gedit/resources/ui/gedit-print-preferences.ui:197
-msgid "Text Wrapping"
-msgstr "Перенос тексту"
-
-#: gedit/resources/ui/gedit-preferences-dialog.ui:70
-#: gedit/resources/ui/gedit-print-preferences.ui:217
-msgid "Enable text _wrapping"
-msgstr "Увімкнути _перенос тексту"
-
-#: gedit/resources/ui/gedit-preferences-dialog.ui:84
-#: gedit/resources/ui/gedit-print-preferences.ui:237
-msgid "Do not _split words over two lines"
-msgstr "Н_е розривати слово між рядками"
-
-#: gedit/resources/ui/gedit-preferences-dialog.ui:126
-msgid "View"
-msgstr "Вигляд"
-
-#: gedit/resources/ui/gedit-preferences-dialog.ui:148
-msgid "Tab Stops"
-msgstr "Знаки табуляції"
-
-#: gedit/resources/ui/gedit-preferences-dialog.ui:177
-msgid "Insert _spaces instead of tabs"
-msgstr "Вставляти _пробіли замість табуляції"
-
-#: gedit/resources/ui/gedit-preferences-dialog.ui:191
-msgid "_Enable automatic indentation"
-msgstr "_Увімкнути автоматичний відступ"
-
-#: gedit/resources/ui/gedit-preferences-dialog.ui:234
-msgid "Editor"
-msgstr "Редактор"
-
-#: gedit/resources/ui/gedit-preferences-dialog.ui:255
-msgid "Font & Colors"
-msgstr "Шрифти й кольори"
-
-#: gedit/resources/ui/gedit-preferences-dialog.ui:280
-msgid "Plugins"
-msgstr "Модулі"
-
-#: gedit/resources/ui/gedit-print-preferences.ui:39
-msgid "Syntax Highlighting"
-msgstr "Виділення синтаксису кольором"
-
-#: gedit/resources/ui/gedit-print-preferences.ui:52
-msgid "Print synta_x highlighting"
-msgstr "Друкувати виділення с_интаксису"
-
-#: gedit/resources/ui/gedit-print-preferences.ui:85
-msgid "Line Numbers"
-msgstr "Номери рядків"
-
-#: gedit/resources/ui/gedit-print-preferences.ui:105
-msgid "Print line nu_mbers"
-msgstr "Друкувати номери _рядків"
-
-#. 'Number every' from 'Number every 3 lines' in the 'Text Editor' tab of the print preferences.
-#: gedit/resources/ui/gedit-print-preferences.ui:129
-msgid "_Number every"
-msgstr "_Нумерувати кожен"
-
-#. 'lines' from 'Number every 3 lines' in the 'Text Editor' tab of the print preferences.
-#: gedit/resources/ui/gedit-print-preferences.ui:157
-msgid "lines"
-msgstr "рядок"
-
-#: gedit/resources/ui/gedit-print-preferences.ui:283
-msgid "Page header"
-msgstr "Заголовок сторінки"
-
-#: gedit/resources/ui/gedit-print-preferences.ui:296
-msgid "Print page _headers"
-msgstr "Друкувати за_головки сторінок"
-
-#: gedit/resources/ui/gedit-print-preferences.ui:342
-msgid "Fonts"
-msgstr "Шрифти"
-
-#: gedit/resources/ui/gedit-print-preferences.ui:371
-msgid "_Body:"
-msgstr "_Текст:"
-
-#: gedit/resources/ui/gedit-print-preferences.ui:402
-msgid "_Line numbers:"
-msgstr "_Номери рядків:"
-
-#: gedit/resources/ui/gedit-print-preferences.ui:433
-msgid "He_aders and footers:"
-msgstr "_Верхній та нижній колонтитули:"
-
-#: gedit/resources/ui/gedit-print-preferences.ui:474
-msgid "_Restore Default Fonts"
-msgstr "Відновити _початкові шрифти"
-
-#: gedit/resources/ui/gedit-print-preview.ui:34
-msgid "Show the previous page"
-msgstr "Показати попередню сторінку"
-
-#: gedit/resources/ui/gedit-print-preview.ui:48
-msgid "Show the next page"
-msgstr "Показати наступну сторінку"
-
-#: gedit/resources/ui/gedit-print-preview.ui:103
-msgid "Current page (Alt+P)"
-msgstr "Поточна сторінка (Alt+P)"
-
-#. the "of" from "1 of 19" in print preview
-#: gedit/resources/ui/gedit-print-preview.ui:118
-msgid "of"
-msgstr "з"
-
-#: gedit/resources/ui/gedit-print-preview.ui:135
-msgid "Page total"
-msgstr "Загалом сторінок"
-
-#: gedit/resources/ui/gedit-print-preview.ui:136
-msgid "The total number of pages in the document"
-msgstr "Загальна кількість сторінок у документі"
-
-#: gedit/resources/ui/gedit-print-preview.ui:185
-msgid "Show multiple pages"
-msgstr "Показувати декілька сторінок"
-
-#: gedit/resources/ui/gedit-print-preview.ui:233
-msgid "Zoom 1:1"
-msgstr "Масштаб 1:1"
-
-#: gedit/resources/ui/gedit-print-preview.ui:247
-msgid "Zoom to fit the whole page"
-msgstr "Показувати цілу сторінку"
-
-#: gedit/resources/ui/gedit-print-preview.ui:261
-msgid "Zoom the page in"
-msgstr "Збільшити сторінку"
-
-#: gedit/resources/ui/gedit-print-preview.ui:275
-msgid "Zoom the page out"
-msgstr "Зменшити сторінку"
-
-#: gedit/resources/ui/gedit-print-preview.ui:326
-msgid "Close print preview"
-msgstr "Закрити попередній перегляд"
-
-#: gedit/resources/ui/gedit-print-preview.ui:327
-msgid "_Close Preview"
-msgstr "_Закрити попередній перегляд"
-
-#: gedit/resources/ui/gedit-print-preview.ui:374
-msgid "Page Preview"
-msgstr "Перегляд сторінки"
-
-#: gedit/resources/ui/gedit-print-preview.ui:375
-msgid "The preview of a page in the document to be printed"
-msgstr "Попередній перегляд сторінки, яку буде надруковано"
-
-#: gedit/resources/ui/gedit-replace-dialog.ui:39
-msgid "Replace _All"
-msgstr "Замінити _все"
-
-#: gedit/resources/ui/gedit-replace-dialog.ui:71
-msgctxt "label of the find button"
-msgid "_Find"
-msgstr "З_найти"
-
-#: gedit/resources/ui/gedit-replace-dialog.ui:105
-msgctxt "label on the left of the GtkEntry containing text to search"
-msgid "F_ind "
-msgstr "З_найти "
-
-#: gedit/resources/ui/gedit-replace-dialog.ui:120
-msgid "Replace _with "
-msgstr "Замінити н_а "
-
-#: gedit/resources/ui/gedit-replace-dialog.ui:138
-msgid "_Match case"
-msgstr "Збігається _регістр"
-
-#: gedit/resources/ui/gedit-replace-dialog.ui:155
-msgid "Match _entire word only"
-msgstr "Збігається _ціле слово"
-
-#: gedit/resources/ui/gedit-replace-dialog.ui:172
-msgid "Re_gular expression"
-msgstr "_Формальний вираз"
-
-#: gedit/resources/ui/gedit-replace-dialog.ui:189
-msgid "Search _backwards"
-msgstr "_Шукати назад"
-
-#: gedit/resources/ui/gedit-replace-dialog.ui:206
-msgid "Wra_p around"
-msgstr "_Огорнути навколо"
-
-#: gedit/resources/ui/gedit-view-frame.ui:63
-msgid "Previous Result"
-msgstr "Попередній результат"
-
-#: gedit/resources/ui/gedit-view-frame.ui:78
-msgid "Next Result"
-msgstr "Наступний результат"
-
-#: plugins/docinfo/docinfo.plugin.desktop.in:5
-#: plugins/docinfo/resources/ui/gedit-docinfo-plugin.ui:7
-#: plugins/docinfo/resources/ui/gedit-docinfo-plugin.ui:13
-msgid "Document Statistics"
-msgstr "Статистика документа"
-
-#: plugins/docinfo/docinfo.plugin.desktop.in:6
-msgid "Report the number of words, lines and characters in a document."
-msgstr "Показує кількість слів, рядків і символів у документі."
-
-#: plugins/docinfo/gedit-docinfo-plugin.c:535
-msgid "_Document Statistics"
-msgstr "Статистика _документа"
-
-#: plugins/docinfo/resources/ui/gedit-docinfo-plugin.ui:64
-msgid "Document"
-msgstr "Документ"
-
-#: plugins/docinfo/resources/ui/gedit-docinfo-plugin.ui:82
-msgid "Selection"
-msgstr "Виділення"
-
-#: plugins/docinfo/resources/ui/gedit-docinfo-plugin.ui:97
-msgid "Lines"
-msgstr "Рядки"
-
-#: plugins/docinfo/resources/ui/gedit-docinfo-plugin.ui:112
-msgid "Words"
-msgstr "Слів"
-
-#: plugins/docinfo/resources/ui/gedit-docinfo-plugin.ui:127
-msgid "Characters (with spaces)"
-msgstr "Символів (з пропусками)"
-
-#: plugins/docinfo/resources/ui/gedit-docinfo-plugin.ui:142
-msgid "Characters (no spaces)"
-msgstr "Символів (без пропусків)"
-
-#: plugins/docinfo/resources/ui/gedit-docinfo-plugin.ui:157
-msgid "Bytes"
-msgstr "Байтів"
-
-#: plugins/externaltools/data/build.desktop.in:3
-msgid "Build"
-msgstr "Збірка"
-
-#: plugins/externaltools/data/build.desktop.in:4
-msgid "Run “make” in the document directory"
-msgstr "Виконати «make» у каталозі з документом"
-
-#: plugins/externaltools/data/open-terminal-here.desktop.in:3
-#: plugins/externaltools/data/open-terminal-here-osx.desktop.in:3
-msgid "Open terminal here"
-msgstr "Відкрити термінал тут"
-
-#: plugins/externaltools/data/open-terminal-here.desktop.in:4
-#: plugins/externaltools/data/open-terminal-here-osx.desktop.in:4
-msgid "Open a terminal in the document location"
-msgstr "Відкрити термінал у каталозі документа"
-
-#: plugins/externaltools/data/remove-trailing-spaces.desktop.in:3
-msgid "Remove trailing spaces"
-msgstr "Вилучити пропуски"
-
-#: plugins/externaltools/data/remove-trailing-spaces.desktop.in:4
-msgid "Remove useless trailing spaces in your file"
-msgstr "Вилучити зайві пропуски у назві файла"
-
-#: plugins/externaltools/data/run-command.desktop.in:3
-msgid "Run command"
-msgstr "Виконати команду"
-
-#: plugins/externaltools/data/run-command.desktop.in:4
-msgid "Execute a custom command and put its output in a new document"
-msgstr "Виконати команду та перенести її вивід у новий документ"
-
-#: plugins/externaltools/data/send-to-fpaste.desktop.in:3
-msgid "Send to fpaste"
-msgstr "Надіслати до fpaste"
-
-#: plugins/externaltools/data/send-to-fpaste.desktop.in:4
-msgid "Paste selected text or current document to fpaste"
-msgstr "Вставити вибраний текст або поточний документ у fpaste"
-
-#: plugins/externaltools/externaltools.plugin.desktop.in:6
-msgid "External Tools"
-msgstr "Зовнішні інструменти"
-
-#: plugins/externaltools/externaltools.plugin.desktop.in:7
-msgid "Execute external commands and shell scripts."
-msgstr "Виконати зовнішні команди та сценарії оболонки."
-
-#: plugins/externaltools/org.gnome.gedit.plugins.externaltools.gschema.xml:5
-#: plugins/pythonconsole/org.gnome.gedit.plugins.pythonconsole.gschema.xml:15
-msgid "Whether to use the system font"
-msgstr "Чи використовувати системні шрифти"
-
-#: plugins/externaltools/org.gnome.gedit.plugins.externaltools.gschema.xml:6
-msgid ""
-"If true, the external tools will use the desktop-global standard font if "
-"it’s monospace (and the most similar font it can come up with otherwise)."
-msgstr ""
-"Якщо це позначено, внутрішні засоби використають загальний стандарт "
-"стільниці шрифтів, якщо це моноширинний (інакше буде підібрано найподібніший "
-"шрифт)."
-
-#: plugins/externaltools/org.gnome.gedit.plugins.externaltools.gschema.xml:14
-#: plugins/pythonconsole/org.gnome.gedit.plugins.pythonconsole.gschema.xml:24
-msgid "Font"
-msgstr "Шрифт"
-
-#: plugins/externaltools/org.gnome.gedit.plugins.externaltools.gschema.xml:15
-#: plugins/pythonconsole/org.gnome.gedit.plugins.pythonconsole.gschema.xml:25
-msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
-msgstr "Назва шрифту Pango. Наприклад, «Sans 12» або «Monospace Bold 14»."
-
-#: plugins/externaltools/tools/appactivatable.py:133
-msgid "Manage _External Tools…"
-msgstr "Керувати зов_нішніми інструментами"
-
-#: plugins/externaltools/tools/appactivatable.py:138
-msgid "External _Tools"
-msgstr "Зовнішні _інструменти"
-
-#: plugins/externaltools/tools/capture.py:106
-#, python-format
-msgid "Could not execute command: %s"
-msgstr "Неможливо виконати команду: «%s»"
-
-#: plugins/externaltools/tools/functions.py:191
-msgid "You must be inside a word to run this command"
-msgstr "Для запуску даної команди треба бути всередині слова"
-
-#: plugins/externaltools/tools/functions.py:307
-msgid "Running tool:"
-msgstr "Запускається утиліта:"
-
-#: plugins/externaltools/tools/functions.py:338
-msgid "Done."
-msgstr "Завершено."
-
-#: plugins/externaltools/tools/functions.py:340
-msgid "Exited"
-msgstr "Вихід"
-
-#: plugins/externaltools/tools/manager.py:113
-msgid "All languages"
-msgstr "Мови"
-
-#: plugins/externaltools/tools/manager.py:429
-#: plugins/externaltools/tools/manager.py:433
-#: plugins/externaltools/tools/manager.py:774
-#: plugins/externaltools/tools/tools.ui:473
-msgid "All Languages"
-msgstr "Мови"
-
-#: plugins/externaltools/tools/manager.py:546
-msgid "New tool"
-msgstr "Новий інструмент"
-
-#: plugins/externaltools/tools/manager.py:683
-#, python-format
-msgid "This accelerator is already bound to %s"
-msgstr "Ця комбінація вже прив'язана до %s"
-
-#: plugins/externaltools/tools/manager.py:729
-msgid "Type a new accelerator, or press Backspace to clear"
-msgstr ""
-"Введіть нову комбінацію клавіш, або натисніть Backspace, щоб очистити її"
-
-#: plugins/externaltools/tools/manager.py:731
-msgid "Type a new accelerator"
-msgstr "Натисніть нову комбінацію клавіш"
-
-#: plugins/externaltools/tools/outputpanel.py:129
-msgid "Stopped."
-msgstr "Зупинено."
-
-#: plugins/externaltools/tools/outputpanel.ui:37
-msgid "Stop Tool"
-msgstr "Зупинити інструмент"
-
-#: plugins/externaltools/tools/tools.ui:15
-msgid "Always available"
-msgstr "Завжди доступний"
-
-#: plugins/externaltools/tools/tools.ui:19
-#: plugins/externaltools/tools/tools.ui:129
-msgid "All documents"
-msgstr "Усі документи"
-
-#: plugins/externaltools/tools/tools.ui:23
-msgid "All documents except untitled ones"
-msgstr "Усі документи за винятком не збережених"
-
-#: plugins/externaltools/tools/tools.ui:27
-msgid "Local files only"
-msgstr "Лише локальні файли"
-
-#: plugins/externaltools/tools/tools.ui:31
-msgid "Remote files only"
-msgstr "Лише віддалені файли"
-
-#: plugins/externaltools/tools/tools.ui:35
-msgid "Untitled documents only"
-msgstr "Лише документи без назв"
-
-#: plugins/externaltools/tools/tools.ui:53
-#: plugins/externaltools/tools/tools.ui:125
-msgid "Current document"
-msgstr "Поточний документ"
-
-#: plugins/externaltools/tools/tools.ui:57
-msgid "Current selection"
-msgstr "Виділена область"
-
-#: plugins/externaltools/tools/tools.ui:61
-msgid "Current selection (default to document)"
-msgstr "Поточне виділення (первинно для документу)"
-
-#: plugins/externaltools/tools/tools.ui:65
-msgid "Current line"
-msgstr "Поточний рядок"
-
-#: plugins/externaltools/tools/tools.ui:69
-msgid "Current word"
-msgstr "Поточне слово"
-
-#: plugins/externaltools/tools/tools.ui:87
-msgid "Display in bottom pane"
-msgstr "Показувати у нижній частині вікна"
-
-#: plugins/externaltools/tools/tools.ui:91
-msgid "Create new document"
-msgstr "Створити новий документ"
-
-#: plugins/externaltools/tools/tools.ui:95
-msgid "Append to current document"
-msgstr "Додати до поточного документу"
-
-#: plugins/externaltools/tools/tools.ui:99
-msgid "Replace current document"
-msgstr "Замінити поточний документ"
-
-#: plugins/externaltools/tools/tools.ui:103
-msgid "Replace current selection"
-msgstr "Замінити поточне виділення"
-
-#: plugins/externaltools/tools/tools.ui:107
-msgid "Insert at cursor position"
-msgstr "Вставити в позицію курсора"
-
-#: plugins/externaltools/tools/tools.ui:136
-#: plugins/externaltools/tools/tools.ui:146
-msgid "Manage External Tools"
-msgstr "Керувати зовнішніми інструментами"
-
-#: plugins/externaltools/tools/tools.ui:204
-msgid "Add a new tool"
-msgstr "Додати новий інструмент"
-
-#: plugins/externaltools/tools/tools.ui:205
-msgid "Add Tool"
-msgstr "Додати інструмент"
-
-#: plugins/externaltools/tools/tools.ui:219
-msgid "Remove selected tool"
-msgstr "Вилучити вибраний інструмент"
-
-#: plugins/externaltools/tools/tools.ui:220
-msgid "Remove Tool"
-msgstr "Вилучити інструмент"
-
-#: plugins/externaltools/tools/tools.ui:234
-msgid "Revert tool"
-msgstr "Вернути інструмент"
-
-#: plugins/externaltools/tools/tools.ui:235
-msgid "Revert Tool"
-msgstr "Вернути інструмент"
-
-#: plugins/externaltools/tools/tools.ui:287
-msgid "Shortcut _key:"
-msgstr "Комбінація к_лавіш:"
-
-#: plugins/externaltools/tools/tools.ui:321
-msgid "_Save:"
-msgstr "З_берегти:"
-
-#: plugins/externaltools/tools/tools.ui:356
-msgid "_Input:"
-msgstr "_Ввід:"
-
-#: plugins/externaltools/tools/tools.ui:391
-msgid "_Output:"
-msgstr "Вікно _виводу:"
-
-#: plugins/externaltools/tools/tools.ui:426
-msgid "_Applicability:"
-msgstr "_Застосовність:"
-
-#: plugins/externaltools/tools/windowactivatable.py:126
-msgid "Tool Output"
-msgstr "Вивід інструмента"
-
-#: plugins/filebrowser/filebrowser.plugin.desktop.in:6
-msgid "File Browser Panel"
-msgstr "Панель переглядача файлів"
-
-#: plugins/filebrowser/filebrowser.plugin.desktop.in:7
-msgid "Easy file access from the side panel."
-msgstr "Простий доступ до файлів з бічної панелі."
-
-#: plugins/filebrowser/gedit-file-bookmarks-store.c:202
-msgid "Home"
-msgstr "Домівка"
-
-#: plugins/filebrowser/gedit-file-bookmarks-store.c:235
-msgid "File System"
-msgstr "Файлова система"
-
-#: plugins/filebrowser/gedit-file-browser-plugin.c:501
-msgid "File Browser"
-msgstr "Перегляд файлів"
-
-#: plugins/filebrowser/gedit-file-browser-plugin.c:634
-msgid "An error occurred while creating a new directory"
-msgstr "Помилка при створенні нового каталогу"
-
-#: plugins/filebrowser/gedit-file-browser-plugin.c:637
-msgid "An error occurred while creating a new file"
-msgstr "Помилка при створенні нового файлу"
-
-#: plugins/filebrowser/gedit-file-browser-plugin.c:640
-msgid "An error occurred while renaming a file or directory"
-msgstr "Помилка при перейменуванні файлу чи каталогу"
-
-#: plugins/filebrowser/gedit-file-browser-plugin.c:643
-msgid "An error occurred while deleting a file or directory"
-msgstr "Помилка при вилученні файла або каталогу"
-
-#: plugins/filebrowser/gedit-file-browser-plugin.c:646
-msgid "An error occurred while opening a directory in the file manager"
-msgstr "Помилка при відкриванні каталогу у файловому менеджері"
-
-#: plugins/filebrowser/gedit-file-browser-plugin.c:649
-msgid "An error occurred while setting a root directory"
-msgstr "Помилка при встановленні кореневого каталогу"
-
-#: plugins/filebrowser/gedit-file-browser-plugin.c:652
-msgid "An error occurred while loading a directory"
-msgstr "Помилка при завантаженні каталогу"
-
-#: plugins/filebrowser/gedit-file-browser-plugin.c:655
-msgid "An error occurred"
-msgstr "Виникла помилка"
-
-#: plugins/filebrowser/gedit-file-browser-plugin.c:877
-msgid ""
-"Cannot move file to trash, do you\n"
-"want to delete permanently?"
-msgstr ""
-"Не вдалось перемістити файл у смітник,\n"
-"вилучити файл остаточно?"
-
-#: plugins/filebrowser/gedit-file-browser-plugin.c:882
-#, c-format
-msgid "The file “%s” cannot be moved to the trash."
-msgstr "Файл «%s» не вдається перемістити у смітник."
-
-#: plugins/filebrowser/gedit-file-browser-plugin.c:887
-msgid "The selected files cannot be moved to the trash."
-msgstr "Не вдається перемістити у смітник вибрані файли."
-
-#: plugins/filebrowser/gedit-file-browser-plugin.c:915
-#, c-format
-msgid "Are you sure you want to permanently delete “%s”?"
-msgstr "Остаточно вилучити файл «%s»?"
-
-#: plugins/filebrowser/gedit-file-browser-plugin.c:920
-msgid "Are you sure you want to permanently delete the selected files?"
-msgstr "Остаточно вилучити виділені файли?"
-
-#: plugins/filebrowser/gedit-file-browser-plugin.c:923
-msgid "If you delete an item, it is permanently lost."
-msgstr "Якщо ви вилучите файл, його буде остаточно втрачено."
-
-#: plugins/filebrowser/gedit-file-browser-store.c:1701
-msgid "(Empty)"
-msgstr "(Порожньо)"
-
-#: plugins/filebrowser/gedit-file-browser-store.c:3333
-msgid ""
-"The renamed file is currently filtered out. You need to adjust your filter "
-"settings to make the file visible"
-msgstr ""
-"Новий каталог наразі відфільтрований. Щоб зробити файл видимим, змініть "
-"параметри фільтра"
-
-#. Translators: This is the default name of new files created by the file browser pane.
-#: plugins/filebrowser/gedit-file-browser-store.c:3584
-msgid "Untitled File"
-msgstr "Неназваний файл"
-
-#: plugins/filebrowser/gedit-file-browser-store.c:3612
-msgid ""
-"The new file is currently filtered out. You need to adjust your filter "
-"settings to make the file visible"
-msgstr ""
-"Новий файл наразі відфільтрований. Щоб зробити файл видимим, змініть "
-"параметри фільтра"
-
-#. Translators: This is the default name of new directories created by the file browser pane.
-#: plugins/filebrowser/gedit-file-browser-store.c:3641
-msgid "Untitled Folder"
-msgstr "Неназвана тека"
-
-#: plugins/filebrowser/gedit-file-browser-store.c:3664
-msgid ""
-"The new directory is currently filtered out. You need to adjust your filter "
-"settings to make the directory visible"
-msgstr ""
-"Новий каталог наразі відфільтрований. Необхідно налаштувати фільтр, щоб "
-"зробити цей каталог видимим"
-
-#: plugins/filebrowser/gedit-file-browser-widget.c:755
-msgid "Bookmarks"
-msgstr "Закладки"
-
-#: plugins/filebrowser/gedit-file-browser-widget.c:1955
-#, c-format
-msgid "No mount object for mounted volume: %s"
-msgstr "Не знайдено об'єкту для змонтованого тому: %s"
-
-#: plugins/filebrowser/gedit-file-browser-widget.c:2024
-#, c-format
-msgid "Could not open media: %s"
-msgstr "Не вдається відкрити носій: «%s»"
-
-#: plugins/filebrowser/gedit-file-browser-widget.c:2067
-#, c-format
-msgid "Could not mount volume: %s"
-msgstr "Не вдалось змонтувати том: «%s»"
-
-#: plugins/filebrowser/gedit-file-browser-widget.c:2581
-#, c-format
-msgid "Error when loading “%s”: No such directory"
-msgstr "Помилка завантаження «%s»: немає такого каталогу"
-
-#: plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml:5
-msgid "Open With Tree View"
-msgstr "Відкрити у перегляді дерева"
-
-#: plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml:6
-msgid ""
-"Open the tree view when the file browser plugin gets loaded instead of the "
-"bookmarks view"
-msgstr ""
-"При завантаженні модуля перегляду файлів, відкривати перегляд дерева, а не "
-"перегляд закладок"
-
-#: plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml:10
-msgid "File Browser Root Directory"
-msgstr "Кореневий каталог перегляду файлів"
-
-#: plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml:11
-msgid ""
-"The file browser root directory to use when loading the file browser plugin "
-"and onload/tree_view is TRUE."
-msgstr ""
-"Кореневий каталог перегляду файлів, що використовується при завантаженні "
-"модуля перегляду файлів та onload/tree_view має значення TRUE."
-
-#: plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml:15
-msgid "File Browser Virtual Root Directory"
-msgstr "Віртуальний кореневий каталог перегляду файлів"
-
-#: plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml:16
-msgid ""
-"The file browser virtual root directory to use when loading the file browser "
-"plugin when onload/tree_view is TRUE. The virtual root must always be below "
-"the actual root."
-msgstr ""
-"Віртуальний каталог перегляду файлів, що використовується при завантаженні "
-"модуля перегляду файлів коли onload/tree_view має значення TRUE. Віртуальний "
-"корінь завжди має бути нижче фактичного кореня."
-
-#: plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml:20
-msgid "Enable Restore of Remote Locations"
-msgstr "Увімкнути відновлення для віддалених адрес"
-
-#: plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml:21
-msgid "Sets whether to enable restoring of remote locations."
-msgstr "Визначає чи вмикати відновлення віддалених адрес."
-
-#: plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml:25
-msgid "Set Location to First Document"
-msgstr "Встановити адресу на перший документ"
-
-#: plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml:26
-msgid ""
-"If TRUE the file browser plugin will view the directory of the first opened "
-"document given that the file browser hasn’t been used yet. (Thus this "
-"generally applies to opening a document from the command line or opening it "
-"with Nautilus, etc.)"
-msgstr ""
-"При значенні TRUE модуль перегляду файлів буде показувати каталог першого "
-"відкритого документу, за умови що перегляд файлів ще не використовувався. "
-"(Тобто це звичайно застосовується при відкриванні документу з командного "
-"рядка або програмою nautilus, тощо.)"
-
-#: plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml:30
-msgid "File Browser Filter Mode"
-msgstr "Режим фільтрування перегляду файлів"
-
-#: plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml:31
-msgid ""
-"This value determines what files get filtered from the file browser. Valid "
-"values are: none (filter nothing), hide-hidden (filter hidden files) and "
-"hide-binary (filter binary files)."
-msgstr ""
-"Значення визначає, які файли відфільтровуються при перегляді файлів. "
-"Допустимі значення: none (нічого не фільтрується), hide-hidden (фільтруються "
-"приховані файли) і hide-binary (фільтруються двійкові файли)."
-
-#: plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml:35
-msgid "File Browser Filter Pattern"
-msgstr "Шаблон фільтра перегляду файлів"
-
-#: plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml:36
-msgid ""
-"The filter pattern to filter the file browser with. This filter works on top "
-"of the filter_mode."
-msgstr "Шаблон фільтра перегляду файлів. Фільтр працює на базі filter_mode."
-
-#: plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml:40
-msgid "File Browser Binary Patterns"
-msgstr "Шаблони огляду двійкових файлів"
-
-#: plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml:41
-msgid "The supplemental patterns to use when filtering binary files."
-msgstr "Додаткові шаблони для відсіювання двійкових файлів."
-
-#: plugins/filebrowser/resources/ui/gedit-file-browser-menus.ui:13
-#: plugins/filebrowser/resources/ui/gedit-file-browser-menus.ui:79
-msgid "_Set Root to Active Document"
-msgstr "_Встановити корінь на поточний документ"
-
-#: plugins/filebrowser/resources/ui/gedit-file-browser-menus.ui:19
-msgid "_New Folder"
-msgstr "Створити _теку"
-
-#: plugins/filebrowser/resources/ui/gedit-file-browser-menus.ui:23
-msgid "New F_ile"
-msgstr "Створити _файл"
-
-#: plugins/filebrowser/resources/ui/gedit-file-browser-menus.ui:29
-msgid "_Rename…"
-msgstr "Перей_менувати…"
-
-#: plugins/filebrowser/resources/ui/gedit-file-browser-menus.ui:33
-msgid "_Move to Trash"
-msgstr "_Перемістити у смітник"
-
-#: plugins/filebrowser/resources/ui/gedit-file-browser-menus.ui:43
-msgid "Re_fresh View"
-msgstr "_Оновити вигляд"
-
-#: plugins/filebrowser/resources/ui/gedit-file-browser-menus.ui:47
-msgid "_View Folder"
-msgstr "Пере_глянути теку"
-
-#: plugins/filebrowser/resources/ui/gedit-file-browser-menus.ui:51
-msgid "_Open in Terminal"
-msgstr "_Відкрити у терміналі"
-
-#: plugins/filebrowser/resources/ui/gedit-file-browser-menus.ui:56
-msgid "_Filter"
-msgstr "_Фільтр"
-
-#: plugins/filebrowser/resources/ui/gedit-file-browser-menus.ui:59
-msgid "Show _Hidden"
-msgstr "Показувати при_ховані"
-
-#: plugins/filebrowser/resources/ui/gedit-file-browser-menus.ui:63
-msgid "Show _Binary"
-msgstr "Показувати _двійкові"
-
-#: plugins/filebrowser/resources/ui/gedit-file-browser-menus.ui:67
-#: plugins/filebrowser/resources/ui/gedit-file-browser-widget.ui:248
-msgid "Match Filename"
-msgstr "Збіг за назвою"
-
-#: plugins/filebrowser/resources/ui/gedit-file-browser-widget.ui:183
-msgid "History"
-msgstr "Історія"
-
-#: plugins/filebrowser/resources/ui/gedit-file-browser-widget.ui:184
-msgid "Open history menu"
-msgstr "Відкрити меню історії"
-
-#: plugins/modelines/modelines.plugin.desktop.in:5
-msgid "Modelines"
-msgstr "Режим рядків"
-
-#: plugins/modelines/modelines.plugin.desktop.in:6
-msgid "Emacs, Kate and Vim-style modelines support for gedit."
-msgstr "Підтримування режиму рядків в стилі редакторів Emacs, Kate та Vim."
-
-#: plugins/pythonconsole/org.gnome.gedit.plugins.pythonconsole.gschema.xml:5
+#: ../../pythonconsole/__init__.py:51
+msgid "Python Console"
+msgstr "Консоль python"
+
+#: ../../pythonconsole/config.ui:18
+msgid "C_ommand color:"
+msgstr "К_олір команди:"
+
+#: ../../pythonconsole/config.ui:32
+msgid "_Error color:"
+msgstr "К_олір помилки:"
+
+#: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:5
+#: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:5
+#: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:5
 msgid "Command Color Text"
 msgstr "Колір тексту команди"
 
-#: plugins/pythonconsole/org.gnome.gedit.plugins.pythonconsole.gschema.xml:6
+#: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:6
+#: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:6
+#: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:6
 msgid "The command color text"
 msgstr "Колір тексту команди"
 
-#: plugins/pythonconsole/org.gnome.gedit.plugins.pythonconsole.gschema.xml:10
+#: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:10
+#: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:10
+#: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:10
 msgid "Error Color Text"
 msgstr "Помилка кольору тексту"
 
-#: plugins/pythonconsole/org.gnome.gedit.plugins.pythonconsole.gschema.xml:11
+#: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:11
+#: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:11
+#: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:11
 msgid "The error color text"
 msgstr "Помилка кольору тексту"
 
-#: plugins/pythonconsole/org.gnome.gedit.plugins.pythonconsole.gschema.xml:16
+#: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:15
+#: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:15
+#: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:15
+msgid "Whether to use the system font"
+msgstr "Чи використовувати системні шрифти"
+
+#: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:16
+#: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:16
+#: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:16
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
@@ -2900,453 +76,2519 @@ msgstr ""
 "Якщо це позначено, термінал використає загальний стандарт шрифтів стільниці "
 "(інакше буде підібрано найподібніший шрифт)."
 
-#: plugins/pythonconsole/pythonconsole/config.ui:18
-msgid "C_ommand color:"
-msgstr "К_олір команди:"
+#: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:24
+#: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:24
+#: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:24
+msgid "Font"
+msgstr "Шрифт"
 
-#: plugins/pythonconsole/pythonconsole/config.ui:32
-msgid "_Error color:"
-msgstr "К_олір помилки:"
+#: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:25
+#: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:25
+#: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:25
+msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
+msgstr "Назва шрифту Pango. Наприклад, «Sans 12» або «Monospace Bold 14»."
 
-#: plugins/pythonconsole/pythonconsole/__init__.py:61
-#: plugins/pythonconsole/pythonconsole.plugin.desktop.in:6
-msgid "Python Console"
-msgstr "Консоль python"
+#~ msgid "gedit"
+#~ msgstr "gedit"
 
-#: plugins/pythonconsole/pythonconsole.plugin.desktop.in:7
-msgid "Interactive Python console standing in the bottom panel."
-msgstr "Інтерактивна консоль python у нижній панелі."
+#~ msgid "Edit text files"
+#~ msgstr "Редактор текстових файлів"
 
-#: plugins/quickhighlight/quickhighlight.plugin.desktop.in:5
-msgid "Quick Highlight"
-msgstr "Швидке виділення кольором"
+#~ msgid "Text;Editor;Plaintext;Write;gedit;"
+#~ msgstr ""
+#~ "Текст;Редактор;Запис;Написання;ґедіт;Text;Editor;Plaintext;Write;gedit;"
 
-#: plugins/quickhighlight/quickhighlight.plugin.desktop.in:6
-msgid "Highlights every occurrences of selected text."
-msgstr "Виділяє кольором усі випадки використання вибраного тексту."
+#~ msgid "New Window"
+#~ msgstr "Створити вікно"
 
-#: plugins/snippets/snippets/appactivatable.py:88
-msgid "Manage _Snippets…"
-msgstr "Керувати _фрагментами…"
+#~ msgid "New Document"
+#~ msgstr "Створити документ"
 
-#. Do the fancy completion dialog
-#: plugins/snippets/snippets/document.py:64
-#: plugins/snippets/snippets/document.py:153
-#: plugins/snippets/snippets/document.py:667
-#: plugins/snippets/snippets.plugin.desktop.in:6
-msgid "Snippets"
-msgstr "Фрагменти тексту"
+#~ msgid "Use Default Font"
+#~ msgstr "Використовувати початковий шрифт"
 
-#: plugins/snippets/snippets/exporter.py:88
+#~ msgid ""
+#~ "Whether to use the system’s default fixed width font for editing text "
+#~ "instead of a font specific to gedit. If this option is turned off, then "
+#~ "the font named in the “Editor Font” option will be used instead of the "
+#~ "system font."
+#~ msgstr ""
+#~ "Чи використовувати системний шрифт для області редагування. Якщо цей "
+#~ "параметр вимкнено, то для області редагування буде використовуватися "
+#~ "шрифт, визначений в параметрі «Шрифт редактора»."
+
+#~ msgid "'Monospace 12'"
+#~ msgstr "'Monospace 12'"
+
+#~ msgid "Editor Font"
+#~ msgstr "Шрифт редактора"
+
+#~ msgid ""
+#~ "A custom font that will be used for the editing area. This will only take "
+#~ "effect if the “Use Default Font” option is turned off."
+#~ msgstr ""
+#~ "Нетиповий шрифт, що буде використано в області редагування. Матиме ефект "
+#~ "лише тоді, коли параметр «Використовувати початковий шрифт» вимкнений."
+
+#~ msgid "Style Scheme for Light Theme Variant"
+#~ msgstr "Схема стилів для варіанта світлої теми"
+
+#~ msgid ""
+#~ "The ID of a libgedit-gtksourceview style scheme used to color the main "
+#~ "text area when the application has a light theme applied."
+#~ msgstr ""
+#~ "Ідентифікатор схеми стилів libgedit-gtksourceview, що використовується "
+#~ "для кольору основної текстової області, якщо до вікна програми "
+#~ "застосовано світлу тему."
+
+#~ msgid "Style Scheme for Dark Theme Variant"
+#~ msgstr "Схема стилів для варіанта темної теми"
+
+#~ msgid ""
+#~ "The ID of a libgedit-gtksourceview style scheme used to color the main "
+#~ "text area when the application has a dark theme applied."
+#~ msgstr ""
+#~ "Ідентифікатор схеми стилів libgedit-gtksourceview, що використовується "
+#~ "для кольору основної текстової області, якщо до вікна програми "
+#~ "застосовано темну тему."
+
+#~ msgid "Create Backup Copies"
+#~ msgstr "Створювати резервні копії"
+
+#~ msgid "Whether gedit should create backup copies for the files it saves."
+#~ msgstr "Чи слід створювати резервні копії для файлів, які збережено."
+
+#~ msgid "Autosave"
+#~ msgstr "Автозбереження"
+
+#~ msgid ""
+#~ "Whether gedit should automatically save modified files after a time "
+#~ "interval. You can set the time interval with the “Autosave Interval” "
+#~ "option."
+#~ msgstr ""
+#~ "Чи потрібно автоматично зберігати змінені файли з певною періодичністю. "
+#~ "Інтервал між збереженнями визначається параметром «Інтервал "
+#~ "автозбереження»."
+
+#~ msgid "Autosave Interval"
+#~ msgstr "Інтервал автозбереження"
+
+#~ msgid ""
+#~ "Number of minutes after which gedit will automatically save modified "
+#~ "files. This will only take effect if the “Autosave” option is turned on."
+#~ msgstr ""
+#~ "Інтервал у хвилинах, після якого всі не збережені файли будуть збережені "
+#~ "автоматично. Матиме ефект лише тоді, коли параметр «автозбереження» "
+#~ "увімкнений."
+
+#~ msgid "Maximum Number of Undo Actions"
+#~ msgstr "Максимальна кількість скасувань дій"
+
+#~ msgid ""
+#~ "Maximum number of actions that gedit will be able to undo or redo. Use "
+#~ "“-1” for unlimited number of actions."
+#~ msgstr ""
+#~ "Максимальна кількість дій, які можна скасувати чи повторити. Значення "
+#~ "«-1» означає необмежену кількість дій."
+
+#~ msgid "Line Wrapping Mode"
+#~ msgstr "Режим переносу рядків"
+
+#~ msgid ""
+#~ "Specifies how to wrap long lines in the editing area. Use “none” for no "
+#~ "wrapping, “word” for wrapping at word boundaries, and “char” for wrapping "
+#~ "at individual character boundaries. Note that the values are case-"
+#~ "sensitive, so make sure they appear exactly as mentioned here."
+#~ msgstr ""
+#~ "Визначає, як переносити довгі рядки в області редагування. Використовуйте "
+#~ "«none» для вимкнення переносу, «word» для переносу на межі слів і «char» "
+#~ "для символьного переносу. Зауважте, що значення чутливі до регістру і "
+#~ "мають з'являтися точно у вказаному вигляді."
+
+#~ msgid "Last split mode choice for line wrapping mode"
+#~ msgstr "Останній вибір режиму розділення для перенесення рядків"
+
+#~ msgid ""
+#~ "Specifies the last split mode used with line wrapping mode, so that when "
+#~ "wrapping mode is off we still remember the split mode choice. Use “word” "
+#~ "for wrapping at word boundaries, and “char” for wrapping at individual "
+#~ "character boundaries."
+#~ msgstr ""
+#~ "Вказує останній режим розділення використаний з режимом перенесення "
+#~ "рядків, тож коли режим перенесення вимкнено, ми пам'ятаємо вибір режиму "
+#~ "розділення. Використовуйте «word» на межі слів і «char» для перенесення "
+#~ "на окремих межах символів."
+
+#~ msgid "Tab Size"
+#~ msgstr "Розмір табуляції"
+
+#~ msgid ""
+#~ "Specifies the number of spaces that should be displayed instead of Tab "
+#~ "characters."
+#~ msgstr ""
+#~ "Визначає кількість пропусків, які потрібно показати замість символу "
+#~ "табуляції."
+
+#~ msgid "Insert spaces"
+#~ msgstr "Вставляти пропуски"
+
+#~ msgid "Whether gedit should insert spaces instead of tabs."
+#~ msgstr "Чи вставляти пропуски замість знаків табуляції."
+
+#~ msgid "Automatic indent"
+#~ msgstr "Автовідступ"
+
+#~ msgid "Whether gedit should enable automatic indentation."
+#~ msgstr "Чи потрібно автоматично розставляти відступ."
+
+#~ msgid "Display Line Numbers"
+#~ msgstr "Показувати номери рядків"
+
+#~ msgid "Whether gedit should display line numbers in the editing area."
+#~ msgstr "Чи мають показуватись номери рядків у ділянці редагування."
+
+#~ msgid "Highlight Current Line"
+#~ msgstr "Виділяти кольором поточний рядок"
+
+#~ msgid "Whether gedit should highlight the current line."
+#~ msgstr "Чи виділяти кольором поточний рядок."
+
+#~ msgid "Highlight Matching Brackets"
+#~ msgstr "Виділяти кольором відповідні дужки"
+
+#~ msgid "Whether gedit should highlight matching brackets."
+#~ msgstr "Чи виділяти кольором поточний рядок."
+
+#~ msgid "Display Right Margin"
+#~ msgstr "Показувати праву поле"
+
+#~ msgid "Whether gedit should display the right margin in the editing area."
+#~ msgstr "Чи слід показувати праву межу у ділянці редагування."
+
+#~ msgid "Right Margin Position"
+#~ msgstr "Позиція правого поля"
+
+#~ msgid "Specifies the position of the right margin."
+#~ msgstr "Вказує позицію правого поля."
+
+#~ msgid "Document background pattern type"
+#~ msgstr "Тип шаблону тла документа"
+
+#~ msgid "Whether the document will get a background pattern painted."
+#~ msgstr "Чи буде використано візерунок тла для показу документа."
+
+#~ msgid "Smart Home End"
+#~ msgstr "Розумні клавіші Home End"
+
+#~ msgid ""
+#~ "Specifies how the cursor moves when the HOME and END keys are pressed. "
+#~ "Use “disabled” to always move at the start/end of the line, “after” to "
+#~ "move to the start/end of the line the first time the keys are pressed and "
+#~ "to the start/end of the text ignoring whitespaces the second time the "
+#~ "keys are pressed, “before” to move to the start/end of the text before "
+#~ "moving to the start/end of the line and “always” to always move to the "
+#~ "start/end of the text instead of the start/end of the line."
+#~ msgstr ""
+#~ "Вказує спосіб переміщення курсору при натисканні клавіш HOME та END. "
+#~ "Вкажіть «disabled» для простого переміщення до початку та кінця рядка, "
+#~ "«after» для переміщення до початку/кінця рядка при першому натисканні та "
+#~ "при другому натисканні до початку/кінця тексту, ігноруючи пробільні "
+#~ "символи. Якщо вказано «before» — переміщення до початку/кінця тексту, при "
+#~ "повторному натисканні — переміщення до початку/кінця рядка. Якщо вказано "
+#~ "«always» — курсор завжди переміщується до початку/кінця тексту, на "
+#~ "початку/кінця рядка."
+
+#~ msgid "Restore Previous Cursor Position"
+#~ msgstr "Відновлювати попередню позицію курсора"
+
+#~ msgid ""
+#~ "Whether gedit should restore the previous cursor position when a file is "
+#~ "loaded."
+#~ msgstr ""
+#~ "Чи слід відновлювати попередню позицію курсора після завантаження файлу."
+
+#~ msgid "Enable Syntax Highlighting"
+#~ msgstr "Увімкнути виділення синтаксису"
+
+#~ msgid "Whether gedit should enable syntax highlighting."
+#~ msgstr "Чи вмикати виділення синтаксису."
+
+#~ msgid "Enable Search Highlighting"
+#~ msgstr "Увімкнути виділення кольором при пошуку"
+
+#~ msgid ""
+#~ "Whether gedit should highlight all the occurrences of the searched text."
+#~ msgstr "Чи виділяти кольором всі знайдені збіги при пошуку."
+
+#~ msgid "Ensure Trailing Newline"
+#~ msgstr "Забезпечити зайві нові лінії"
+
+#~ msgid ""
+#~ "Whether gedit will ensure that documents always end with a trailing "
+#~ "newline."
+#~ msgstr ""
+#~ "Чи gedit буде забезпечувати, щоб документи завжди закінчувались на "
+#~ "додатковий новий рядок."
+
+#~ msgid "Notebook Show Tabs Mode"
+#~ msgstr "Режим показу вкладок для ноутбука"
+
+#~ msgid ""
+#~ "Specifies when to show the notebook tabs. Use “never” to never show the "
+#~ "tabs, “always” to always show the tabs, and “auto” to show the tabs only "
+#~ "when there is more than one tab. Note that the values are case-sensitive, "
+#~ "so make sure they appear exactly as mentioned here."
+#~ msgstr ""
+#~ "Визначає, як показувати вкладки на ноутбуці. Використовуйте «never» для "
+#~ "того, щоб не показувати вкладки, «always» — для показу вкладок, «auto» — "
+#~ "показувати тільки, коли є понад одна вкладка. Зауважте, значення є "
+#~ "чутливими до регістру, тож переконайтесь, що вони з'являються точно у "
+#~ "вказаному вигляді."
+
+#~ msgid "Status Bar is Visible"
+#~ msgstr "Панель стану видима"
+
+#~ msgid ""
+#~ "Whether the status bar at the bottom of editing windows should be visible."
+#~ msgstr "Чи показувати панель стану у вікнах редагування."
+
+#~ msgid "Side panel is Visible"
+#~ msgstr "Бічна панель — видима"
+
+#~ msgid ""
+#~ "Whether the side panel at the left of editing windows should be visible."
+#~ msgstr "Чи показувати бічну панель зліва від вікон редагування."
+
+#~ msgid "Which theme variant to use"
+#~ msgstr "Яким варіантом теми слід скористатися"
+
+#~ msgid "Print Syntax Highlighting"
+#~ msgstr "Надрукувати виділення синтаксису"
+
+#~ msgid ""
+#~ "Whether gedit should print syntax highlighting when printing documents."
+#~ msgstr ""
+#~ "Чи застосовувати виділення кольором синтаксису при друкуванні документів."
+
+#~ msgid "Print Header"
+#~ msgstr "Друкувати заголовки сторінок"
+
+#~ msgid ""
+#~ "Whether gedit should include a document header when printing documents."
+#~ msgstr "Чи слід друкувати заголовок документа."
+
+#~ msgid "Printing Line Wrapping Mode"
+#~ msgstr "Режим переносу рядків під час друкування"
+
+#~ msgid ""
+#~ "Specifies how to wrap long lines for printing. Use “none” for no "
+#~ "wrapping, “word” for wrapping at word boundaries, and “char” for wrapping "
+#~ "at individual character boundaries. Note that the values are case-"
+#~ "sensitive, so make sure they appear exactly as mentioned here."
+#~ msgstr ""
+#~ "Визначає, як переносити довгі рядки під час друкування. Використовуйте "
+#~ "«none» для вимкнення переносу, «word» для переносу на межі слів і «char» "
+#~ "для символьного переносу. Зауважте, що значення чутливі до регістру і "
+#~ "мають з'являтися точно у вказаному вигляді."
+
+#~ msgid "Print Line Numbers"
+#~ msgstr "Друкувати номери рядків"
+
+#~ msgid ""
+#~ "If this value is 0, then no line numbers will be inserted when printing a "
+#~ "document. Otherwise, gedit will print line numbers every such number of "
+#~ "lines."
+#~ msgstr ""
+#~ "Якщо значення встановлено в 0, номери рядків не буде вставлено, коли "
+#~ "друкуватиметься документ. Інакше, номер друкуватимуться біля кожного "
+#~ "рядка."
+
+#~ msgid "'Monospace 9'"
+#~ msgstr "'Monospace 9'"
+
+#~ msgid "Body Font for Printing"
+#~ msgstr "Основний шрифт для друкування"
+
+#~ msgid ""
+#~ "Specifies the font to use for a document’s body when printing documents."
+#~ msgstr ""
+#~ "Визначає шрифт, що використовується для друкування тексту документів."
+
+#~ msgid "'Sans 11'"
+#~ msgstr "'Sans 11'"
+
+#~ msgid "Header Font for Printing"
+#~ msgstr "Шрифт заголовка для друкування"
+
+#~ msgid ""
+#~ "Specifies the font to use for page headers when printing a document. This "
+#~ "will only take effect if the “Print Header” option is turned on."
+#~ msgstr ""
+#~ "Визначає шрифт, що використовується для друкування заголовків сторінок. "
+#~ "Матиме ефект лише тоді, коли параметр «Друкувати заголовок» увімкнено."
+
+#~ msgid "'Sans 8'"
+#~ msgstr "'Sans 8'"
+
+#~ msgid "Line Number Font for Printing"
+#~ msgstr "Шрифт номерів рядків для друкування"
+
+#~ msgid ""
+#~ "Specifies the font to use for line numbers when printing. This will only "
+#~ "take effect if the “Print Line Numbers” option is non-zero."
+#~ msgstr ""
+#~ "Визначає шрифт, що використовується для друкування номерів рядків. Матиме "
+#~ "ефект лише тоді, коли параметр «Друкувати номерів рядків» увімкнено."
+
+#~ msgid "Margin Left"
+#~ msgstr "Ліва межа"
+
+#~ msgid "The left margin, in millimeters."
+#~ msgstr "Ліва межа в міліметрах."
+
+#~ msgid "Margin Top"
+#~ msgstr "Верхня межа"
+
+#~ msgid "The top margin, in millimeters."
+#~ msgstr "Верхня межа у міліметрах."
+
+#~ msgid "Margin Right"
+#~ msgstr "Права межа"
+
+#~ msgid "The right margin, in millimeters."
+#~ msgstr "Права межа в міліметрах."
+
+#~ msgid "Margin Bottom"
+#~ msgstr "Нижня межа"
+
+#~ msgid "The bottom margin, in millimeters."
+#~ msgstr "Нижня межа у міліметрах."
+
+#~ msgid "Candidate Encodings"
+#~ msgstr "Запропоновані кодування"
+
+#~ msgid ""
+#~ "List of candidate encodings shown in the Character Encoding menu in the "
+#~ "open/save file chooser. “CURRENT” represents the current locale encoding. "
+#~ "Only recognized encodings are used. The default value is the empty list, "
+#~ "in which case gedit will choose good defaults depending on the country "
+#~ "and language."
+#~ msgstr ""
+#~ "Перелік пропонованих кодувань показаних у меню «Кодування символів» під "
+#~ "час відкривання/зберігання файлів. «CURRENT» представляє поточне "
+#~ "кодування локалі. Використовуються тільки розпізнані кодування. Типове "
+#~ "значення — порожні список, в разі якого програма вибере найкраще "
+#~ "кодування відповідно до країни і локалі."
+
+#~ msgid "Active plugins"
+#~ msgstr "Активні модулі"
+
+#~ msgid "List of active plugins."
+#~ msgstr "Список активних модулів."
+
+#~ msgid "Text editor"
+#~ msgstr "Текстовий редактор"
+
+#~ msgid ""
+#~ "gedit is an easy-to-use and general-purpose text editor. Its development "
+#~ "started in 1998, at the beginnings of the GNOME project, with a good "
+#~ "integration with that desktop environment."
+#~ msgstr ""
+#~ "gedit — проста у користуванні програма загального призначення для "
+#~ "редагування тексту. Її розробку було розпочато у 1998 році, на початку "
+#~ "проєкту GNOME, із доброю інтеграцією із цим стільничним середовищем."
+
+#~ msgid ""
+#~ "You can use it to write simple notes and documents, or you can enable "
+#~ "more advanced features that are useful for software development."
+#~ msgstr ""
+#~ "Його можна використовувати для написання звичайних нотаток та документів, "
+#~ "або ви можете увімкнути додаткові можливості, які є корисними для "
+#~ "розробки програмного забезпечення."
+
+#~ msgid "Show the application’s version"
+#~ msgstr "Показати версію програми"
+
+#~ msgid "Display list of possible values for the encoding option"
+#~ msgstr "Показати перелік можливих значень параметрів кодування"
+
+#~ msgid ""
+#~ "Set the character encoding to be used to open the files listed on the "
+#~ "command line"
+#~ msgstr ""
+#~ "Кодування символів для відкривання файлів перелічених у командному рядку"
+
+#~ msgid "ENCODING"
+#~ msgstr "КОДУВАННЯ"
+
+#~ msgid "Create a new top-level window in an existing instance of gedit"
+#~ msgstr "Створити нове головне вікно в поточному екземплярі gedit"
+
+#~ msgid "Create a new document in an existing instance of gedit"
+#~ msgstr "Створити новий документ в поточному екземплярі gedit"
+
+#~ msgid "Open files and block process until files are closed"
+#~ msgstr "Відкрити файли та блокувати процес доки файли не будуть закриті"
+
+#~ msgid "Run gedit in standalone mode"
+#~ msgstr "Запустити gedit у автономному режимі"
+
+#~ msgid "[FILE…] [+LINE[:COLUMN]]"
+#~ msgstr "[ФАЙЛ…] [+РЯДОК[:СТОВПЧИК]]"
+
+#~ msgid "There was an error displaying the help."
+#~ msgstr "Помилка при показі довідки."
+
+#, c-format
+#~ msgid "Untitled Document %d"
+#~ msgstr "Неназваний документ %d"
+
+#, c-format
+#~ msgid "%s: invalid encoding."
+#~ msgstr "%s: неправильне кодування."
+
+#~ msgid "Hide panel"
+#~ msgstr "Сховати панель"
+
+#~ msgid "Close _without Saving"
+#~ msgstr "_Закрити без збереження"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Скасувати"
+
+#~ msgid "_Save As…"
+#~ msgstr "_Зберегти як…"
+
+#~ msgid "_Save"
+#~ msgstr "З_берегти"
+
+#, c-format
+#~ msgid ""
+#~ "If you don’t save, changes from the last %ld second will be permanently "
+#~ "lost."
+#~ msgid_plural ""
+#~ "If you don’t save, changes from the last %ld seconds will be permanently "
+#~ "lost."
+#~ msgstr[0] ""
+#~ "Якщо ви не збережете, зміни за останню %ld секунду будуть остаточно "
+#~ "втрачені."
+#~ msgstr[1] ""
+#~ "Якщо ви не збережете, зміни за останні %ld секунди будуть остаточно "
+#~ "втрачені."
+#~ msgstr[2] ""
+#~ "Якщо ви не збережете, зміни за останні %ld секунд будуть остаточно "
+#~ "втрачені."
+
+#~ msgid ""
+#~ "If you don’t save, changes from the last minute will be permanently lost."
+#~ msgstr ""
+#~ "Якщо ви не збережете, зміни за останню хвилину будуть остаточно втрачені."
+
+#, c-format
+#~ msgid ""
+#~ "If you don’t save, changes from the last minute and %ld second will be "
+#~ "permanently lost."
+#~ msgid_plural ""
+#~ "If you don’t save, changes from the last minute and %ld seconds will be "
+#~ "permanently lost."
+#~ msgstr[0] ""
+#~ "Якщо ви не збережете, зміни за останню хвилину та %ld секунду будуть "
+#~ "остаточно втрачені."
+#~ msgstr[1] ""
+#~ "Якщо ви не збережете, зміни за останню хвилину та %ld секунди будуть "
+#~ "остаточно втрачені."
+#~ msgstr[2] ""
+#~ "Якщо ви не збережете, зміни за останню хвилину та %ld секунд будуть "
+#~ "остаточно втрачені."
+
+#, c-format
+#~ msgid ""
+#~ "If you don’t save, changes from the last %ld minute will be permanently "
+#~ "lost."
+#~ msgid_plural ""
+#~ "If you don’t save, changes from the last %ld minutes will be permanently "
+#~ "lost."
+#~ msgstr[0] ""
+#~ "Якщо ви не збережете, зміни за останню %ld хвилину будуть остаточно "
+#~ "втрачені."
+#~ msgstr[1] ""
+#~ "Якщо ви не збережете, зміни за останні %ld хвилини будуть остаточно "
+#~ "втрачені."
+#~ msgstr[2] ""
+#~ "Якщо ви не збережете, зміни за останні %ld хвилин будуть остаточно "
+#~ "втрачені."
+
+#~ msgid ""
+#~ "If you don’t save, changes from the last hour will be permanently lost."
+#~ msgstr ""
+#~ "Якщо ви не збережете, зміни за останню годину будуть остаточно втрачені."
+
+#, c-format
+#~ msgid ""
+#~ "If you don’t save, changes from the last hour and %d minute will be "
+#~ "permanently lost."
+#~ msgid_plural ""
+#~ "If you don’t save, changes from the last hour and %d minutes will be "
+#~ "permanently lost."
+#~ msgstr[0] ""
+#~ "Якщо ви не збережете, зміни за останню годину та %d хвилину будуть "
+#~ "остаточно втрачені."
+#~ msgstr[1] ""
+#~ "Якщо ви не збережете, зміни за останню годину та %d хвилини будуть "
+#~ "остаточно втрачені."
+#~ msgstr[2] ""
+#~ "Якщо ви не збережете, зміни за останню годину та %d хвилин будуть "
+#~ "остаточно втрачені."
+
+#, c-format
+#~ msgid ""
+#~ "If you don’t save, changes from the last %d hour will be permanently lost."
+#~ msgid_plural ""
+#~ "If you don’t save, changes from the last %d hours will be permanently "
+#~ "lost."
+#~ msgstr[0] ""
+#~ "Якщо ви не збережете, зміни за останню %d годину будуть остаточно "
+#~ "втрачені."
+#~ msgstr[1] ""
+#~ "Якщо ви не збережете, зміни за останні %d години будуть остаточно "
+#~ "втрачені."
+#~ msgstr[2] ""
+#~ "Якщо ви не збережете, зміни за останні %d години будуть остаточно "
+#~ "втрачені."
+
+#, c-format
+#~ msgid "Save changes to document “%s” before closing?"
+#~ msgstr "Зберегти зміни в документі «%s» перед закриванням?"
+
+#, c-format
+#~ msgid ""
+#~ "There is %d document with unsaved changes. Save changes before closing?"
+#~ msgid_plural ""
+#~ "There are %d documents with unsaved changes. Save changes before closing?"
+#~ msgstr[0] ""
+#~ "%d документ має незбережені зміни. Зберегти зміни перед закриванням?"
+#~ msgstr[1] ""
+#~ "%d документи мають незбережені зміни. Зберегти зміни перед закриванням?"
+#~ msgstr[2] ""
+#~ "%d документів мають незбережені зміни. Зберегти зміни перед закриванням?"
+
+#~ msgid "S_elect the documents you want to save:"
+#~ msgstr "_Виберіть документи, які необхідно зберегти:"
+
+#~ msgid "If you don’t save, all your changes will be permanently lost."
+#~ msgstr "Якщо ви не збережете, всі зміни будуть остаточно втрачені."
+
+#, c-format
+#~ msgid "Loading file “%s”…"
+#~ msgstr "Завантажується файл «%s»…"
+
+#, c-format
+#~ msgid "Loading %d file…"
+#~ msgid_plural "Loading %d files…"
+#~ msgstr[0] "Завантажується %d файл…"
+#~ msgstr[1] "Завантажуються %d файли…"
+#~ msgstr[2] "Завантажуються %d файлів…"
+
+#, c-format
+#~ msgid "The file “%s” is read-only."
+#~ msgstr "Файл «%s» лише для читання."
+
+#~ msgid "Do you want to try to replace it with the one you are saving?"
+#~ msgstr "Спробувати замінити його файлом, що ви записуєте?"
+
+#~ msgid "_Replace"
+#~ msgstr "За_мінити"
+
+#~ msgid "Save the file using compression?"
+#~ msgstr "Зберегти файл зі стисненням?"
+
+#~ msgid "Save the file as plain text?"
+#~ msgstr "Зберегти файл у форматі простого тесту?"
+
+#, c-format
+#~ msgid ""
+#~ "The file “%s” was previously saved as plain text and will now be saved "
+#~ "using compression."
+#~ msgstr ""
+#~ "Файл «%s» було раніше збережено у форматі простого тексту і тепер буде "
+#~ "збережено з використанням стиснення."
+
+#~ msgid "_Save Using Compression"
+#~ msgstr "З_берегти зі стисненням"
+
+#, c-format
+#~ msgid ""
+#~ "The file “%s” was previously saved using compression and will now be "
+#~ "saved as plain text."
+#~ msgstr ""
+#~ "Файл «%s» раніше був збережений з використанням стиснення і тепер "
+#~ "зберігається у форматі простого тексту."
+
+#~ msgid "_Save As Plain Text"
+#~ msgstr "З_берегти як звичайний"
+
+#, c-format
+#~ msgid "Saving file “%s”…"
+#~ msgstr "Зберігається файл «%s»…"
+
+#~ msgctxt "window title"
+#~ msgid "Save As"
+#~ msgstr "Зберегти як"
+
+#, c-format
+#~ msgid "Reverting the document “%s”…"
+#~ msgstr "Відновлення документу «%s»…"
+
+#, c-format
+#~ msgid "Revert unsaved changes to document “%s”?"
+#~ msgstr "Відновити незбережені зміни в документі «%s»?"
+
+#, c-format
+#~ msgid ""
+#~ "Changes made to the document in the last %ld second will be permanently "
+#~ "lost."
+#~ msgid_plural ""
+#~ "Changes made to the document in the last %ld seconds will be permanently "
+#~ "lost."
+#~ msgstr[0] ""
+#~ "Зміни, внесені в документ за останню %ld секунду, будуть остаточно "
+#~ "втрачені."
+#~ msgstr[1] ""
+#~ "Зміни, внесені в документ за останні %ld секунди, будуть остаточно "
+#~ "втрачені."
+#~ msgstr[2] ""
+#~ "Зміни, внесені в документ за останні %ld секунд, будуть остаточно "
+#~ "втрачені."
+
+#~ msgid ""
+#~ "Changes made to the document in the last minute will be permanently lost."
+#~ msgstr ""
+#~ "Зміни, внесені в документ за останню хвилину, будуть остаточно втрачені."
+
+#, c-format
+#~ msgid ""
+#~ "Changes made to the document in the last minute and %ld second will be "
+#~ "permanently lost."
+#~ msgid_plural ""
+#~ "Changes made to the document in the last minute and %ld seconds will be "
+#~ "permanently lost."
+#~ msgstr[0] ""
+#~ "Зміни, внесені в документ за останню хвилину та %ld секунду, будуть "
+#~ "остаточно втрачені."
+#~ msgstr[1] ""
+#~ "Зміни, внесені в документ за останню хвилину та %ld секунди, будуть "
+#~ "остаточно втрачені."
+#~ msgstr[2] ""
+#~ "Зміни, внесені в документ за останню хвилину та %ld секунд, будуть "
+#~ "остаточно втрачені."
+
+#, c-format
+#~ msgid ""
+#~ "Changes made to the document in the last %ld minute will be permanently "
+#~ "lost."
+#~ msgid_plural ""
+#~ "Changes made to the document in the last %ld minutes will be permanently "
+#~ "lost."
+#~ msgstr[0] ""
+#~ "Зміни, внесені в документ за останню %ld хвилину, будуть остаточно "
+#~ "втрачені."
+#~ msgstr[1] ""
+#~ "Зміни, внесені в документ за останні %ld хвилини, будуть остаточно "
+#~ "втрачені."
+#~ msgstr[2] ""
+#~ "Зміни, внесені в документ за останні %ld хвилини, будуть остаточно "
+#~ "втрачені."
+
+#~ msgid ""
+#~ "Changes made to the document in the last hour will be permanently lost."
+#~ msgstr ""
+#~ "Зміни, внесені в документ за останню годину, будуть остаточно втрачені."
+
+#, c-format
+#~ msgid ""
+#~ "Changes made to the document in the last hour and %d minute will be "
+#~ "permanently lost."
+#~ msgid_plural ""
+#~ "Changes made to the document in the last hour and %d minutes will be "
+#~ "permanently lost."
+#~ msgstr[0] ""
+#~ "Зміни, внесені в документ за останню годину та %d хвилину, будуть "
+#~ "остаточно втрачені."
+#~ msgstr[1] ""
+#~ "Зміни, внесені в документ за останню годину та %d хвилини, будуть "
+#~ "остаточно втрачені."
+#~ msgstr[2] ""
+#~ "Зміни, внесені в документ за останню годину та %d хвилин, будуть "
+#~ "остаточно втрачені."
+
+#, c-format
+#~ msgid ""
+#~ "Changes made to the document in the last %d hour will be permanently lost."
+#~ msgid_plural ""
+#~ "Changes made to the document in the last %d hours will be permanently "
+#~ "lost."
+#~ msgstr[0] ""
+#~ "Зміни, внесені в документ за останню %d годину, будуть остаточно втрачені."
+#~ msgstr[1] ""
+#~ "Зміни, внесені в документ за останні %d години, будуть остаточно втрачені."
+#~ msgstr[2] ""
+#~ "Зміни, внесені в документ за останні %d годин, будуть остаточно втрачені."
+
+#~ msgid "_Revert"
+#~ msgstr "Від_новити"
+
+#~ msgid "Main authors:"
+#~ msgstr "Основні автори:"
+
+#~ msgid "Many thanks also to:"
+#~ msgstr "Також красно дякуємо таким особам:"
+
+#~ msgid "and many other contributors."
+#~ msgstr "та багатьом іншим учасникам розробки."
+
+#~ msgid "gedit is an easy-to-use and general-purpose text editor"
+#~ msgstr ""
+#~ "gedit — простий у користуванні текстовий редактор загального призначення"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Юрій Сирота <ysyrota@softservecom.com>\n"
+#~ "Максим Дзюманенко <dziumanenko@gmail.com>\n"
+#~ "Wanderlust <wanderlust@ukr.net>\n"
+#~ "Daniel Korostil <ted.korostiled@gmail.com>\n"
+#~ "Юрій Яновський<lytvyn349@ukr.net>"
+
+#, c-format
+#~ msgid "Found and replaced %d occurrence"
+#~ msgid_plural "Found and replaced %d occurrences"
+#~ msgstr[0] "Знайдено та замінено %d випадок"
+#~ msgstr[1] "Знайдено та замінено %d випадки"
+#~ msgstr[2] "Знайдено та замінено %d випадків"
+
+#~ msgid "Found and replaced one occurrence"
+#~ msgstr "Знайдено та замінено один випадок"
+
+#, c-format
+#~ msgid "“%s” not found"
+#~ msgstr "Фрази «%s» не існує"
+
+#, c-format
+#~ msgid "Tab Group %i"
+#~ msgstr "Група вкладок %i"
+
+#~ msgid "Read-Only"
+#~ msgstr "Лише читання"
+
+#, c-format
+#~ msgid "Current Locale (%s)"
+#~ msgstr "Поточна локалізація (%s)"
+
+#~ msgid "Automatically Detected"
+#~ msgstr "Автовизначення"
+
+#~ msgid "Add or Remove…"
+#~ msgstr "Додати або вилучити…"
+
+#, c-format
+#~ msgid "%s (Current Locale)"
+#~ msgstr "%s (поточна локаль)"
+
+#~ msgid "Do you really want to reset the character encodings’ preferences?"
+#~ msgstr "Скинути параметри кодування символів?"
+
+#~ msgid "_Reset"
+#~ msgstr "_Скинути"
+
+#~ msgid "Add"
+#~ msgstr "Додати"
+
+#~ msgid "Remove"
+#~ msgstr "Вилучити"
+
+#~ msgid "Move to a higher priority"
+#~ msgstr "Пересунути на вищий пріоритет"
+
+#~ msgid "Move to a lower priority"
+#~ msgstr "Пересунути на нижчий пріоритет"
+
+#~ msgid "All Files"
+#~ msgstr "Всі файли"
+
+#~ msgid "All Text Files"
+#~ msgstr "Всі текстові файли"
+
+#~ msgid "C_haracter Encoding:"
+#~ msgstr "_Кодування символів:"
+
+#~ msgid "L_ine Ending:"
+#~ msgstr "Ко_дування рядка:"
+
+#~ msgctxt "window title"
+#~ msgid "Open Files"
+#~ msgstr "Відкриття файлів"
+
+#~ msgid "_Open"
+#~ msgstr "_Відкрити"
+
+#~ msgid "Open a file"
+#~ msgstr "Відкрити файл"
+
+#~ msgid "Open a recently used file"
+#~ msgstr "Відкрити файл, що нещодавно редагувався"
+
+#~ msgid "Create a new document"
+#~ msgstr "Створити новий документ"
+
+#~ msgid "Leave Fullscreen"
+#~ msgstr "Залишити повноекранний режим"
+
+#~ msgid "Save the current file"
+#~ msgstr "Зберегти поточний файл"
+
+#~ msgid "_Retry"
+#~ msgstr "_Повтор"
+
+#~ msgid "File not found."
+#~ msgstr "Файл не знайдено."
+
+#, c-format
+#~ msgid "“%s:” locations are not supported."
+#~ msgstr "Не передбачено підтримки адрес «%s:»."
+
+#~ msgid "The location of the file cannot be accessed."
+#~ msgstr "Неможливо доступитись до адреси цього файла."
+
+#, c-format
+#~ msgid "“%s” is not a valid location."
+#~ msgstr "«%s» не є правильною адресою."
+
+#~ msgid "Please check that you typed the location correctly and try again."
+#~ msgstr "Переконайтеся, що ви ввели правильну адресу та спробуйте знову."
+
+#, c-format
+#~ msgid "Hostname “%s” not known."
+#~ msgstr "Невідома назва вузла «%s»."
+
+#~ msgid "The problem could come from the proxy settings."
+#~ msgstr "Проблема може полягати у налаштуваннях проксі-сервера."
+
+#~ msgid "File not found. Perhaps it has recently been deleted."
+#~ msgstr "Файл не знайдено. Можливо, його нещодавно вилучено."
+
+#, c-format
+#~ msgid "Could not revert the file “%s”."
+#~ msgstr "Неможливо відновити файл «%s»."
+
+#~ msgid "Ch_aracter Encoding:"
+#~ msgstr "_Кодування символів:"
+
+#~ msgid "_Edit Anyway"
+#~ msgstr "_Редагувати попри це"
+
+#~ msgid ""
+#~ "The number of followed links is limited and the actual file could not be "
+#~ "found within this limit."
+#~ msgstr ""
+#~ "Вичерпано допустиме число переходів за посиланнями, а файл так і не було "
+#~ "знайдено."
+
+#~ msgid "You do not have the permissions necessary to open the file."
+#~ msgstr "Недостатньо прав для відкривання файлу."
+
+#~ msgid "Unable to detect the character encoding."
+#~ msgstr "Неможливо виявити кодування символів."
+
+#~ msgid "Please check that you are not trying to open a binary file."
+#~ msgstr "Напевно, ви намагаєтесь відкрити файл з двійковими даними."
+
+#~ msgid "Select a character encoding from the menu and try again."
+#~ msgstr "Виберіть кодування символів з меню та спробуйте це раз."
+
+#, c-format
+#~ msgid "There was a problem opening the file “%s”."
+#~ msgstr "Помилка відкриття файла «%s»."
+
+#~ msgid ""
+#~ "The file you opened has some invalid characters. If you continue editing "
+#~ "this file you could corrupt this document."
+#~ msgstr ""
+#~ "Файл, який ви відкрили має деякі неприпустимі символи, якщо ви продовжите "
+#~ "редагування цього файла, можете зіпсувати цей документ."
+
+#~ msgid "You can also choose another character encoding and try again."
+#~ msgstr "Виберіть кодування символів з меню та спробуйте це раз."
+
+#, c-format
+#~ msgid "Could not open the file “%s” using the “%s” character encoding."
+#~ msgstr "Неможливо відкрити файл «%s» з кодуванням символів «%s»."
+
+#~ msgid "Select a different character encoding from the menu and try again."
+#~ msgstr "Виберіть інше кодування символів з меню та спробуйте ще раз."
+
+#, c-format
+#~ msgid "Could not open the file “%s”."
+#~ msgstr "Неможливо відкрити файл «%s»."
+
+#, c-format
+#~ msgid "Could not save the file “%s” using the “%s” character encoding."
+#~ msgstr "Неможливо зберегти файл «%s» з кодуванням символів «%s»."
+
+#~ msgid ""
+#~ "The document contains one or more characters that cannot be encoded using "
+#~ "the specified character encoding."
+#~ msgstr ""
+#~ "Документ містить один або більше символів, які не мають представлення у "
+#~ "вказаному кодуванні символів."
+
+#, c-format
+#~ msgid ""
+#~ "Cannot handle “%s:” locations in write mode. Please check that you typed "
+#~ "the location correctly and try again."
+#~ msgstr ""
+#~ "Неможливо обробити адреси «%s:» в режимі записування. Переконайтесь, що "
+#~ "адресу введено правильно та спробуйте знову."
+
+#~ msgid ""
+#~ "Cannot handle this location in write mode. Please check that you typed "
+#~ "the location correctly and try again."
+#~ msgstr ""
+#~ "Неможливо обробити адресу %s в режимі записування. Переконайтесь, що "
+#~ "адресу введено правильно та спробуйте знову."
+
+#, c-format
+#~ msgid ""
+#~ "“%s” is not a valid location. Please check that you typed the location "
+#~ "correctly and try again."
+#~ msgstr ""
+#~ "%s не є правильною адресою. Переконайтесь, що адресу введено правильно та "
+#~ "спробуйте знову."
+
+#~ msgid ""
+#~ "You do not have the permissions necessary to save the file. Please check "
+#~ "that you typed the location correctly and try again."
+#~ msgstr ""
+#~ "Немає прав для запису файлу. Переконайтесь, що адресу введено правильно "
+#~ "та спробуйте ще раз."
+
+#~ msgid ""
+#~ "There is not enough disk space to save the file. Please free some disk "
+#~ "space and try again."
+#~ msgstr ""
+#~ "Недостатньо дискового простору для збереження файлу. Звільніть, місце на "
+#~ "диску та спробуйте знову."
+
+#~ msgid ""
+#~ "You are trying to save the file on a read-only disk. Please check that "
+#~ "you typed the location correctly and try again."
+#~ msgstr ""
+#~ "Ви намагаєтесь зберегти файл на диск доступний лише для читання. "
+#~ "Переконайтесь, що адресу введено правильно і спробуйте знову."
+
+#~ msgid ""
+#~ "A file with the same name already exists. Please use a different name."
+#~ msgstr "Файл з такою назвою вже існує. Вкажіть іншу назву."
+
+#~ msgid ""
+#~ "The disk where you are trying to save the file has a limitation on length "
+#~ "of the file names. Please use a shorter name."
+#~ msgstr ""
+#~ "Диск, на якому ви намагаєтеся зберегти файл має обмеження на розмір "
+#~ "файла. Використовуйте коротшу назву."
+
+#, c-format
+#~ msgid "Could not save the file “%s”."
+#~ msgstr "Неможливо зберегти файл «%s»."
+
+#~ msgid "Preparing…"
+#~ msgstr "Приготування…"
+
+#, c-format
+#~ msgid "File: %s"
+#~ msgstr "Файл: %s"
+
+#~ msgid "Page %N of %Q"
+#~ msgstr "Сторінка %N з %Q"
+
+#, c-format
+#~ msgid "Rendering page %d of %d…"
+#~ msgstr "Опрацьовування %d сторінки з %d…"
+
+#~ msgid "Text Editor"
+#~ msgstr "Текстовий редактор"
+
+#, c-format
+#~ msgid "Page %d of %d"
+#~ msgstr "Сторінка %d з %d"
+
+#~ msgid "Nothing"
+#~ msgstr "Нічого"
+
+#~ msgid "Find and Replace"
+#~ msgstr "Знайти та замінити"
+
+#, c-format
+#~ msgid "Reverting %s from %s"
+#~ msgstr "Відновлюється «%s» з «%s»"
+
+#, c-format
+#~ msgid "Reverting %s"
+#~ msgstr "Відновлюється «%s»"
+
+#, c-format
+#~ msgid "Loading %s from %s"
+#~ msgstr "Завантажується «%s» з «%s»"
+
+#, c-format
+#~ msgid "Loading %s"
+#~ msgstr "Завантажується «%s»"
+
+#, c-format
+#~ msgid "Saving %s to %s"
+#~ msgstr "Зберігається «%s» у «%s»"
+
+#, c-format
+#~ msgid "Saving %s"
+#~ msgstr "Зберігається «%s»"
+
+#, c-format
+#~ msgid "Error opening file %s"
+#~ msgstr "Помилка відкривання файлу «%s»"
+
+#, c-format
+#~ msgid "Error reverting file %s"
+#~ msgstr "Помилка відновлення файлу «%s»"
+
+#, c-format
+#~ msgid "Error saving file %s"
+#~ msgstr "Помилка збереження файлу «%s»"
+
+#~ msgid "Name:"
+#~ msgstr "Назва:"
+
+#~ msgid "MIME Type:"
+#~ msgstr "MIME тип:"
+
+#~ msgid "Encoding:"
+#~ msgstr "Кодування:"
+
+#~ msgid "Close Document"
+#~ msgstr "Закрити документ"
+
+#, c-format
+#~ msgid "/ on %s"
+#~ msgstr "/ на %s"
+
+#~ msgid "Unix/Linux"
+#~ msgstr "Unix/Linux"
+
+#~ msgid "Mac OS Classic"
+#~ msgstr "Mac OS Classic"
+
+#~ msgid "Windows"
+#~ msgstr "ОС Windows"
+
+#, c-format
+#~ msgid "%d of %d"
+#~ msgstr "%d з %d"
+
+#~ msgid "_Wrap Around"
+#~ msgstr "_Досягнувши кінця, починати спочатку"
+
+#~ msgid "Match as _Regular Expression"
+#~ msgstr "Збіг як _формальний вираз"
+
+#~ msgid "Match _Entire Word Only"
+#~ msgstr "Збігається _ціле слово"
+
+#~ msgid "_Match Case"
+#~ msgstr "Збігається _регістр"
+
+#~ msgid "String you want to search for"
+#~ msgstr "Рядок, яку треба знайти"
+
+#~ msgid "Line you want to move the cursor to"
+#~ msgstr "Рядок, куди треба перемістити курсор"
+
+#, c-format
+#~ msgid "Tab Width: %u"
+#~ msgstr "Ширина табуляції: %u"
+
+#~ msgid "Plain Text"
+#~ msgstr "Звичайний текст"
+
+#~ msgid "There are unsaved documents"
+#~ msgstr "Є незбережені документи"
+
+#~ msgid "Documents"
+#~ msgstr "Документи"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Documents"
+#~ msgstr "Документи"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Create a new document in a tab"
+#~ msgstr "Створити новий документ у вкладці"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Open a document"
+#~ msgstr "Відкрити документ"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Save the document"
+#~ msgstr "Зберегти документ"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Save the document with a new filename"
+#~ msgstr "Зберегти документ з іншою назвою"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Save all the documents"
+#~ msgstr "Зберегти всі документи"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Close the document"
+#~ msgstr "Закрити документ"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Close all the documents"
+#~ msgstr "Закрити всі документи"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Reopen the most recently closed document"
+#~ msgstr "Відкрити останній закритий документ"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Switch to the next document"
+#~ msgstr "Перейти до наступного документа"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Switch to the previous document"
+#~ msgstr "Перейти до попереднього документа"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Switch to the first — ninth document"
+#~ msgstr "Перейти до першого-дев'ятого документа"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Windows and Panels"
+#~ msgstr "Вікна і панелі"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Create a new document in a window"
+#~ msgstr "Створити новий документ у вікні"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Create a new tab group"
+#~ msgstr "Створити нову групу вкладок"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Show side panel"
+#~ msgstr "Показати бокову панель"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Show bottom panel"
+#~ msgstr "Показати нижню панель"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Fullscreen on / off"
+#~ msgstr "Перемкнути на ввесь екран"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Quit the application"
+#~ msgstr "Вийти з програми"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Find and Replace"
+#~ msgstr "Знайти та замінити"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Find"
+#~ msgstr "Знайти"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Find the next match"
+#~ msgstr "Знайти наступний збіг"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Find the previous match"
+#~ msgstr "Знайти попередній збіг"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Clear highlight"
+#~ msgstr "Забрати підсвічення"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Undo and Redo"
+#~ msgstr "Керування змінами"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Undo previous command"
+#~ msgstr "Повернути попередню дію"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Redo previous command"
+#~ msgstr "Повторити попередню дію"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Selection"
+#~ msgstr "Вибирання тексту"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Select all text"
+#~ msgstr "Вибрати весь текст"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Unselect all text"
+#~ msgstr "Скасувати вибір усього тексту"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Copy and Paste"
+#~ msgstr "Перенесення тексту"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Copy selected text to clipboard"
+#~ msgstr "Скопіювати вибраний текст у буфер"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Cut selected text to clipboard"
+#~ msgstr "Вирізати вибраний текст у буфер"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Paste text from clipboard"
+#~ msgstr "Вставити текст з буфера"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Navigation"
+#~ msgstr "Навігація"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Go to line"
+#~ msgstr "Перейти на певний рядок"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Move to the beginning of the current line"
+#~ msgstr "Перейти до початку поточного рядка"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Move to the end of the current line"
+#~ msgstr "Перейти в кінець поточного рядка"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Move to the beginning of the document"
+#~ msgstr "Перейти до початку документа"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Move to the end of the document"
+#~ msgstr "Перейти на кінець документа"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Move viewport up within the file"
+#~ msgstr "Пересунути вище поле огляду у файлі"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Move viewport down within the file"
+#~ msgstr "Пересунути нижче поле огляду у файлі"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Move viewport to end of file"
+#~ msgstr "Пересунути поле огляду до кінця файла"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Move viewport to beginning of file"
+#~ msgstr "Пересунути поле огляду до початку файла"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Move to matching bracket"
+#~ msgstr "Перейти до парної дужки"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Go to previous tab group"
+#~ msgstr "Перейти до попередньої групи вкладок"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Go to next tab group"
+#~ msgstr "Перейти до наступної групи вкладок"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Editing"
+#~ msgstr "Редагування"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Toggle insert / overwrite"
+#~ msgstr "Перемкнути на режим редагування"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Toggle cursor visibility"
+#~ msgstr "Перемкнути видимість курсора"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Delete current line"
+#~ msgstr "Вилучити поточний рядок"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Move current line up"
+#~ msgstr "Перенести поточний рядок вище"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Move current line down"
+#~ msgstr "Перенести поточний рядок нижче"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Move current word left"
+#~ msgstr "Перенести поточне слово ліворуч"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Move current word right"
+#~ msgstr "Перенести поточне слово праворуч"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Convert to uppercase"
+#~ msgstr "Зробити великими буквами"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Convert to lowercase"
+#~ msgstr "Зробити маленькими буквами"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Invert case"
+#~ msgstr "Зробити навиворіт"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Increment number at cursor"
+#~ msgstr "Збільшити числа на курсорі"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Decrement number at cursor"
+#~ msgstr "Зменшити число на курсорі"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Tools"
+#~ msgstr "Засоби"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Check spelling"
+#~ msgstr "Перевірити орфографію"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Print the document"
+#~ msgstr "Надрукувати документ"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Show completion window"
+#~ msgstr "Показати вікно заповнення"
+
+#~ msgctxt "shortcut window"
+#~ msgid "General"
+#~ msgstr "Загальні"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Show help"
+#~ msgstr "Показати довідку"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Keyboard shortcuts"
+#~ msgstr "Клавіатурні скорочення"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Open menu"
+#~ msgstr "Відкрити меню"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Show preferences"
+#~ msgstr "Показати налаштування"
+
+#~ msgid "Move _Left"
+#~ msgstr "Пересунути _ліворуч"
+
+#~ msgid "Move _Right"
+#~ msgstr "Пересунути _праворуч"
+
+#~ msgid "Move to New _Window"
+#~ msgstr "Перенести у нове _вікно"
+
+#~ msgid "Move to New Tab _Group"
+#~ msgstr "Перенести до нової _групи вкладок"
+
+#~ msgid "_Close"
+#~ msgstr "_Закрити"
+
+#~ msgid "Use Spaces"
+#~ msgstr "Вставляти пробіли"
+
+#~ msgid "_File"
+#~ msgstr "_Файл"
+
+#~ msgid "_New"
+#~ msgstr "_Створити"
+
+#~ msgid "Open _Recent"
+#~ msgstr "Відкрити _нещодавнє"
+
+#~ msgid "Reopen Closed _Tab"
+#~ msgstr "Перевідкрити закриту _вкладку"
+
+#~ msgid "Save _As…"
+#~ msgstr "Зберегти _як…"
+
+#~ msgid "_New Window"
+#~ msgstr "_Створити вікно"
+
+#~ msgid "_Reload"
+#~ msgstr "Пере_завантажити"
+
+#~ msgid "_Print…"
+#~ msgstr "Над_рукувати…"
+
+#~ msgid "_Quit"
+#~ msgstr "Ви_йти"
+
+#~ msgid "_Edit"
+#~ msgstr "З_міни"
+
+#~ msgid "_Undo"
+#~ msgstr "_Повернути"
+
+#~ msgid "_Redo"
+#~ msgstr "По_вторити"
+
+#~ msgid "C_ut"
+#~ msgstr "Ви_різати"
+
+#~ msgid "_Copy"
+#~ msgstr "_Копіювати"
+
+#~ msgid "_Paste"
+#~ msgstr "В_ставити"
+
+#~ msgid "_Delete"
+#~ msgstr "В_илучити"
+
+#~ msgid "Overwrite _Mode"
+#~ msgstr "_Режим перезаписування"
+
+#~ msgid "Select _All"
+#~ msgstr "Вибрати _усе"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Параметри"
+
+#~ msgid "_View"
+#~ msgstr "П_ерегляд"
+
+#~ msgid "Side _Panel"
+#~ msgstr "Бічна _панель"
+
+#~ msgid "_Bottom Panel"
+#~ msgstr "_Нижня панель"
+
+#~ msgid "_Fullscreen"
+#~ msgstr "_На ввесь екран"
+
+#~ msgid "_Highlight Mode…"
+#~ msgstr "Під_креслення синтаксису…"
+
+#~ msgid "_Search"
+#~ msgstr "П_ошук"
+
+#~ msgid "_Find…"
+#~ msgstr "З_найти…"
+
+#~ msgid "Find Ne_xt"
+#~ msgstr "Зна_йти далі"
+
+#~ msgid "Find Pre_vious"
+#~ msgstr "Знайти _попередній"
+
+#~ msgid "Find and _Replace…"
+#~ msgstr "Зна_йти та замінити…"
+
+#~ msgid "_Clear Highlight"
+#~ msgstr "О_чистити підкреслення кольором"
+
+#~ msgid "Go to _Line…"
+#~ msgstr "Перейти до _рядка…"
+
+#~ msgid "_Tools"
+#~ msgstr "_Засоби"
+
+#~ msgid "_Documents"
+#~ msgstr "Д_окументи"
+
+#~ msgid "_Save All"
+#~ msgstr "З_берегти все"
+
+#~ msgid "_Close All"
+#~ msgstr "З_акрити все"
+
+#~ msgid "_New Tab Group"
+#~ msgstr "_Створити групу вкладок"
+
+#~ msgid "P_revious Tab Group"
+#~ msgstr "_Попередня група вкладок"
+
+#~ msgid "Nex_t Tab Group"
+#~ msgstr "_Наступна група вкладок"
+
+#~ msgid "_Previous Document"
+#~ msgstr "_Попередній документ"
+
+#~ msgid "N_ext Document"
+#~ msgstr "Н_аступний документ"
+
+#~ msgid "_Move To New Window"
+#~ msgstr "_Перенести на нове вікно"
+
+#~ msgid "_Help"
+#~ msgstr "_Довідка"
+
+#~ msgid "_About gedit"
+#~ msgstr "_Про gedit"
+
+#~ msgid "Save _All"
+#~ msgstr "Зберегти _все"
+
+#~ msgid "_Find and Replace…"
+#~ msgstr "Зна_йти та замінити…"
+
+#~ msgid "_Go to Line…"
+#~ msgstr "_Перейти до рядка…"
+
+#~ msgid "_Keyboard Shortcuts"
+#~ msgstr "_Клавіатурні скорочення"
+
+#~ msgid "Character Encodings"
+#~ msgstr "Кодування символів"
+
+#~ msgid "_Cancel Changes"
+#~ msgstr "_Скасувати зміни"
+
+#~ msgid "_Save Settings"
+#~ msgstr "_Зберегти параметри"
+
+#~ msgid "_Other Available Encodings"
+#~ msgstr "_Інші доступні кодування"
+
+#~ msgid "_Favorites"
+#~ msgstr "_Улюблене"
+
+#~ msgid "Ca_tegory"
+#~ msgstr "_Категорія"
+
+#~ msgid "_Encoding"
+#~ msgstr "_Кодування"
+
+#~ msgid "Preferences"
+#~ msgstr "Параметри"
+
+#~ msgid "Text Wrapping"
+#~ msgstr "Перенос тексту"
+
+#~ msgid "Enable text _wrapping"
+#~ msgstr "Увімкнути _перенос тексту"
+
+#~ msgid "Do not _split words over two lines"
+#~ msgstr "Н_е розривати слово між рядками"
+
+#~ msgid "View"
+#~ msgstr "Вигляд"
+
+#~ msgid "Tab Stops"
+#~ msgstr "Знаки табуляції"
+
+#~ msgid "Insert _spaces instead of tabs"
+#~ msgstr "Вставляти _пробіли замість табуляції"
+
+#~ msgid "_Enable automatic indentation"
+#~ msgstr "_Увімкнути автоматичний відступ"
+
+#~ msgid "Editor"
+#~ msgstr "Редактор"
+
+#~ msgid "Font & Colors"
+#~ msgstr "Шрифти й кольори"
+
+#~ msgid "Plugins"
+#~ msgstr "Модулі"
+
+#~ msgid "Syntax Highlighting"
+#~ msgstr "Виділення синтаксису кольором"
+
+#~ msgid "Print synta_x highlighting"
+#~ msgstr "Друкувати виділення с_интаксису"
+
+#~ msgid "Line Numbers"
+#~ msgstr "Номери рядків"
+
+#~ msgid "Print line nu_mbers"
+#~ msgstr "Друкувати номери _рядків"
+
+#~ msgid "_Number every"
+#~ msgstr "_Нумерувати кожен"
+
+#~ msgid "lines"
+#~ msgstr "рядок"
+
+#~ msgid "Page header"
+#~ msgstr "Заголовок сторінки"
+
+#~ msgid "Print page _headers"
+#~ msgstr "Друкувати за_головки сторінок"
+
+#~ msgid "Fonts"
+#~ msgstr "Шрифти"
+
+#~ msgid "_Body:"
+#~ msgstr "_Текст:"
+
+#~ msgid "_Line numbers:"
+#~ msgstr "_Номери рядків:"
+
+#~ msgid "He_aders and footers:"
+#~ msgstr "_Верхній та нижній колонтитули:"
+
+#~ msgid "_Restore Default Fonts"
+#~ msgstr "Відновити _початкові шрифти"
+
+#~ msgid "Show the previous page"
+#~ msgstr "Показати попередню сторінку"
+
+#~ msgid "Show the next page"
+#~ msgstr "Показати наступну сторінку"
+
+#~ msgid "Current page (Alt+P)"
+#~ msgstr "Поточна сторінка (Alt+P)"
+
+#~ msgid "of"
+#~ msgstr "з"
+
+#~ msgid "Page total"
+#~ msgstr "Загалом сторінок"
+
+#~ msgid "The total number of pages in the document"
+#~ msgstr "Загальна кількість сторінок у документі"
+
+#~ msgid "Show multiple pages"
+#~ msgstr "Показувати декілька сторінок"
+
+#~ msgid "Zoom 1:1"
+#~ msgstr "Масштаб 1:1"
+
+#~ msgid "Zoom to fit the whole page"
+#~ msgstr "Показувати цілу сторінку"
+
+#~ msgid "Zoom the page in"
+#~ msgstr "Збільшити сторінку"
+
+#~ msgid "Zoom the page out"
+#~ msgstr "Зменшити сторінку"
+
+#~ msgid "Close print preview"
+#~ msgstr "Закрити попередній перегляд"
+
+#~ msgid "_Close Preview"
+#~ msgstr "_Закрити попередній перегляд"
+
+#~ msgid "Page Preview"
+#~ msgstr "Перегляд сторінки"
+
+#~ msgid "The preview of a page in the document to be printed"
+#~ msgstr "Попередній перегляд сторінки, яку буде надруковано"
+
+#~ msgid "Replace _All"
+#~ msgstr "Замінити _все"
+
+#~ msgctxt "label of the find button"
+#~ msgid "_Find"
+#~ msgstr "З_найти"
+
+#~ msgctxt "label on the left of the GtkEntry containing text to search"
+#~ msgid "F_ind "
+#~ msgstr "З_найти "
+
+#~ msgid "Replace _with "
+#~ msgstr "Замінити н_а "
+
+#~ msgid "_Match case"
+#~ msgstr "Збігається _регістр"
+
+#~ msgid "Match _entire word only"
+#~ msgstr "Збігається _ціле слово"
+
+#~ msgid "Re_gular expression"
+#~ msgstr "_Формальний вираз"
+
+#~ msgid "Search _backwards"
+#~ msgstr "_Шукати назад"
+
+#~ msgid "Wra_p around"
+#~ msgstr "_Огорнути навколо"
+
+#~ msgid "Previous Result"
+#~ msgstr "Попередній результат"
+
+#~ msgid "Next Result"
+#~ msgstr "Наступний результат"
+
+#~ msgid "Document Statistics"
+#~ msgstr "Статистика документа"
+
+#~ msgid "Report the number of words, lines and characters in a document."
+#~ msgstr "Показує кількість слів, рядків і символів у документі."
+
+#~ msgid "_Document Statistics"
+#~ msgstr "Статистика _документа"
+
+#~ msgid "Document"
+#~ msgstr "Документ"
+
+#~ msgid "Selection"
+#~ msgstr "Виділення"
+
+#~ msgid "Lines"
+#~ msgstr "Рядки"
+
+#~ msgid "Words"
+#~ msgstr "Слів"
+
+#~ msgid "Characters (with spaces)"
+#~ msgstr "Символів (з пропусками)"
+
+#~ msgid "Characters (no spaces)"
+#~ msgstr "Символів (без пропусків)"
+
+#~ msgid "Bytes"
+#~ msgstr "Байтів"
+
+#~ msgid "Build"
+#~ msgstr "Збірка"
+
+#~ msgid "Run “make” in the document directory"
+#~ msgstr "Виконати «make» у каталозі з документом"
+
+#~ msgid "Open terminal here"
+#~ msgstr "Відкрити термінал тут"
+
+#~ msgid "Open a terminal in the document location"
+#~ msgstr "Відкрити термінал у каталозі документа"
+
+#~ msgid "Remove trailing spaces"
+#~ msgstr "Вилучити пропуски"
+
+#~ msgid "Remove useless trailing spaces in your file"
+#~ msgstr "Вилучити зайві пропуски у назві файла"
+
+#~ msgid "Run command"
+#~ msgstr "Виконати команду"
+
+#~ msgid "Execute a custom command and put its output in a new document"
+#~ msgstr "Виконати команду та перенести її вивід у новий документ"
+
+#~ msgid "Send to fpaste"
+#~ msgstr "Надіслати до fpaste"
+
+#~ msgid "Paste selected text or current document to fpaste"
+#~ msgstr "Вставити вибраний текст або поточний документ у fpaste"
+
+#~ msgid "External Tools"
+#~ msgstr "Зовнішні інструменти"
+
+#~ msgid "Execute external commands and shell scripts."
+#~ msgstr "Виконати зовнішні команди та сценарії оболонки."
+
+#~ msgid ""
+#~ "If true, the external tools will use the desktop-global standard font if "
+#~ "it’s monospace (and the most similar font it can come up with otherwise)."
+#~ msgstr ""
+#~ "Якщо це позначено, внутрішні засоби використають загальний стандарт "
+#~ "стільниці шрифтів, якщо це моноширинний (інакше буде підібрано "
+#~ "найподібніший шрифт)."
+
+#~ msgid "Manage _External Tools…"
+#~ msgstr "Керувати зов_нішніми інструментами"
+
+#~ msgid "External _Tools"
+#~ msgstr "Зовнішні _інструменти"
+
 #, python-format
-msgid "The archive “%s” could not be created"
-msgstr "Неможливо створити архів «%s»"
+#~ msgid "Could not execute command: %s"
+#~ msgstr "Неможливо виконати команду: «%s»"
 
-#: plugins/snippets/snippets/exporter.py:105
+#~ msgid "You must be inside a word to run this command"
+#~ msgstr "Для запуску даної команди треба бути всередині слова"
+
+#~ msgid "Running tool:"
+#~ msgstr "Запускається утиліта:"
+
+#~ msgid "Done."
+#~ msgstr "Завершено."
+
+#~ msgid "Exited"
+#~ msgstr "Вихід"
+
+#~ msgid "All languages"
+#~ msgstr "Мови"
+
+#~ msgid "All Languages"
+#~ msgstr "Мови"
+
+#~ msgid "New tool"
+#~ msgstr "Новий інструмент"
+
 #, python-format
-msgid "Target directory “%s” does not exist"
-msgstr "Цільовий каталог «%s» не існує"
+#~ msgid "This accelerator is already bound to %s"
+#~ msgstr "Ця комбінація вже прив'язана до %s"
 
-#: plugins/snippets/snippets/exporter.py:108
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr ""
+#~ "Введіть нову комбінацію клавіш, або натисніть Backspace, щоб очистити її"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Натисніть нову комбінацію клавіш"
+
+#~ msgid "Stopped."
+#~ msgstr "Зупинено."
+
+#~ msgid "Stop Tool"
+#~ msgstr "Зупинити інструмент"
+
+#~ msgid "Always available"
+#~ msgstr "Завжди доступний"
+
+#~ msgid "All documents"
+#~ msgstr "Усі документи"
+
+#~ msgid "All documents except untitled ones"
+#~ msgstr "Усі документи за винятком не збережених"
+
+#~ msgid "Local files only"
+#~ msgstr "Лише локальні файли"
+
+#~ msgid "Remote files only"
+#~ msgstr "Лише віддалені файли"
+
+#~ msgid "Untitled documents only"
+#~ msgstr "Лише документи без назв"
+
+#~ msgid "Current document"
+#~ msgstr "Поточний документ"
+
+#~ msgid "Current selection"
+#~ msgstr "Виділена область"
+
+#~ msgid "Current selection (default to document)"
+#~ msgstr "Поточне виділення (первинно для документу)"
+
+#~ msgid "Current line"
+#~ msgstr "Поточний рядок"
+
+#~ msgid "Current word"
+#~ msgstr "Поточне слово"
+
+#~ msgid "Display in bottom pane"
+#~ msgstr "Показувати у нижній частині вікна"
+
+#~ msgid "Create new document"
+#~ msgstr "Створити новий документ"
+
+#~ msgid "Append to current document"
+#~ msgstr "Додати до поточного документу"
+
+#~ msgid "Replace current document"
+#~ msgstr "Замінити поточний документ"
+
+#~ msgid "Replace current selection"
+#~ msgstr "Замінити поточне виділення"
+
+#~ msgid "Insert at cursor position"
+#~ msgstr "Вставити в позицію курсора"
+
+#~ msgid "Manage External Tools"
+#~ msgstr "Керувати зовнішніми інструментами"
+
+#~ msgid "Add a new tool"
+#~ msgstr "Додати новий інструмент"
+
+#~ msgid "Add Tool"
+#~ msgstr "Додати інструмент"
+
+#~ msgid "Remove selected tool"
+#~ msgstr "Вилучити вибраний інструмент"
+
+#~ msgid "Remove Tool"
+#~ msgstr "Вилучити інструмент"
+
+#~ msgid "Revert tool"
+#~ msgstr "Вернути інструмент"
+
+#~ msgid "Revert Tool"
+#~ msgstr "Вернути інструмент"
+
+#~ msgid "Shortcut _key:"
+#~ msgstr "Комбінація к_лавіш:"
+
+#~ msgid "_Save:"
+#~ msgstr "З_берегти:"
+
+#~ msgid "_Input:"
+#~ msgstr "_Ввід:"
+
+#~ msgid "_Output:"
+#~ msgstr "Вікно _виводу:"
+
+#~ msgid "_Applicability:"
+#~ msgstr "_Застосовність:"
+
+#~ msgid "Tool Output"
+#~ msgstr "Вивід інструмента"
+
+#~ msgid "File Browser Panel"
+#~ msgstr "Панель переглядача файлів"
+
+#~ msgid "Easy file access from the side panel."
+#~ msgstr "Простий доступ до файлів з бічної панелі."
+
+#~ msgid "Home"
+#~ msgstr "Домівка"
+
+#~ msgid "File System"
+#~ msgstr "Файлова система"
+
+#~ msgid "File Browser"
+#~ msgstr "Перегляд файлів"
+
+#~ msgid "An error occurred while creating a new directory"
+#~ msgstr "Помилка при створенні нового каталогу"
+
+#~ msgid "An error occurred while creating a new file"
+#~ msgstr "Помилка при створенні нового файлу"
+
+#~ msgid "An error occurred while renaming a file or directory"
+#~ msgstr "Помилка при перейменуванні файлу чи каталогу"
+
+#~ msgid "An error occurred while deleting a file or directory"
+#~ msgstr "Помилка при вилученні файла або каталогу"
+
+#~ msgid "An error occurred while opening a directory in the file manager"
+#~ msgstr "Помилка при відкриванні каталогу у файловому менеджері"
+
+#~ msgid "An error occurred while setting a root directory"
+#~ msgstr "Помилка при встановленні кореневого каталогу"
+
+#~ msgid "An error occurred while loading a directory"
+#~ msgstr "Помилка при завантаженні каталогу"
+
+#~ msgid "An error occurred"
+#~ msgstr "Виникла помилка"
+
+#~ msgid ""
+#~ "Cannot move file to trash, do you\n"
+#~ "want to delete permanently?"
+#~ msgstr ""
+#~ "Не вдалось перемістити файл у смітник,\n"
+#~ "вилучити файл остаточно?"
+
+#, c-format
+#~ msgid "The file “%s” cannot be moved to the trash."
+#~ msgstr "Файл «%s» не вдається перемістити у смітник."
+
+#~ msgid "The selected files cannot be moved to the trash."
+#~ msgstr "Не вдається перемістити у смітник вибрані файли."
+
+#, c-format
+#~ msgid "Are you sure you want to permanently delete “%s”?"
+#~ msgstr "Остаточно вилучити файл «%s»?"
+
+#~ msgid "Are you sure you want to permanently delete the selected files?"
+#~ msgstr "Остаточно вилучити виділені файли?"
+
+#~ msgid "If you delete an item, it is permanently lost."
+#~ msgstr "Якщо ви вилучите файл, його буде остаточно втрачено."
+
+#~ msgid "(Empty)"
+#~ msgstr "(Порожньо)"
+
+#~ msgid ""
+#~ "The renamed file is currently filtered out. You need to adjust your "
+#~ "filter settings to make the file visible"
+#~ msgstr ""
+#~ "Новий каталог наразі відфільтрований. Щоб зробити файл видимим, змініть "
+#~ "параметри фільтра"
+
+#~ msgid "Untitled File"
+#~ msgstr "Неназваний файл"
+
+#~ msgid ""
+#~ "The new file is currently filtered out. You need to adjust your filter "
+#~ "settings to make the file visible"
+#~ msgstr ""
+#~ "Новий файл наразі відфільтрований. Щоб зробити файл видимим, змініть "
+#~ "параметри фільтра"
+
+#~ msgid "Untitled Folder"
+#~ msgstr "Неназвана тека"
+
+#~ msgid ""
+#~ "The new directory is currently filtered out. You need to adjust your "
+#~ "filter settings to make the directory visible"
+#~ msgstr ""
+#~ "Новий каталог наразі відфільтрований. Необхідно налаштувати фільтр, щоб "
+#~ "зробити цей каталог видимим"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Закладки"
+
+#, c-format
+#~ msgid "No mount object for mounted volume: %s"
+#~ msgstr "Не знайдено об'єкту для змонтованого тому: %s"
+
+#, c-format
+#~ msgid "Could not open media: %s"
+#~ msgstr "Не вдається відкрити носій: «%s»"
+
+#, c-format
+#~ msgid "Could not mount volume: %s"
+#~ msgstr "Не вдалось змонтувати том: «%s»"
+
+#, c-format
+#~ msgid "Error when loading “%s”: No such directory"
+#~ msgstr "Помилка завантаження «%s»: немає такого каталогу"
+
+#~ msgid "Open With Tree View"
+#~ msgstr "Відкрити у перегляді дерева"
+
+#~ msgid ""
+#~ "Open the tree view when the file browser plugin gets loaded instead of "
+#~ "the bookmarks view"
+#~ msgstr ""
+#~ "При завантаженні модуля перегляду файлів, відкривати перегляд дерева, а "
+#~ "не перегляд закладок"
+
+#~ msgid "File Browser Root Directory"
+#~ msgstr "Кореневий каталог перегляду файлів"
+
+#~ msgid ""
+#~ "The file browser root directory to use when loading the file browser "
+#~ "plugin and onload/tree_view is TRUE."
+#~ msgstr ""
+#~ "Кореневий каталог перегляду файлів, що використовується при завантаженні "
+#~ "модуля перегляду файлів та onload/tree_view має значення TRUE."
+
+#~ msgid "File Browser Virtual Root Directory"
+#~ msgstr "Віртуальний кореневий каталог перегляду файлів"
+
+#~ msgid ""
+#~ "The file browser virtual root directory to use when loading the file "
+#~ "browser plugin when onload/tree_view is TRUE. The virtual root must "
+#~ "always be below the actual root."
+#~ msgstr ""
+#~ "Віртуальний каталог перегляду файлів, що використовується при "
+#~ "завантаженні модуля перегляду файлів коли onload/tree_view має значення "
+#~ "TRUE. Віртуальний корінь завжди має бути нижче фактичного кореня."
+
+#~ msgid "Enable Restore of Remote Locations"
+#~ msgstr "Увімкнути відновлення для віддалених адрес"
+
+#~ msgid "Sets whether to enable restoring of remote locations."
+#~ msgstr "Визначає чи вмикати відновлення віддалених адрес."
+
+#~ msgid "Set Location to First Document"
+#~ msgstr "Встановити адресу на перший документ"
+
+#~ msgid ""
+#~ "If TRUE the file browser plugin will view the directory of the first "
+#~ "opened document given that the file browser hasn’t been used yet. (Thus "
+#~ "this generally applies to opening a document from the command line or "
+#~ "opening it with Nautilus, etc.)"
+#~ msgstr ""
+#~ "При значенні TRUE модуль перегляду файлів буде показувати каталог першого "
+#~ "відкритого документу, за умови що перегляд файлів ще не використовувався. "
+#~ "(Тобто це звичайно застосовується при відкриванні документу з командного "
+#~ "рядка або програмою nautilus, тощо.)"
+
+#~ msgid "File Browser Filter Mode"
+#~ msgstr "Режим фільтрування перегляду файлів"
+
+#~ msgid ""
+#~ "This value determines what files get filtered from the file browser. "
+#~ "Valid values are: none (filter nothing), hide-hidden (filter hidden "
+#~ "files) and hide-binary (filter binary files)."
+#~ msgstr ""
+#~ "Значення визначає, які файли відфільтровуються при перегляді файлів. "
+#~ "Допустимі значення: none (нічого не фільтрується), hide-hidden "
+#~ "(фільтруються приховані файли) і hide-binary (фільтруються двійкові "
+#~ "файли)."
+
+#~ msgid "File Browser Filter Pattern"
+#~ msgstr "Шаблон фільтра перегляду файлів"
+
+#~ msgid ""
+#~ "The filter pattern to filter the file browser with. This filter works on "
+#~ "top of the filter_mode."
+#~ msgstr "Шаблон фільтра перегляду файлів. Фільтр працює на базі filter_mode."
+
+#~ msgid "File Browser Binary Patterns"
+#~ msgstr "Шаблони огляду двійкових файлів"
+
+#~ msgid "The supplemental patterns to use when filtering binary files."
+#~ msgstr "Додаткові шаблони для відсіювання двійкових файлів."
+
+#~ msgid "_Set Root to Active Document"
+#~ msgstr "_Встановити корінь на поточний документ"
+
+#~ msgid "_New Folder"
+#~ msgstr "Створити _теку"
+
+#~ msgid "New F_ile"
+#~ msgstr "Створити _файл"
+
+#~ msgid "_Rename…"
+#~ msgstr "Перей_менувати…"
+
+#~ msgid "_Move to Trash"
+#~ msgstr "_Перемістити у смітник"
+
+#~ msgid "Re_fresh View"
+#~ msgstr "_Оновити вигляд"
+
+#~ msgid "_View Folder"
+#~ msgstr "Пере_глянути теку"
+
+#~ msgid "_Open in Terminal"
+#~ msgstr "_Відкрити у терміналі"
+
+#~ msgid "_Filter"
+#~ msgstr "_Фільтр"
+
+#~ msgid "Show _Hidden"
+#~ msgstr "Показувати при_ховані"
+
+#~ msgid "Show _Binary"
+#~ msgstr "Показувати _двійкові"
+
+#~ msgid "Match Filename"
+#~ msgstr "Збіг за назвою"
+
+#~ msgid "History"
+#~ msgstr "Історія"
+
+#~ msgid "Open history menu"
+#~ msgstr "Відкрити меню історії"
+
+#~ msgid "Modelines"
+#~ msgstr "Режим рядків"
+
+#~ msgid "Emacs, Kate and Vim-style modelines support for gedit."
+#~ msgstr "Підтримування режиму рядків в стилі редакторів Emacs, Kate та Vim."
+
+#~ msgid "Interactive Python console standing in the bottom panel."
+#~ msgstr "Інтерактивна консоль python у нижній панелі."
+
+#~ msgid "Quick Highlight"
+#~ msgstr "Швидке виділення кольором"
+
+#~ msgid "Highlights every occurrences of selected text."
+#~ msgstr "Виділяє кольором усі випадки використання вибраного тексту."
+
+#~ msgid "Manage _Snippets…"
+#~ msgstr "Керувати _фрагментами…"
+
+#~ msgid "Snippets"
+#~ msgstr "Фрагменти тексту"
+
 #, python-format
-msgid "Target directory “%s” is not a valid directory"
-msgstr "Цільовий каталог «%s» не є коректним каталогом"
+#~ msgid "The archive “%s” could not be created"
+#~ msgstr "Неможливо створити архів «%s»"
 
-#: plugins/snippets/snippets/importer.py:55
-#: plugins/snippets/snippets/importer.py:116
 #, python-format
-msgid "File “%s” does not exist"
-msgstr "Файла «%s» не існує"
+#~ msgid "Target directory “%s” does not exist"
+#~ msgstr "Цільовий каталог «%s» не існує"
 
-#: plugins/snippets/snippets/importer.py:58
 #, python-format
-msgid "File “%s” is not a valid snippets file"
-msgstr "Файл «%s» не є правильним файлом з фрагментами тексту"
+#~ msgid "Target directory “%s” is not a valid directory"
+#~ msgstr "Цільовий каталог «%s» не є коректним каталогом"
 
-#: plugins/snippets/snippets/importer.py:75
 #, python-format
-msgid "Imported file “%s” is not a valid snippets file"
-msgstr "Імпортований файл «%s» не є коректним файлом з текстовими фрагментами"
+#~ msgid "File “%s” does not exist"
+#~ msgstr "Файла «%s» не існує"
 
-#: plugins/snippets/snippets/importer.py:85
 #, python-format
-msgid "The archive “%s” could not be extracted"
-msgstr "Не вдалося розпакувати архів «%s»"
+#~ msgid "File “%s” is not a valid snippets file"
+#~ msgstr "Файл «%s» не є правильним файлом з фрагментами тексту"
 
-#: plugins/snippets/snippets/importer.py:103
 #, python-format
-msgid "The following files could not be imported: %s"
-msgstr "Не вдається імпортувати наступні файли: %s"
+#~ msgid "Imported file “%s” is not a valid snippets file"
+#~ msgstr ""
+#~ "Імпортований файл «%s» не є коректним файлом з текстовими фрагментами"
 
-#: plugins/snippets/snippets/importer.py:119
-#: plugins/snippets/snippets/importer.py:132
 #, python-format
-msgid "File “%s” is not a valid snippets archive"
-msgstr "Файл «%s» не є коректним архівом з текстовими фрагментами"
+#~ msgid "The archive “%s” could not be extracted"
+#~ msgstr "Не вдалося розпакувати архів «%s»"
 
-#: plugins/snippets/snippets/manager.py:50
-msgid "Snippets archive"
-msgstr "Архів фрагментів"
-
-#: plugins/snippets/snippets/manager.py:74
-msgid "Add a new snippet…"
-msgstr "Додати новий фрагмент…"
-
-#: plugins/snippets/snippets/manager.py:124
-msgid "Global"
-msgstr "Глобальний"
-
-#: plugins/snippets/snippets/manager.py:414
-msgid "Revert selected snippet"
-msgstr "Повернути виділений фрагмент тексту"
-
-#: plugins/snippets/snippets/manager.py:417
-#: plugins/snippets/snippets/snippets.ui:120
-#: plugins/snippets/snippets/snippets.ui:121
-msgid "Delete selected snippet"
-msgstr "Вилучити виділений фрагмент тексту"
-
-#. self['hbox_tab_trigger'].set_spacing(3)
-#: plugins/snippets/snippets/manager.py:670
-msgid ""
-"This is not a valid Tab trigger. Triggers can either contain alphanumeric "
-"characters (or _, : and .) or a single (non-alphanumeric) character like: {, "
-"[, etc."
-msgstr ""
-"Значення не є правильним підсвічуванням вкладки. Підсвічення може або "
-"містити алфавітно-цифрові символи (або _, : і .), або такий один не "
-"алфавітно-цифровий символ, як {, [ тощо."
-
-#. self['hbox_tab_trigger'].set_spacing(0)
-#: plugins/snippets/snippets/manager.py:677
-#: plugins/snippets/snippets/snippets.ui:283
-msgid "Single word the snippet is activated with after pressing Tab"
-msgstr "Слово, яким активується фрагмент тексту після натискання Tab"
-
-#: plugins/snippets/snippets/manager.py:766
 #, python-format
-msgid "The following error occurred while importing: %s"
-msgstr "Помилка при імпортуванні: %s"
+#~ msgid "The following files could not be imported: %s"
+#~ msgstr "Не вдається імпортувати наступні файли: %s"
 
-#: plugins/snippets/snippets/manager.py:773
-msgid "Import successfully completed"
-msgstr "Імпортування успішно завершено"
-
-#: plugins/snippets/snippets/manager.py:787
-#: plugins/snippets/snippets/snippets.ui:137
-#: plugins/snippets/snippets/snippets.ui:138
-msgid "Import snippets"
-msgstr "Імпортувати фрагменти тексту"
-
-#: plugins/snippets/snippets/manager.py:792
-#: plugins/snippets/snippets/manager.py:878
-#: plugins/snippets/snippets/manager.py:941
-msgid "All supported archives"
-msgstr "Усі підтримувані архіви"
-
-#: plugins/snippets/snippets/manager.py:793
-#: plugins/snippets/snippets/manager.py:879
-#: plugins/snippets/snippets/manager.py:942
-msgid "Gzip compressed archive"
-msgstr "Архів стиснений Gzip"
-
-#: plugins/snippets/snippets/manager.py:794
-#: plugins/snippets/snippets/manager.py:880
-#: plugins/snippets/snippets/manager.py:943
-msgid "Bzip2 compressed archive"
-msgstr "Архів стиснений Bzip2"
-
-#: plugins/snippets/snippets/manager.py:795
-msgid "Single snippets file"
-msgstr "Один файл з фрагментами"
-
-#: plugins/snippets/snippets/manager.py:796
-#: plugins/snippets/snippets/manager.py:882
-#: plugins/snippets/snippets/manager.py:945
-msgid "All files"
-msgstr "Всі файли"
-
-#: plugins/snippets/snippets/manager.py:808
 #, python-format
-msgid "The following error occurred while exporting: %s"
-msgstr "Помилка при експорті: %s"
+#~ msgid "File “%s” is not a valid snippets archive"
+#~ msgstr "Файл «%s» не є коректним архівом з текстовими фрагментами"
 
-#: plugins/snippets/snippets/manager.py:812
-msgid "Export successfully completed"
-msgstr "Експортування успішно завершено"
+#~ msgid "Snippets archive"
+#~ msgstr "Архів фрагментів"
 
-#. Ask if system snippets should also be exported
-#: plugins/snippets/snippets/manager.py:852
-#: plugins/snippets/snippets/manager.py:919
-msgid "Do you want to include selected <b>system</b> snippets in your export?"
-msgstr "Включити виділені <b>системні</b> фрагменти у експорт?"
+#~ msgid "Add a new snippet…"
+#~ msgstr "Додати новий фрагмент…"
 
-#: plugins/snippets/snippets/manager.py:867
-#: plugins/snippets/snippets/manager.py:937
-msgid "There are no snippets selected to be exported"
-msgstr "Не виділено фрагменти тексту для експортування"
+#~ msgid "Global"
+#~ msgstr "Глобальний"
 
-#: plugins/snippets/snippets/manager.py:872
-#: plugins/snippets/snippets/manager.py:910
-msgid "Export snippets"
-msgstr "Експорт фрагментів тексту"
+#~ msgid "Revert selected snippet"
+#~ msgstr "Повернути виділений фрагмент тексту"
 
-#: plugins/snippets/snippets/manager.py:1049
-msgid "Type a new shortcut, or press Backspace to clear"
-msgstr ""
-"Введіть нову комбінацію клавіш, або натисніть Backspace, щоб очистити її"
+#~ msgid "Delete selected snippet"
+#~ msgstr "Вилучити виділений фрагмент тексту"
 
-#: plugins/snippets/snippets/manager.py:1051
-msgid "Type a new shortcut"
-msgstr "Натисніть нову комбінацію клавіш"
+#~ msgid ""
+#~ "This is not a valid Tab trigger. Triggers can either contain alphanumeric "
+#~ "characters (or _, : and .) or a single (non-alphanumeric) character like: "
+#~ "{, [, etc."
+#~ msgstr ""
+#~ "Значення не є правильним підсвічуванням вкладки. Підсвічення може або "
+#~ "містити алфавітно-цифрові символи (або _, : і .), або такий один не "
+#~ "алфавітно-цифровий символ, як {, [ тощо."
 
-#: plugins/snippets/snippets/placeholder.py:605
+#~ msgid "Single word the snippet is activated with after pressing Tab"
+#~ msgstr "Слово, яким активується фрагмент тексту після натискання Tab"
+
 #, python-format
-msgid ""
-"Execution of the Python command (%s) exceeds the maximum time, execution "
-"aborted."
-msgstr ""
-"Час виконання команди Python (%s) перевищило припустиму норму, виконання "
-"перервано."
+#~ msgid "The following error occurred while importing: %s"
+#~ msgstr "Помилка при імпортуванні: %s"
 
-#: plugins/snippets/snippets/placeholder.py:613
+#~ msgid "Import successfully completed"
+#~ msgstr "Імпортування успішно завершено"
+
+#~ msgid "Import snippets"
+#~ msgstr "Імпортувати фрагменти тексту"
+
+#~ msgid "All supported archives"
+#~ msgstr "Усі підтримувані архіви"
+
+#~ msgid "Gzip compressed archive"
+#~ msgstr "Архів стиснений Gzip"
+
+#~ msgid "Bzip2 compressed archive"
+#~ msgstr "Архів стиснений Bzip2"
+
+#~ msgid "Single snippets file"
+#~ msgstr "Один файл з фрагментами"
+
+#~ msgid "All files"
+#~ msgstr "Всі файли"
+
 #, python-format
-msgid "Execution of the Python command (%s) failed: %s"
-msgstr "Не вдається виконати команду Python (%s): %s"
+#~ msgid "The following error occurred while exporting: %s"
+#~ msgstr "Помилка при експорті: %s"
 
-#: plugins/snippets/snippets.plugin.desktop.in:7
-msgid "Insert often-used pieces of text in a fast way."
-msgstr "Швидкий спосіб вставки фрагментів тексту, що часто використовуються."
+#~ msgid "Export successfully completed"
+#~ msgstr "Експортування успішно завершено"
 
-#: plugins/snippets/snippets/snippets.ui:40
-#: plugins/snippets/snippets/snippets.ui:47
-msgid "Manage Snippets"
-msgstr "Керувати фрагментами"
+#~ msgid ""
+#~ "Do you want to include selected <b>system</b> snippets in your export?"
+#~ msgstr "Включити виділені <b>системні</b> фрагменти у експорт?"
 
-#: plugins/snippets/snippets/snippets.ui:103
-#: plugins/snippets/snippets/snippets.ui:104
-msgid "Create new snippet"
-msgstr "Створити новий фрагмент тексту"
+#~ msgid "There are no snippets selected to be exported"
+#~ msgstr "Не виділено фрагменти тексту для експортування"
 
-#: plugins/snippets/snippets/snippets.ui:105
-msgid "Add Snippet"
-msgstr "Додати фрагмент"
+#~ msgid "Export snippets"
+#~ msgstr "Експорт фрагментів тексту"
 
-#: plugins/snippets/snippets/snippets.ui:122
-msgid "Remove Snippet"
-msgstr "Вилучити фрагмент"
+#~ msgid "Type a new shortcut, or press Backspace to clear"
+#~ msgstr ""
+#~ "Введіть нову комбінацію клавіш, або натисніть Backspace, щоб очистити її"
 
-#: plugins/snippets/snippets/snippets.ui:139
-msgid "Import Snippets"
-msgstr "Імпортувати фрагменти"
+#~ msgid "Type a new shortcut"
+#~ msgstr "Натисніть нову комбінацію клавіш"
 
-#: plugins/snippets/snippets/snippets.ui:154
-#: plugins/snippets/snippets/snippets.ui:155
-msgid "Export selected snippets"
-msgstr "Експортувати виділені фрагменти тексту"
+#, python-format
+#~ msgid ""
+#~ "Execution of the Python command (%s) exceeds the maximum time, execution "
+#~ "aborted."
+#~ msgstr ""
+#~ "Час виконання команди Python (%s) перевищило припустиму норму, виконання "
+#~ "перервано."
 
-#: plugins/snippets/snippets/snippets.ui:156
-msgid "Export Snippets"
-msgstr "Експортувати фрагменти"
+#, python-format
+#~ msgid "Execution of the Python command (%s) failed: %s"
+#~ msgstr "Не вдається виконати команду Python (%s): %s"
 
-#: plugins/snippets/snippets/snippets.ui:224
-msgid "Activation"
-msgstr "Активація"
+#~ msgid "Insert often-used pieces of text in a fast way."
+#~ msgstr ""
+#~ "Швидкий спосіб вставки фрагментів тексту, що часто використовуються."
 
-#. "tab" here means the tab key, not the notebook tab!
-#: plugins/snippets/snippets/snippets.ui:263
-msgid "_Tab trigger:"
-msgstr "_Тригер табуляції:"
+#~ msgid "Manage Snippets"
+#~ msgstr "Керувати фрагментами"
 
-#: plugins/snippets/snippets/snippets.ui:317
-msgid "S_hortcut key:"
-msgstr "_Комбінація клавіш:"
+#~ msgid "Create new snippet"
+#~ msgstr "Створити новий фрагмент тексту"
 
-#: plugins/snippets/snippets/snippets.ui:333
-msgid "Shortcut key with which the snippet is activated"
-msgstr "Комбінація клавіш, якою активується фрагмент тексту"
+#~ msgid "Add Snippet"
+#~ msgstr "Додати фрагмент"
 
-#: plugins/snippets/snippets/snippets.ui:351
-msgid "_Drop targets:"
-msgstr "Вставити _як:"
+#~ msgid "Remove Snippet"
+#~ msgstr "Вилучити фрагмент"
 
-#: plugins/sort/gedit-sort-plugin.c:241
-msgid "S_ort…"
-msgstr "_Упорядкувати…"
+#~ msgid "Import Snippets"
+#~ msgstr "Імпортувати фрагменти"
 
-#: plugins/sort/resources/ui/gedit-sort-plugin.ui:13
-#: plugins/sort/sort.plugin.desktop.in:5
-msgid "Sort"
-msgstr "Сортування"
+#~ msgid "Export selected snippets"
+#~ msgstr "Експортувати виділені фрагменти тексту"
 
-#: plugins/sort/resources/ui/gedit-sort-plugin.ui:38
-msgid "_Reverse order"
-msgstr "З_воротний порядок"
+#~ msgid "Export Snippets"
+#~ msgstr "Експортувати фрагменти"
 
-#: plugins/sort/resources/ui/gedit-sort-plugin.ui:54
-msgid "R_emove duplicates"
-msgstr "В_илучити повтори"
+#~ msgid "Activation"
+#~ msgstr "Активація"
 
-#: plugins/sort/resources/ui/gedit-sort-plugin.ui:70
-msgid "C_ase sensitive"
-msgstr "З урахуванням _регістру"
+#~ msgid "_Tab trigger:"
+#~ msgstr "_Тригер табуляції:"
 
-#: plugins/sort/resources/ui/gedit-sort-plugin.ui:93
-msgid "S_tart at column:"
-msgstr "По_чинати з стовпчика:"
+#~ msgid "S_hortcut key:"
+#~ msgstr "_Комбінація клавіш:"
 
-#: plugins/sort/resources/ui/gedit-sort-plugin.ui:150
-msgid "_Sort"
-msgstr "С_ортувати"
+#~ msgid "Shortcut key with which the snippet is activated"
+#~ msgstr "Комбінація клавіш, якою активується фрагмент тексту"
 
-#: plugins/sort/sort.plugin.desktop.in:6
-msgid "Sorts a document or selected text."
-msgstr "Сортує поточний документ чи виділений текст."
+#~ msgid "_Drop targets:"
+#~ msgstr "Вставити _як:"
 
-#: plugins/spell/gedit-spell-app-activatable.c:143
-msgid "_Check Spelling…"
-msgstr "_Перевірити орфографію…"
+#~ msgid "S_ort…"
+#~ msgstr "_Упорядкувати…"
 
-#: plugins/spell/gedit-spell-app-activatable.c:147
-msgid "Set _Language…"
-msgstr "В_казати мову…"
+#~ msgid "Sort"
+#~ msgstr "Сортування"
 
-#: plugins/spell/gedit-spell-app-activatable.c:151
-msgid "_Highlight Misspelled Words"
-msgstr "_Виділяти кольором орфографічні помилки"
+#~ msgid "_Reverse order"
+#~ msgstr "З_воротний порядок"
 
-#: plugins/spell/org.gnome.gedit.plugins.spell.gschema.xml:5
-#: plugins/spell/resources/ui/gedit-spell-setup-dialog.ui:75
-msgid "Highlight misspelled words"
-msgstr "Виділяти кольором орфографічні помилки"
+#~ msgid "R_emove duplicates"
+#~ msgstr "В_илучити повтори"
 
-#: plugins/spell/org.gnome.gedit.plugins.spell.gschema.xml:6
-msgid "Default setting for highlight misspelled words."
-msgstr ""
-"Типова поведінка для виділення кольором орфографічних помилок у словах."
+#~ msgid "C_ase sensitive"
+#~ msgstr "З урахуванням _регістру"
 
-#: plugins/spell/resources/ui/gedit-spell-setup-dialog.ui:7
-msgid "Configure spell plugin"
-msgstr "Налаштовування додатка перевірки орфографії"
+#~ msgid "S_tart at column:"
+#~ msgstr "По_чинати з стовпчика:"
 
-#: plugins/spell/resources/ui/gedit-spell-setup-dialog.ui:61
-msgid "Defaults for new documents"
-msgstr "Типові параметри для нових документів"
+#~ msgid "_Sort"
+#~ msgstr "С_ортувати"
 
-#: plugins/spell/spell.plugin.desktop.in:5
-msgid "Spell Checker"
-msgstr "Перевірка орфографії"
+#~ msgid "Sorts a document or selected text."
+#~ msgstr "Сортує поточний документ чи виділений текст."
 
-#: plugins/spell/spell.plugin.desktop.in:6
-msgid "Checks the spelling of the current document."
-msgstr "Перевірити орфографію поточного документа."
+#~ msgid "_Check Spelling…"
+#~ msgstr "_Перевірити орфографію…"
 
-#: plugins/textsize/textsize/__init__.py:53
-msgid "_Normal size"
-msgstr "З_вичайний розмір"
+#~ msgid "Set _Language…"
+#~ msgstr "В_казати мову…"
 
-#: plugins/textsize/textsize/__init__.py:55
-msgid "S_maller Text"
-msgstr "_Менший шрифт"
+#~ msgid "_Highlight Misspelled Words"
+#~ msgstr "_Виділяти кольором орфографічні помилки"
 
-#: plugins/textsize/textsize/__init__.py:57
-msgid "_Larger Text"
-msgstr "_Більший шрифт"
+#~ msgid "Highlight misspelled words"
+#~ msgstr "Виділяти кольором орфографічні помилки"
 
-#: plugins/textsize/textsize.plugin.desktop.in:6
-#| msgid "Tab Size"
-msgid "Text Size"
-msgstr "Розмір шрифту"
+#~ msgid "Default setting for highlight misspelled words."
+#~ msgstr ""
+#~ "Типова поведінка для виділення кольором орфографічних помилок у словах."
 
-#: plugins/textsize/textsize.plugin.desktop.in:7
-msgid "Easily increase and decrease the text size."
-msgstr "Спрощене збільшення або зменшення розміру шрифту."
+#~ msgid "Configure spell plugin"
+#~ msgstr "Налаштовування додатка перевірки орфографії"
 
-#: plugins/time/gedit-time-plugin.c:279
-msgid "In_sert Date and Time…"
-msgstr "Вс_тавити дату й час…"
+#~ msgid "Defaults for new documents"
+#~ msgstr "Типові параметри для нових документів"
 
-#: plugins/time/gedit-time-plugin.c:507
-msgid "Available formats"
-msgstr "Доступні формати"
+#~ msgid "Spell Checker"
+#~ msgstr "Перевірка орфографії"
 
-#: plugins/time/org.gnome.gedit.plugins.time.gschema.xml:5
-msgid "Prompt Type"
-msgstr "Тип запитання"
+#~ msgid "Checks the spelling of the current document."
+#~ msgstr "Перевірити орфографію поточного документа."
 
-#: plugins/time/org.gnome.gedit.plugins.time.gschema.xml:6
-msgid ""
-"If the user should be prompted for a format or if the selected or custom "
-"format should be used."
-msgstr ""
-"Чи потрібно запитувати у користувача формат або ж використовувати вибраний "
-"чи інший формат."
+#~ msgid "_Normal size"
+#~ msgstr "З_вичайний розмір"
 
-#: plugins/time/org.gnome.gedit.plugins.time.gschema.xml:10
-msgid "Selected Format"
-msgstr "Обраний формат"
+#~ msgid "S_maller Text"
+#~ msgstr "_Менший шрифт"
 
-#: plugins/time/org.gnome.gedit.plugins.time.gschema.xml:11
-msgid "The selected format used when inserting the date/time."
-msgstr "Обраний формат, що використовується при вставленні дати й часу."
+#~ msgid "_Larger Text"
+#~ msgstr "_Більший шрифт"
 
-#: plugins/time/org.gnome.gedit.plugins.time.gschema.xml:15
-msgid "Custom Format"
-msgstr "Інший формат"
+#~| msgid "Tab Size"
+#~ msgid "Text Size"
+#~ msgstr "Розмір шрифту"
 
-#: plugins/time/org.gnome.gedit.plugins.time.gschema.xml:16
-msgid "The custom format used when inserting the date/time."
-msgstr "Власний формат, що використовується при вставленні дати й часу."
+#~ msgid "Easily increase and decrease the text size."
+#~ msgstr "Спрощене збільшення або зменшення розміру шрифту."
 
-#: plugins/time/resources/ui/gedit-time-dialog.ui:7
-msgid "Insert Date and Time"
-msgstr "Вставити дату й час"
+#~ msgid "In_sert Date and Time…"
+#~ msgstr "Вс_тавити дату й час…"
 
-#: plugins/time/resources/ui/gedit-time-dialog.ui:23
-#: plugins/time/resources/ui/gedit-time-setup-dialog.ui:94
-msgid "Use the _selected format"
-msgstr "Використати _вибраний формат"
+#~ msgid "Available formats"
+#~ msgstr "Доступні формати"
 
-#: plugins/time/resources/ui/gedit-time-dialog.ui:65
-#: plugins/time/resources/ui/gedit-time-setup-dialog.ui:141
-msgid "_Use custom format"
-msgstr "_Інший формат"
+#~ msgid "Prompt Type"
+#~ msgstr "Тип запитання"
 
-#. Translators: Use the more common date format in your locale
-#: plugins/time/resources/ui/gedit-time-dialog.ui:89
-#: plugins/time/resources/ui/gedit-time-setup-dialog.ui:165
-msgid "%d/%m/%Y %H:%M:%S"
-msgstr "%d/%m/%Y %H:%M:%S"
+#~ msgid ""
+#~ "If the user should be prompted for a format or if the selected or custom "
+#~ "format should be used."
+#~ msgstr ""
+#~ "Чи потрібно запитувати у користувача формат або ж використовувати "
+#~ "вибраний чи інший формат."
 
-#. Translators: This example should follow the date format defined in the entry above
-#: plugins/time/resources/ui/gedit-time-dialog.ui:106
-#: plugins/time/resources/ui/gedit-time-setup-dialog.ui:181
-msgid "01/11/2009 17:52:00"
-msgstr "01/11/2009 17:52:00"
+#~ msgid "Selected Format"
+#~ msgstr "Обраний формат"
 
-#: plugins/time/resources/ui/gedit-time-dialog.ui:167
-msgid "_Insert"
-msgstr "Вст_авити"
+#~ msgid "The selected format used when inserting the date/time."
+#~ msgstr "Обраний формат, що використовується при вставленні дати й часу."
 
-#: plugins/time/resources/ui/gedit-time-setup-dialog.ui:6
-msgid "Configure date/time plugin"
-msgstr "Налаштовувати модуль вставлення дати й часу"
+#~ msgid "Custom Format"
+#~ msgstr "Інший формат"
 
-#: plugins/time/resources/ui/gedit-time-setup-dialog.ui:57
-msgid "When inserting date/time…"
-msgstr "При вставленні дати й часу…"
+#~ msgid "The custom format used when inserting the date/time."
+#~ msgstr "Власний формат, що використовується при вставленні дати й часу."
 
-#: plugins/time/resources/ui/gedit-time-setup-dialog.ui:75
-msgid "_Prompt for a format"
-msgstr "За_питувати формат"
+#~ msgid "Insert Date and Time"
+#~ msgstr "Вставити дату й час"
 
-#: plugins/time/time.plugin.desktop.in:5
-msgid "Insert Date/Time"
-msgstr "Вставити час або дату"
+#~ msgid "Use the _selected format"
+#~ msgstr "Використати _вибраний формат"
 
-#: plugins/time/time.plugin.desktop.in:6
-msgid "Inserts current date and time at the cursor position."
-msgstr "Вставляє поточну дату й час в позицію курсора."
+#~ msgid "_Use custom format"
+#~ msgstr "_Інший формат"
+
+#~ msgid "%d/%m/%Y %H:%M:%S"
+#~ msgstr "%d/%m/%Y %H:%M:%S"
+
+#~ msgid "01/11/2009 17:52:00"
+#~ msgstr "01/11/2009 17:52:00"
+
+#~ msgid "_Insert"
+#~ msgstr "Вст_авити"
+
+#~ msgid "Configure date/time plugin"
+#~ msgstr "Налаштовувати модуль вставлення дати й часу"
+
+#~ msgid "When inserting date/time…"
+#~ msgstr "При вставленні дати й часу…"
+
+#~ msgid "_Prompt for a format"
+#~ msgstr "За_питувати формат"
+
+#~ msgid "Insert Date/Time"
+#~ msgstr "Вставити час або дату"
+
+#~ msgid "Inserts current date and time at the cursor position."
+#~ msgstr "Вставляє поточну дату й час в позицію курсора."
 
 #~ msgid "Quick Open…"
 #~ msgstr "Швидке відкривання…"
