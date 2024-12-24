@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/jefferyto/gedit-pythonconsole/"
 "issues\n"
 "POT-Creation-Date: 2024-12-25 01:44+0800\n"
-"PO-Revision-Date: 2024-12-25 02:41+0800\n"
+"PO-Revision-Date: 2024-12-25 03:07+0800\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
 "Language: mai\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../pythonconsole/__init__.py:51
 msgid "Python Console"
-msgstr "पाइथन कँसोल "
+msgstr "पाइथन कँसोल"
 
 #: ../../pythonconsole/config.ui:18
 msgid "C_ommand color:"

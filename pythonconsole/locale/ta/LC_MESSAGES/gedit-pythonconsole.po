@@ -17,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/jefferyto/gedit-pythonconsole/"
 "issues\n"
 "POT-Creation-Date: 2024-12-25 01:44+0800\n"
-"PO-Revision-Date: 2024-12-25 02:53+0800\n"
+"PO-Revision-Date: 2024-12-25 03:08+0800\n"
 "Last-Translator: Shantha kumar <shkumar@redhat.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "Language: ta\n"
@@ -43,13 +43,13 @@ msgstr "பிழை நிறம் (_E):"
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:5
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:5
 msgid "Command Color Text"
-msgstr "கட்டளை உரை நிறம் "
+msgstr "கட்டளை உரை நிறம்"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:6
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:6
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:6
 msgid "The command color text"
-msgstr "கட்டளை உரை நிறம் "
+msgstr "கட்டளை உரை நிறம்"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:10
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:10
@@ -61,7 +61,7 @@ msgstr "பிழை உரை நிறம்"
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:11
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:11
 msgid "The error color text"
-msgstr "பிழை உரை நிறம் "
+msgstr "பிழை உரை நிறம்"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:15
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:15

@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/jefferyto/gedit-pythonconsole/"
 "issues\n"
 "POT-Creation-Date: 2024-12-25 01:44+0800\n"
-"PO-Revision-Date: 2024-12-25 02:34+0800\n"
+"PO-Revision-Date: 2024-12-25 03:07+0800\n"
 "Last-Translator: Arnauld NEDATI <arnauldndt@gmail.com>\n"
 "Language-Team: Lingala <ubuntu-cd@lists.ubuntu.com>\n"
 "Language: ln\n"
@@ -47,13 +47,13 @@ msgstr "Lángi ya nkoma ya etámboseli"
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:10
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:10
 msgid "Error Color Text"
-msgstr "Lángi ya nkoma lya ziko "
+msgstr "Lángi ya nkoma lya ziko"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:11
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:11
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:11
 msgid "The error color text"
-msgstr "Lángi ya nkoma lya ziko "
+msgstr "Lángi ya nkoma lya ziko"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:15
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:15

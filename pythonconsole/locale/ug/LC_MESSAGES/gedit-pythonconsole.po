@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/jefferyto/gedit-pythonconsole/"
 "issues\n"
 "POT-Creation-Date: 2024-12-25 01:44+0800\n"
-"PO-Revision-Date: 2024-12-25 02:54+0800\n"
+"PO-Revision-Date: 2024-12-25 03:19+0800\n"
 "Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
 "Language: ug\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../pythonconsole/__init__.py:51
 msgid "Python Console"
-msgstr "Python  كونترول سۇپىسى"
+msgstr "Python كونترول سۇپىسى"
 
 #: ../../pythonconsole/config.ui:18
 msgid "C_ommand color:"
@@ -92,7 +92,7 @@ msgstr "خەت نۇسخا"
 #| "A Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr ""
-"Pango خەت نۇسخىسى ئاتى. مەسىلەن  \"Sans 12\" ياكى \"Monospace Bold 14\" "
+"Pango خەت نۇسخىسى ئاتى. مەسىلەن \"Sans 12\" ياكى \"Monospace Bold 14\" "
 "دېگەندەك."
 
 #~ msgid "gedit"
