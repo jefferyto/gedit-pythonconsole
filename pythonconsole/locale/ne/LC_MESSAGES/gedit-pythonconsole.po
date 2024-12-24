@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/jefferyto/gedit-pythonconsole/"
 "issues\n"
 "POT-Creation-Date: 2024-12-25 01:44+0800\n"
-"PO-Revision-Date: 2024-12-25 02:43+0800\n"
+"PO-Revision-Date: 2024-12-25 04:30+0800\n"
 "Last-Translator: Pawan Chitrakar <chautari@gmail.com>\n"
 "Language-Team: Nepali Translation Team <chautari@gmail.com>\n"
 "Language: ne\n"
@@ -28,43 +28,36 @@ msgid "Python Console"
 msgstr "पाइथन कन्सोल"
 
 #: ../../pythonconsole/config.ui:18
-#, fuzzy
 msgid "C_ommand color:"
-msgstr "रङ्ग"
+msgstr "आदेश रङ्ग:"
 
 #: ../../pythonconsole/config.ui:32
-#, fuzzy
-#| msgid "Border color"
 msgid "_Error color:"
-msgstr "कच रङ्गमा गल्ती"
+msgstr "गलत रङ्ग:"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:5
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:5
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:5
-#, fuzzy
 msgid "Command Color Text"
-msgstr "टर्मिनलमा पाठको पूर्वनिर्धारित रङ"
+msgstr "आदेश पाठ रङ"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:6
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:6
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:6
-#, fuzzy
 msgid "The command color text"
-msgstr "टर्मिनलमा पाठको पूर्वनिर्धारित रङ"
+msgstr "आदेश पाठ रङ"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:10
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:10
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:10
-#, fuzzy
 msgid "Error Color Text"
-msgstr "कच रङ्गमा गल्ती"
+msgstr "गलत पाठ रङ"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:11
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:11
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:11
-#, fuzzy
 msgid "The error color text"
-msgstr "कच रङ्गमा गल्ती"
+msgstr "गलत पाठ रङ"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:15
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:15
@@ -79,6 +72,8 @@ msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
+"ठीक भएमा, यदि यो मोनोस्पेस भएमा टर्मिनलले डेस्कटप-विश्वव्यापी मानक फन्ट प्रयोग गर्नेछ (र "
+"सबै भन्दा समान फन्ट यो अन्यसँग आउन सक्छ) ।."
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:24
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:24
@@ -91,6 +86,7 @@ msgstr "फन्ट"
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:25
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr ""
+"प्याङ्गो फन्ट नाम । उदाहरण  \\\"Sans 12\\\" वा \\\"Monospace बोल्ड 14\\\"।."
 
 #, fuzzy
 #~ msgid "gedit"

@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/jefferyto/gedit-pythonconsole/"
 "issues\n"
 "POT-Creation-Date: 2024-12-25 01:44+0800\n"
-"PO-Revision-Date: 2024-12-25 02:26+0800\n"
+"PO-Revision-Date: 2024-12-25 04:22+0800\n"
 "Last-Translator: Yosef Or Boczko <yoseforb@gmail.com>\n"
 "Language-Team: Hebrew <yoseforb@gmail.com>\n"
 "Language: he\n"
@@ -40,31 +40,31 @@ msgstr "צבע ש_גיאה:"
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:5
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:5
 msgid "Command Color Text"
-msgstr "_צבע פקודה:"
+msgstr "טקסט צבע פקודה"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:6
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:6
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:6
 msgid "The command color text"
-msgstr "_צבע פקודה:"
+msgstr "טקסט צבע פקודה"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:10
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:10
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:10
 msgid "Error Color Text"
-msgstr "צבע ש_גיאה:"
+msgstr "טקסט צבע שגיאה"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:11
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:11
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:11
 msgid "The error color text"
-msgstr "צבע ש_גיאה:"
+msgstr "טקסט צבע שגיאה"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:15
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:15
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:15
 msgid "Whether to use the system font"
-msgstr "Whether to use the system font"
+msgstr "האם להשתמש בגופן המערכת"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:16
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:16

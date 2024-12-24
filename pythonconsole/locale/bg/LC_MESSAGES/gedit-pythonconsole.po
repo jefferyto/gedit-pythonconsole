@@ -17,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/jefferyto/gedit-pythonconsole/"
 "issues\n"
 "POT-Creation-Date: 2024-12-25 01:44+0800\n"
-"PO-Revision-Date: 2024-12-25 02:16+0800\n"
+"PO-Revision-Date: 2024-12-25 04:17+0800\n"
 "Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
 "Language: bg\n"
@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../pythonconsole/__init__.py:51
 msgid "Python Console"
-msgstr "Конзола на Питон"
+msgstr "Конзола на Python"
 
 #: ../../pythonconsole/config.ui:18
 msgid "C_ommand color:"
@@ -72,16 +72,12 @@ msgstr "Използване на системния шрифт"
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:16
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:16
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:16
-#, fuzzy
-#| msgid ""
-#| "If true, the terminal will use the desktop-global standard font if it's "
-#| "monospace (and the most similar font it can come up with otherwise)."
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
-"Ако е истина, външните инструменти ще използват глобалния стандартен шрифт, "
-"ако е равноширок, или подобен."
+"Ако е истина, терминалът ще използва глобалния стандартен шрифт, ако е "
+"равноширок, или подобен."
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:24
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:24
@@ -92,12 +88,9 @@ msgstr "Шрифт"
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:25
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:25
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:25
-#, fuzzy
-#| msgid ""
-#| "A Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr ""
-"Име на шрифт във формат Pango. Примери: „Sans 12“ или „Monospace Bold 14“."
+"Име на шрифт във формат Pango. Напр.: „Sans 12“ или „Monospace Bold 14“."
 
 #~ msgid ""
 #~ "gedit is the official text editor of the GNOME desktop environment. While "
