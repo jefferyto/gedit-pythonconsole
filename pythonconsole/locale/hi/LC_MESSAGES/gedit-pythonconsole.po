@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/jefferyto/gedit-pythonconsole/"
 "issues\n"
 "POT-Creation-Date: 2024-12-25 01:44+0800\n"
-"PO-Revision-Date: 2024-12-25 02:25+0800\n"
+"PO-Revision-Date: 2024-12-25 04:41+0800\n"
 "Last-Translator: rajesh <rajesh>\n"
 "Language-Team: Hindi <kde-i18n-doc@kde.org>\n"
 "Language: hi\n"
@@ -42,19 +42,19 @@ msgstr "त्रुटि रंग (_E):"
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:5
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:5
 msgid "Command Color Text"
-msgstr "कमांड पाठ रंग (_o)"
+msgstr "कमांड पाठ रंग"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:6
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:6
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:6
 msgid "The command color text"
-msgstr "कमांड रंग पाठ (_o)"
+msgstr "कमांड रंग पाठ"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:10
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:10
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:10
 msgid "Error Color Text"
-msgstr "त्रुटि रंग पाठ (_E)"
+msgstr "त्रुटि रंग पाठ"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:11
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:11
