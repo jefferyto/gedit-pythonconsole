@@ -2,6 +2,7 @@
 # Copyright (C) 2004-2006 Adam Weinberger and the GNOME Foundation
 # This file is distributed under the same licence as the gedit package.
 # Adam Weinberger <adamw@gnome.org>, 2004, 2005, 2006.
+# Jeffery To <jeffery.to@gmail.com>, 2024.
 #
 #
 msgid ""
@@ -10,8 +11,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/jefferyto/gedit-pythonconsole/"
 "issues\n"
 "POT-Creation-Date: 2024-12-25 01:44+0800\n"
-"PO-Revision-Date: 2024-12-25 02:22+0800\n"
-"Last-Translator: Adam Weinberger <adamw@gnome.org>\n"
+"PO-Revision-Date: 2024-12-25 04:52+0800\n"
+"Last-Translator: Jeffery To <jeffery.to@gmail.com>\n"
 "Language-Team: Canadian English <adamw@gnome.org>\n"
 "Language: en_CA\n"
 "MIME-Version: 1.0\n"
@@ -26,41 +27,41 @@ msgstr "Python Console"
 
 #: ../../pythonconsole/config.ui:18
 msgid "C_ommand color:"
-msgstr ""
+msgstr "C_ommand colour:"
 
 #: ../../pythonconsole/config.ui:32
 msgid "_Error color:"
-msgstr ""
+msgstr "_Error colour:"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:5
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:5
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:5
 msgid "Command Color Text"
-msgstr ""
+msgstr "Command Colour Text"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:6
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:6
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:6
 msgid "The command color text"
-msgstr ""
+msgstr "The command colour text"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:10
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:10
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:10
 msgid "Error Color Text"
-msgstr ""
+msgstr "Error Colour Text"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:11
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:11
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:11
 msgid "The error color text"
-msgstr ""
+msgstr "The error colour text"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:15
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:15
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:15
 msgid "Whether to use the system font"
-msgstr ""
+msgstr "Whether to use the system font"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:16
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:16
@@ -69,18 +70,20 @@ msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
+"If true, the terminal will use the desktop-global standard font if it’s "
+"monospace (and the most similar font it can come up with otherwise)."
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:24
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:24
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:24
 msgid "Font"
-msgstr ""
+msgstr "Font"
 
 #: ../../pythonconsole/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml:25
 #: ../../pythonconsole/schemas/org.mate.pluma.plugins.pythonconsole.gschema.xml:25
 #: ../../pythonconsole/schemas/org.x.editor.plugins.pythonconsole.gschema.xml:25
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
-msgstr ""
+msgstr "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 
 #~ msgid "Edit text files"
 #~ msgstr "Edit text files"
