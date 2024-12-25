@@ -8,4 +8,4 @@ You can add a Python console to the bottom pane, allowing you to test Python scr
 
 Once the Python console is enabled, you can open it by selecting <guiseq><gui>View</gui><gui>Bottom Panel</gui></guiseq>.
 
-If you have also enabled the <gui>Embeded Terminal</gui> plugin, the <gui>Python Console</gui> will appear as a separate tab in the bottom pane.
+If you have also enabled the <gui>Embedded Terminal</gui> plugin, the <gui>Python Console</gui> will appear as a separate tab in the bottom pane.
