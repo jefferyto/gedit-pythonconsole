@@ -12,10 +12,10 @@ Leandro Regueiro <leandro.regueiro@gmail.com>, 2011
 Marcos Lans <marcoslansgarza@gmail.com>, 2018.
 -->
 
-Consola de Python
+# Consola de Python
 
-Pode engadir unha consola de Python ao panel inferior, o que lle permite probar os seus scripts Python sen saír de <app>gedit</app>. Para activar a consola de Python, seleccione <guiseq><gui style="menu">gedit</gui><gui style="menuitem">Preferencias</gui><gui>Engadidos</gui><gui>Consola de Python</gui></guiseq>.
+Pode engadir unha consola de Python ao panel inferior, o que lle permite probar os seus scripts Python sen saír de _gedit_. Para activar a consola de Python, seleccione <kbd><samp>gedit</samp></kbd> ▸ <kbd><samp>Preferencias</samp></kbd> ▸ <kbd><samp>Engadidos</samp></kbd> ▸ <kbd><samp>Consola de Python</samp></kbd>.
 
-Unha vez activada a consola Python, poderá abrila seleccionando <guiseq><gui>Ver</gui><gui>Panel inferior</gui></guiseq>.
+Unha vez activada a consola Python, poderá abrila seleccionando <kbd><samp>Ver</samp></kbd> ▸ <kbd><samp>Panel inferior</samp></kbd>.
 
-Se tamén activou o engadido <gui>Terminal empotrado</gui>, a <gui>Consola Python</gui> aparecerá nunha lapela separada no panel inferior.
+:bulb: Se tamén activou o engadido <kbd><samp>Terminal empotrado</samp></kbd>, a <kbd><samp>Consola Python</samp></kbd> aparecerá nunha lapela separada no panel inferior.

@@ -18,10 +18,10 @@ Benjamin Steinwender <b@stbe.at>, 2014-2015
 Jürgen Benvenuti <gastornis@posteo.org>, 2022
 -->
 
-Python-Konsole
+# Python-Konsole
 
-Sie können eine Python-Konsole in die untere Leiste einfügen, in welcher Sie Python-Skripte testen können, ohne <app>gedit</app> zu verlassen. Um die Python-Konsole zu aktivieren, wählen Sie <guiseq><gui style="menu">gedit</gui><gui style="menuitem">Einstellungen</gui><gui>Erweiterungen</gui><gui>Python-Konsole</gui></guiseq>.
+Sie können eine Python-Konsole in die untere Leiste einfügen, in welcher Sie Python-Skripte testen können, ohne _gedit_ zu verlassen. Um die Python-Konsole zu aktivieren, wählen Sie <kbd><samp>gedit</samp></kbd> ▸ <kbd><samp>Einstellungen</samp></kbd> ▸ <kbd><samp>Erweiterungen</samp></kbd> ▸ <kbd><samp>Python-Konsole</samp></kbd>.
 
-Sobald die Python-Konsole aktiviert ist, öffnen Sie sie mittels <guiseq><gui>Ansicht</gui><gui>Fußleiste</gui></guiseq>.
+Sobald die Python-Konsole aktiviert ist, öffnen Sie sie mittels <kbd><samp>Ansicht</samp></kbd> ▸ <kbd><samp>Fußleiste</samp></kbd>.
 
-Falls Sie außerdem das <gui>Eingebettete Terminal</gui> aktiviert haben, erscheint die <gui>Python-Konsole</gui> in einem separaten Reiter in der Fußleiste.
+:bulb: Falls Sie außerdem das <kbd><samp>Eingebettete Terminal</samp></kbd> aktiviert haben, erscheint die <kbd><samp>Python-Konsole</samp></kbd> in einem separaten Reiter in der Fußleiste.

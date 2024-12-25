@@ -34,10 +34,10 @@ Guillaume Bernard <associations@guillaume-bernard.fr>, 2018
 Charles Monzat <charles.monzat@free.fr>, 2020
 -->
 
-Console Python
+# Console Python
 
-Vous pouvez ajouter une console Python dans le panneau inférieur afin de vous permettre de tester des scripts Python sans quitter <app>gedit</app>. Pour activer la console Python, choisissez <guiseq><gui style="menu">gedit</gui><gui style="menuitem">Préférences</gui><gui>Greffons</gui><gui>Console Python</gui></guiseq>.
+Vous pouvez ajouter une console Python dans le panneau inférieur afin de vous permettre de tester des scripts Python sans quitter _gedit_. Pour activer la console Python, choisissez <kbd><samp>gedit</samp></kbd> ▸ <kbd><samp>Préférences</samp></kbd> ▸ <kbd><samp>Greffons</samp></kbd> ▸ <kbd><samp>Console Python</samp></kbd>.
 
-Une fois que la console Python est activée, vous pouvez l’ouvrir en sélectionnant <guiseq><gui>Affichage</gui><gui>Panneau inférieur</gui></guiseq>.
+Une fois que la console Python est activée, vous pouvez l’ouvrir en sélectionnant <kbd><samp>Affichage</samp></kbd> ▸ <kbd><samp>Panneau inférieur</samp></kbd>.
 
-Si vous avez également activé le greffon <gui>Terminal intégré</gui>, la <gui>console Python</gui> apparaît dans un onglet séparé dans le panneau inférieur.
+:bulb: Si vous avez également activé le greffon <kbd><samp>Terminal intégré</samp></kbd>, la <kbd><samp>console Python</samp></kbd> apparaît dans un onglet séparé dans le panneau inférieur.

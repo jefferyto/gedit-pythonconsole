@@ -13,10 +13,10 @@ Ivan Komaritsyn <vantu5z@mail.ru>, 2017
 Ser82-png <asvmail.as@gmail.com>, 2023-2024
 -->
 
-Консоль Python
+# Консоль Python
 
-На нижнюю панель можно добавить консоль Python, позволяющую проверять скрипты Python, не выходя из <app>gedit</app>. Чтобы включить консоль Python, выберите <guiseq><gui style="menu">gedit</gui> <gui style="menuitem">Параметры</gui><gui>Модули</gui> <gui>Консоль Python</gui></guiseq>.
+На нижнюю панель можно добавить консоль Python, позволяющую проверять скрипты Python, не выходя из _gedit_. Чтобы включить консоль Python, выберите <kbd><samp>gedit</samp></kbd> ▸ <kbd><samp>Параметры</samp></kbd> ▸ <kbd><samp>Модули</samp></kbd> ▸ <kbd><samp>Консоль Python</samp></kbd>.
 
-После включения консоли Python, можно её отрыть, выбрав <guiseq><gui>Вид</gui><gui>Нижняя панель</gui></guiseq>.
+После включения консоли Python, можно её отрыть, выбрав <kbd><samp>Вид</samp></kbd> ▸ <kbd><samp>Нижняя панель</samp></kbd>.
 
-Если также включён модуль <gui>Встроенный терминал</gui>, консоль Python будет отображена в нижней панели в виде отдельной вкладки.
+:bulb: Если также включён модуль <kbd><samp>Встроенный терминал</samp></kbd>, <kbd><samp>консоль Python</samp></kbd> будет отображена в нижней панели в виде отдельной вкладки.

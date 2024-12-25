@@ -17,10 +17,10 @@ Websted http://dansk-gruppen.dk
 E-mail <dansk@dansk-gruppen.dk>
 -->
 
-Python-konsol
+# Python-konsol
 
-Du kan tilføje en Python-konsol i den nederste rude, så du kan teste Python-scripts uden at forlade <app>gedit</app>. Aktivér Python-konsollen ved at vælge <guiseq><gui style="menu">gedit</gui> <gui style="menuitem">Indstillinger</gui><gui>Udvidelsesmoduler</gui> <gui>Python-konsol</gui></guiseq>.
+Du kan tilføje en Python-konsol i den nederste rude, så du kan teste Python-scripts uden at forlade _gedit_. Aktivér Python-konsollen ved at vælge <kbd><samp>gedit</samp></kbd> ▸ <kbd><samp>Indstillinger</samp></kbd> ▸ <kbd><samp>Udvidelsesmoduler</samp></kbd> ▸ <kbd><samp>Python-konsol</samp></kbd>.
 
-Når Python-konsollen er aktiveret, så kan du åbne den ved at vælge <guiseq><gui>Vis</gui><gui>Bundpanel</gui></guiseq>.
+Når Python-konsollen er aktiveret, så kan du åbne den ved at vælge <kbd><samp>Vis</samp></kbd> ▸ <kbd><samp>Bundpanel</samp></kbd>.
 
-Hvis du også har aktiveret udvidelsesmodulet <gui>Indlejret terminal</gui>, så vises <gui>Python-konsollen</gui> som et separat faneblad i den nederste rude.
+:bulb: Hvis du også har aktiveret udvidelsesmodulet <kbd><samp>Indlejret terminal</samp></kbd>, så vises <kbd><samp>Python-konsollen</samp></kbd> som et separat faneblad i den nederste rude.

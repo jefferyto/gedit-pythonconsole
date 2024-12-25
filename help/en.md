@@ -2,10 +2,10 @@
 Author: Jim Campbell <jcampbell@gnome.org>
 -->
 
-Python console
+# Python console
 
-You can add a Python console to the bottom pane, allowing you to test Python scripts without leaving <app>gedit</app>. To enable the Python console, select <guiseq><gui style="menu">gedit</gui> <gui style="menuitem">Preferences</gui><gui>Plugins</gui> <gui>Python Console</gui></guiseq>.
+You can add a Python console to the bottom pane, allowing you to test Python scripts without leaving _gedit_. To enable the Python console, select <kbd><samp>gedit</samp></kbd> ▸ <kbd><samp>Preferences</samp></kbd> ▸ <kbd><samp>Plugins</samp></kbd> ▸ <kbd><samp>Python Console</samp></kbd>.
 
-Once the Python console is enabled, you can open it by selecting <guiseq><gui>View</gui><gui>Bottom Panel</gui></guiseq>.
+Once the Python console is enabled, you can open it by selecting <kbd><samp>View</samp></kbd> ▸ <kbd><samp>Bottom Panel</samp></kbd>.
 
-If you have also enabled the <gui>Embedded Terminal</gui> plugin, the <gui>Python Console</gui> will appear as a separate tab in the bottom pane.
+:bulb: If you have also enabled the <kbd><samp>Embedded Terminal</samp></kbd> plugin, the <kbd><samp>Python Console</samp></kbd> will appear as a separate tab in the bottom pane.

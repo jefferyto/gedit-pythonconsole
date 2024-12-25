@@ -11,10 +11,10 @@ Marek Černocký <marek@manet.cz>, 2009, 2014.
 Lucas Lommer <llommer@svn.gnome.org>, 2009.
 -->
 
-Konzola Python
+# Konzola Python
 
-Do spodního panelu můžete přidat konzolu jazyka Python, abyste mohli testovat skripty Python, aniž byste museli opustit <app>gedit</app>. Konzolu Pythonu povolite pomocí <guiseq><gui style="menu">gedit</gui> <gui style="menuitem">Předvolby</gui> <gui>Zásuvné moduly</gui> <gui>Konzola Python</gui></guiseq>.
+Do spodního panelu můžete přidat konzolu jazyka Python, abyste mohli testovat skripty Python, aniž byste museli opustit _gedit_. Konzolu Pythonu povolite pomocí <kbd><samp>gedit</samp></kbd> ▸ <kbd><samp>Předvolby</samp></kbd> ▸ <kbd><samp>Zásuvné moduly</samp></kbd> ▸ <kbd><samp>Konzola Python</samp></kbd>.
 
-Když je konzola Python povolená, můžete ji otevřít přes <guiseq><gui>Zobrazit</gui> <gui>Spodní panel</gui></guiseq>.
+Když je konzola Python povolená, můžete ji otevřít přes <kbd><samp>Zobrazit</samp></kbd> ▸ <kbd><samp>Spodní panel</samp></kbd>.
 
-Pokud máte zároveň povolený zásuvný modul <gui>Vestavěný terminál</gui>, objeví se <gui>Konzola Python</gui> na spodním panelu v podobě karty.
+:bulb: Pokud máte zároveň povolený zásuvný modul <kbd><samp>Vestavěný terminál</samp></kbd>, objeví se <kbd><samp>Konzola Python</samp></kbd> na spodním panelu v podobě karty.

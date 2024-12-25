@@ -29,10 +29,10 @@ Rafael Fontenelle <rafaelff@gnome.org>, 2013-2020
 Bruno Lopes <brunolopesdsilv@gmail.com>, 2021.
 -->
 
-Console python
+# Console python
 
-Você pode adicionar um console python no canto inferior do painel, permitindo que você teste scripts em python sem sair do <app>gedit</app>. Para habilitar o console python, selecione <guiseq><gui style="menu">gedit</gui> <gui style="menuitem">Preferências</gui><gui>Plug-ins</gui><gui>Console python</gui></guiseq>.
+Você pode adicionar um console python no canto inferior do painel, permitindo que você teste scripts em python sem sair do _gedit_. Para habilitar o console python, selecione <kbd><samp>gedit</samp></kbd> ▸ <kbd><samp>Preferências</samp></kbd> ▸ <kbd><samp>Plug-ins</samp></kbd> ▸ <kbd><samp>Console python</samp></kbd>.
 
-Assim que o console python estiver habilitado, você pode abri-lo selecionando <guiseq><gui>Ver</gui><gui>Painel inferior</gui></guiseq>.
+Assim que o console python estiver habilitado, você pode abri-lo selecionando <kbd><samp>Ver</samp></kbd> ▸ <kbd><samp>Painel inferior</samp></kbd>.
 
-Se você também habilitou o plugin <gui>Terminal embutido</gui>, o <gui>Console python</gui> aparecerá como uma aba separada no painel inferior.
+:bulb: Se você também habilitou o plugin <kbd><samp>Terminal embutido</samp></kbd>, o <kbd><samp>Console python</samp></kbd> aparecerá como uma aba separada no painel inferior.

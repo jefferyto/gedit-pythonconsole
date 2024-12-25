@@ -14,10 +14,10 @@ Matīss Baldonis
 Anita Reitere <nitalynx@gmail.com>
 -->
 
-Python konsole
+# Python konsole
 
-Pievienojot Python konsoli apakšējai rūtij, var iegūt iespēju testēt Python skriptus, nepametot <app>gedit</app>. Lai ieslēgtu Python konsoli, izvēlieties <guiseq><gui style="menu">gedit</gui><gui style="menuitem">Iestatījumi</gui><gui>Spraudņi</gui><gui>Python konsole</gui></guiseq>.
+Pievienojot Python konsoli apakšējai rūtij, var iegūt iespēju testēt Python skriptus, nepametot _gedit_. Lai ieslēgtu Python konsoli, izvēlieties <kbd><samp>gedit</samp></kbd> ▸ <kbd><samp>Iestatījumi</samp></kbd> ▸ <kbd><samp>Spraudņi</samp></kbd> ▸ <kbd><samp>Python konsole</samp></kbd>.
 
-Kad Python konsole ir ieslēgta, to var atvērt, izvēloties <guiseq><gui>Skats</gui><gui>Apakšējā rūts</gui></guiseq>, vai nospiežot <keyseq><key>Shift</key><key>F9</key></keyseq>.
+Kad Python konsole ir ieslēgta, to var atvērt, izvēloties <kbd><samp>Skats</samp></kbd> ▸ <kbd><samp>Apakšējā rūts</samp></kbd>, vai nospiežot <kbd>Shift</kbd> + <kbd>F9</kbd>.
 
-Ja ieslēgts arī spraudnis <gui>Iegultais Terminālis</gui>, <gui>Python konsole</gui> parādīsies jaunā cilnē apakšējā rūtī.
+:bulb: Ja ieslēgts arī spraudnis <kbd><samp>Iegultais Terminālis</samp></kbd>, <kbd><samp>Python konsole</samp></kbd> parādīsies jaunā cilnē apakšējā rūtī.

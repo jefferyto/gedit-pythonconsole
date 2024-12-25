@@ -14,10 +14,10 @@ Kelemen Gábor <kelemeng at gnome dot hu>, 2007, 2008, 2009, 2010, 2011, 2012, 2
 Úr Balázs <ur.balazs at fsf dot hu>, 2014, 2015, 2017, 2019, 2022, 2024.
 -->
 
-Python konzol
+# Python konzol
 
-Az alsó ablaktáblához hozzáadhat egy Python konzolt, amely lehetővé teszi Python parancsfájlok tesztelését a <app>gedit</app> elhagyása nélkül. A Python konzol engedélyezéséhez válassza a <guiseq><gui style="menu">gedit</gui> <gui style="menuitem">Beállítások</gui><gui>Bővítmények</gui><gui>Python konzol</gui></guiseq> lehetőséget.
+Az alsó ablaktáblához hozzáadhat egy Python konzolt, amely lehetővé teszi Python parancsfájlok tesztelését a _gedit_ elhagyása nélkül. A Python konzol engedélyezéséhez válassza a <kbd><samp>gedit</samp></kbd> ▸ <kbd><samp>Beállítások</samp></kbd> ▸ <kbd><samp>Bővítmények</samp></kbd> ▸ <kbd><samp>Python konzol</samp></kbd> lehetőséget.
 
-A Python konzol engedélyezése után a megnyitásához válassza a <guiseq><gui>Nézet</gui><gui>Alsó panel</gui></guiseq> menüpontot.
+A Python konzol engedélyezése után a megnyitásához válassza a <kbd><samp>Nézet</samp></kbd> ▸ <kbd><samp>Alsó panel</samp></kbd> menüpontot.
 
-Ha engedélyezte a <gui>Beágyazott terminál</gui> bővítményt is, akkor a <gui>Python konzol</gui> külön lapon jelenik meg az alsó panelen.
+:bulb: Ha engedélyezte a <kbd><samp>Beágyazott terminál</samp></kbd> bővítményt is, akkor a <kbd><samp>Python konzol</samp></kbd> külön lapon jelenik meg az alsó panelen.

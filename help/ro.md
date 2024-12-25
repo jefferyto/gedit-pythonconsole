@@ -10,10 +10,10 @@ Laurențiu Cristian Ion <ionlaurentiucristian@gmail.com>, 2012
 Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2015, 2018-2021
 -->
 
-Consola python
+# Consola python
 
-Puteți adăuga o consolă Python la panoul de jos, permițându-vă să testați scripturi Python fără a părăsi <app>gedit</app>. Pentru a activa consola de Python, selectați <guiseq><gui style="menu">gedit</gui> <gui style="menuitem">Preferințe</gui><gui>Module</gui> <gui>Consolă Python</gui></guiseq>.
+Puteți adăuga o consolă Python la panoul de jos, permițându-vă să testați scripturi Python fără a părăsi _gedit_. Pentru a activa consola de Python, selectați <kbd><samp>gedit</samp></kbd> ▸ <kbd><samp>Preferințe</samp></kbd> ▸ <kbd><samp>Module</samp></kbd> ▸ <kbd><samp>Consolă Python</samp></kbd>.
 
-O dată ce consola Python este activată, o puteți deschide selectând <guiseq><gui>Vizualizare</gui><gui>Panou de jos</gui></guiseq>.
+O dată ce consola Python este activată, o puteți deschide selectând <kbd><samp>Vizualizare</samp></kbd> ▸ <kbd><samp>Panou de jos</samp></kbd>.
 
-Dacă ați activat și modulul <gui>Terminal încorporat</gui>, <gui>consola Python</gui> va apărea ca un tab separat în panoul de jos.
+:bulb: Dacă ați activat și modulul <kbd><samp>Terminal încorporat</samp></kbd>, <kbd><samp>consola Python</samp></kbd> va apărea ca un tab separat în panoul de jos.
