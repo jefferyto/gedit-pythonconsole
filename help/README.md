@@ -1,0 +1,26 @@
+# Help
+
+The help page is available in the following languages:
+
+* [Български](bg.md)
+* [Català](ca.md)
+* [Čeština](cs.md)
+* [Dansk](da.md)
+* [Deutsch](de.md)
+* [Ελληνικά](el.md)
+* [English (United Kingdom)](en_GB.md)
+* [English (United States)](en.md)
+* [Español](es.md)
+* [Français](fr.md)
+* [Galego](gl.md)
+* [Magyar](hu.md)
+* [Bahasa Indonesia](id.md)
+* [Latviešu](lv.md)
+* [Polski](pl.md)
+* [Português (Brasil)](pt_BR.md)
+* [Română](ro.md)
+* [Русский](ru.md)
+* [Slovenščina](sl.md)
+* [Svenska](sv.md)
+* [Українська](uk.md)
+* [简体中文](zh_CN.md)
