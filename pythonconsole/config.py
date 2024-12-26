@@ -21,7 +21,7 @@
 #     Copyright (C), 1998 James Henstridge <james@daa.com.au>
 #     Copyright (C), 2005 Adam Hooper <adamh@densi.com>
 # Bits from gedit Python Console Plugin
-#     Copyrignt (C), 2005 Raphaël Slinckx
+#     Copyright (C), 2005 Raphaël Slinckx
 
 import os
 from gi.repository import Gio, Gtk, Gdk
