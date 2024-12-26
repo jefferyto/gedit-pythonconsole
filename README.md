@@ -2,7 +2,7 @@
 
 Interactive Python console standing in the bottom panel  
 <https://github.com/jefferyto/gedit-pythonconsole>  
-48.1-dev
+48.1
 
 This is a fork of gedit’s Python Console plugin (from [5002633235c6]).
 

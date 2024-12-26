@@ -1,6 +1,6 @@
 # Changelog
 
-## 48.1-dev - Unreleased
+## 48.1 - 2024-12-26
 * Initial release
 * Restored compatibility with gedit 47 and earlier
 * Added support for Pluma and xed

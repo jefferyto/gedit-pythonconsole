@@ -180,4 +180,4 @@ Icon=text-x-script
 Authors=Steve Frécinaux <steve@istique.net>;Jeffery To <jeffery.to@gmail.com>
 Copyright=Copyright © 2006 Steve Frécinaux;Copyright © 2024 Jeffery To
 Website=https://github.com/jefferyto/gedit-pythonconsole
-Version=48.1-dev
+Version=48.1
